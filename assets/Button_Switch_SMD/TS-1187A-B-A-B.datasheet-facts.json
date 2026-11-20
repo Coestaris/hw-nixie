@@ -1,0 +1,300 @@
+{
+  "categories": [
+    "switch"
+  ],
+  "document": {
+    "identity": {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "64b75233cadaceb75ab3f3e33b532af8d04de98821c910ea13eb76c5fd1eed34",
+          "method": "table",
+          "page": 1,
+          "section": "Family title and ordering-code applicability"
+        }
+      ],
+      "family_members": [
+        "TS-1187A-B-A-B"
+      ],
+      "requested_mpn": "TS-1187A-B-A-B",
+      "status": "family"
+    },
+    "manufacturer": "XKB Connection",
+    "pages": 1,
+    "path": "TS-1187A-B-A-B.pdf",
+    "sha256": "64b75233cadaceb75ab3f3e33b532af8d04de98821c910ea13eb76c5fd1eed34"
+  },
+  "extracted_at": "2026-09-30T10:19:21.316657+00:00",
+  "extractor_version": "manual-evidence-2",
+  "manufacturer": "XKB Connection",
+  "missing": [
+    "The contact diagram uses A/B/C/D labels rather than numbered terminals; A and B are common, C and D are common, and actuation connects the two sides.",
+    "Bounce time, contact life cycles, and operating-force tolerance are not published."
+  ],
+  "mpn": "TS-1187A-B-A-B",
+  "packages": [
+    {
+      "applicable_mpns": [
+        "TS-1187A-B-A-B"
+      ],
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "64b75233cadaceb75ab3f3e33b532af8d04de98821c910ea13eb76c5fd1eed34",
+          "method": "table",
+          "page": 1,
+          "section": "Mechanical drawing and code-X table"
+        }
+      ],
+      "manufacturer_name": "TS-1187A",
+      "package_body": {
+        "height_mm": 1.5,
+        "length_mm": 5.1,
+        "width_mm": 5.1
+      },
+      "pin_count": 4
+    }
+  ],
+  "pins": [
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "64b75233cadaceb75ab3f3e33b532af8d04de98821c910ea13eb76c5fd1eed34",
+          "method": "table",
+          "page": 1,
+          "section": "Switch schematic"
+        }
+      ],
+      "functions": [
+        "Switch contact A"
+      ],
+      "name": "A",
+      "numbers": [
+        "A"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "64b75233cadaceb75ab3f3e33b532af8d04de98821c910ea13eb76c5fd1eed34",
+          "method": "table",
+          "page": 1,
+          "section": "Switch schematic"
+        }
+      ],
+      "functions": [
+        "Switch contact B"
+      ],
+      "name": "B",
+      "numbers": [
+        "B"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "64b75233cadaceb75ab3f3e33b532af8d04de98821c910ea13eb76c5fd1eed34",
+          "method": "table",
+          "page": 1,
+          "section": "Switch schematic"
+        }
+      ],
+      "functions": [
+        "Switch contact C"
+      ],
+      "name": "C",
+      "numbers": [
+        "C"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "64b75233cadaceb75ab3f3e33b532af8d04de98821c910ea13eb76c5fd1eed34",
+          "method": "table",
+          "page": 1,
+          "section": "Switch schematic"
+        }
+      ],
+      "functions": [
+        "Switch contact D"
+      ],
+      "name": "D",
+      "numbers": [
+        "D"
+      ],
+      "type": "passive"
+    }
+  ],
+  "quality": {
+    "base_specs": 85,
+    "category_specs": 80,
+    "evidence": 100,
+    "identity": 85,
+    "overall": 84,
+    "pinout": 80
+  },
+  "schema_version": 1,
+  "specs": [
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "64b75233cadaceb75ab3f3e33b532af8d04de98821c910ea13eb76c5fd1eed34",
+          "method": "table",
+          "page": 1,
+          "section": "Specification"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 50,
+      "name": "contact_current",
+      "unit": "mA"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "64b75233cadaceb75ab3f3e33b532af8d04de98821c910ea13eb76c5fd1eed34",
+          "method": "table",
+          "page": 1,
+          "section": "Specification"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 12,
+      "name": "contact_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "64b75233cadaceb75ab3f3e33b532af8d04de98821c910ea13eb76c5fd1eed34",
+          "method": "table",
+          "page": 1,
+          "section": "Specification"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 100,
+      "name": "contact_resistance",
+      "unit": "mohm"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "64b75233cadaceb75ab3f3e33b532af8d04de98821c910ea13eb76c5fd1eed34",
+          "method": "table",
+          "page": 1,
+          "section": "Specification"
+        }
+      ],
+      "fact_kind": "fact",
+      "min": 100,
+      "name": "insulation_resistance",
+      "unit": "Mohm"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "duration",
+          "unit": "minute",
+          "value": 1
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "64b75233cadaceb75ab3f3e33b532af8d04de98821c910ea13eb76c5fd1eed34",
+          "method": "table",
+          "page": 1,
+          "section": "Specification"
+        }
+      ],
+      "fact_kind": "fact",
+      "min": 250,
+      "name": "dielectric_strength",
+      "unit": "Vac"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "64b75233cadaceb75ab3f3e33b532af8d04de98821c910ea13eb76c5fd1eed34",
+          "method": "table",
+          "page": 1,
+          "section": "Specification"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 85,
+      "min": -30,
+      "name": "operating_temperature",
+      "unit": "degC"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "64b75233cadaceb75ab3f3e33b532af8d04de98821c910ea13eb76c5fd1eed34",
+          "method": "table",
+          "page": 1,
+          "section": "Ordering code, B force"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "operating_force",
+      "typ": 160,
+      "unit": "gf"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "64b75233cadaceb75ab3f3e33b532af8d04de98821c910ea13eb76c5fd1eed34",
+          "method": "table",
+          "page": 1,
+          "section": "Mechanical drawing"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "travel",
+      "typ": 0.25,
+      "unit": "mm"
+    }
+  ],
+  "status": "active"
+}

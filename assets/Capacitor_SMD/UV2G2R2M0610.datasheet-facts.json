@@ -1,0 +1,244 @@
+{
+  "categories": [
+    "capacitor"
+  ],
+  "category_facts": {
+    "capacitor": {
+      "dielectric": "aluminum_electrolytic"
+    }
+  },
+  "document": {
+    "identity": {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "917db41316f2d1190b779e8251af8d0cbf3af16d0edefc3a8444bf88ce1e9c7b",
+          "method": "table",
+          "page": 4,
+          "section": "Part-numbering code table"
+        }
+      ],
+      "family_members": [
+        "UV2G2R2M0610"
+      ],
+      "requested_mpn": "UV2G2R2M0610",
+      "status": "family"
+    },
+    "manufacturer": "Honor Elec",
+    "pages": 5,
+    "path": "UV2G2R2M0610.pdf",
+    "sha256": "917db41316f2d1190b779e8251af8d0cbf3af16d0edefc3a8444bf88ce1e9c7b"
+  },
+  "extracted_at": "2026-09-30T13:22:57.379502+00:00",
+  "extractor_version": "manual-evidence-2",
+  "manufacturer": "Honor Elec",
+  "missing": [
+    "The manufacturer drawing marks positive and negative pads but does not number the PCB pads.",
+    "Leakage current is published as a formula (0.04CV + 100 uA after 2 minutes) rather than a simple bound in this record.",
+    "ESR, ESL, and a simulation model are not published for this order code."
+  ],
+  "mpn": "UV2G2R2M0610",
+  "packages": [
+    {
+      "applicable_mpns": [
+        "UV2G2R2M0610"
+      ],
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "917db41316f2d1190b779e8251af8d0cbf3af16d0edefc3a8444bf88ce1e9c7b",
+          "method": "table",
+          "page": 2,
+          "section": "Standard Size, 400 V 2.2 uF row"
+        }
+      ],
+      "manufacturer_name": "UV 0610",
+      "package_body": {
+        "height_mm": 6.3,
+        "length_mm": 10.2,
+        "width_mm": 6.3
+      },
+      "pin_count": 2
+    }
+  ],
+  "pins": [],
+  "quality": {
+    "base_specs": 85,
+    "category_specs": 75,
+    "evidence": 95,
+    "identity": 85,
+    "overall": 82,
+    "pinout": 70
+  },
+  "schema_version": 1,
+  "specs": [
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "917db41316f2d1190b779e8251af8d0cbf3af16d0edefc3a8444bf88ce1e9c7b",
+          "method": "table",
+          "page": 4,
+          "section": "Part-numbering code table"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "capacitance",
+      "typ": 2.2e-06,
+      "unit": "F"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "917db41316f2d1190b779e8251af8d0cbf3af16d0edefc3a8444bf88ce1e9c7b",
+          "method": "table",
+          "page": 4,
+          "section": "Part-numbering code table"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 20,
+      "min": -20,
+      "name": "capacitance_tolerance",
+      "unit": "percent"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "917db41316f2d1190b779e8251af8d0cbf3af16d0edefc3a8444bf88ce1e9c7b",
+          "method": "table",
+          "page": 4,
+          "section": "Part-numbering code table"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 400,
+      "name": "rated_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "917db41316f2d1190b779e8251af8d0cbf3af16d0edefc3a8444bf88ce1e9c7b",
+          "method": "table",
+          "page": 1,
+          "section": "Specifications, category temperature range"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 105,
+      "min": -40,
+      "name": "operating_temperature",
+      "unit": "degC"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "frequency",
+          "unit": "Hz",
+          "value": 120
+        },
+        {
+          "operator": "=",
+          "parameter": "temperature",
+          "unit": "degC",
+          "value": 20
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "917db41316f2d1190b779e8251af8d0cbf3af16d0edefc3a8444bf88ce1e9c7b",
+          "method": "table",
+          "page": 2,
+          "section": "Standard Size, 400 V 2.2 uF row"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 0.25,
+      "name": "dissipation_factor",
+      "unit": "ratio"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "frequency",
+          "unit": "kHz",
+          "value": 100
+        },
+        {
+          "operator": "=",
+          "parameter": "temperature",
+          "unit": "degC",
+          "value": 105
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "917db41316f2d1190b779e8251af8d0cbf3af16d0edefc3a8444bf88ce1e9c7b",
+          "method": "table",
+          "page": 2,
+          "section": "Standard Size, 400 V 2.2 uF row"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 12,
+      "name": "rated_ripple_current",
+      "unit": "mA"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "temperature",
+          "unit": "degC",
+          "value": 105
+        },
+        {
+          "operator": "=",
+          "parameter": "applied_voltage",
+          "unit": "V",
+          "value": 400
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "917db41316f2d1190b779e8251af8d0cbf3af16d0edefc3a8444bf88ce1e9c7b",
+          "method": "table",
+          "page": 1,
+          "section": "Specifications, load life"
+        }
+      ],
+      "fact_kind": "fact",
+      "min": 3000,
+      "name": "load_life",
+      "unit": "hour"
+    }
+  ],
+  "status": "active"
+}

@@ -1,0 +1,21 @@
+[project]
+name = "nixie-rev1-simulation"
+version = "0.1.0"
+description = "Nixie boost-converter simulation analysis helpers"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.0",
+]
+
+[project.scripts]
+nixie-analyze-startup = "nixie_simulation.analyze_startup:main"
+nixie-build-run-deck = "nixie_simulation.build_run_deck:main"
+nixie-build-waveform-visual = "nixie_simulation.build_waveform_visual:main"
+
+[build-system]
+requires = ["uv_build>=0.11.29,<0.12"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "nixie_simulation"
+module-root = ""

@@ -1,0 +1,288 @@
+(footprint
+	"IN-8-2_Dock"
+	(version 20260206)
+	(generator "kicad10_tree")
+	(layer "F.Cu")
+	(descr "Motherboard socket footprint for the manufactured IN-8-2 dock PCB from legacy/nixie/hardware/nixie.kicad_pcb; 22.86 x 22.86 mm board envelope, 19 mm tube envelope, four diagonal 1x3 2.54 mm headers on 15.24 mm center spacing")
+	(tags "IN-8-2 nixie dock module socket 2.54mm")
+	(property
+		"Reference"
+		"REF**"
+		(at 0.12 -11.834 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9cb591de-6ba6-4b8f-8183-c135e9e05a4d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property
+		"Value"
+		"IN-8-2_Dock"
+		(at 0 13.2 0)
+		(layer "F.Fab")
+		(uuid "adbcc212-70f0-4680-a565-39e5850972d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy -7.62 -11.43)
+			(xy -5.08 -11.43)
+			(xy -3.81 -10.16)
+			(xy 3.81 -10.16)
+			(xy 5.08 -11.43)
+			(xy 7.62 -11.43)
+			(xy 11.43 -7.62)
+			(xy 11.43 -5.08)
+			(xy 10.16 -3.81)
+			(xy 10.16 3.81)
+			(xy 11.43 5.08)
+			(xy 11.43 7.62)
+			(xy 7.62 11.43)
+			(xy 5.08 11.43)
+			(xy 3.81 10.16)
+			(xy -3.81 10.16)
+			(xy -5.08 11.43)
+			(xy -7.62 11.43)
+			(xy -11.43 7.62)
+			(xy -11.43 5.08)
+			(xy -10.16 3.81)
+			(xy -10.16 -3.81)
+			(xy -11.43 -5.08)
+			(xy -11.43 -7.62)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "186d4ac6-2063-4062-97ff-e07d4d53a806")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 9.5 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "336fbf78-d13a-4eac-9d07-2de038018aad")
+	)
+	(fp_poly
+		(pts
+			(xy -7.62 -11.43)
+			(xy -5.08 -11.43)
+			(xy -3.81 -10.16)
+			(xy 3.81 -10.16)
+			(xy 5.08 -11.43)
+			(xy 7.62 -11.43)
+			(xy 11.43 -7.62)
+			(xy 11.43 -5.08)
+			(xy 10.16 -3.81)
+			(xy 10.16 3.81)
+			(xy 11.43 5.08)
+			(xy 11.43 7.62)
+			(xy 7.62 11.43)
+			(xy 5.08 11.43)
+			(xy 3.81 10.16)
+			(xy -3.81 10.16)
+			(xy -5.08 11.43)
+			(xy -7.62 11.43)
+			(xy -11.43 7.62)
+			(xy -11.43 5.08)
+			(xy -10.16 3.81)
+			(xy -10.16 -3.81)
+			(xy -11.43 -5.08)
+			(xy -11.43 -7.62)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a77dc194-a45c-4dd9-86f8-b14f3137cfa7")
+	)
+	(fp_text
+		user
+		"${REFERENCE}"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "1b6e705b-8e23-41ee-98d2-19bf186788c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad
+		"1"
+		thru_hole
+		rect
+		(at 5.824 -9.416 315)
+		(size 1.778 1.778)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(pinfunction "K1_1")
+		(pintype "passive")
+		(uuid "8f7bd411-358e-4856-9b2f-7d27bac5e219")
+	)
+	(pad
+		"2"
+		thru_hole
+		circle
+		(at -5.824 -9.416 45)
+		(size 1.778 1.778)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(pinfunction "K2_2")
+		(pintype "passive")
+		(uuid "78c0373b-f4d0-4831-a238-0e41c0c2fd29")
+	)
+	(pad
+		"3"
+		thru_hole
+		circle
+		(at -7.62 -7.62 45)
+		(size 1.778 1.778)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(pinfunction "K3_3")
+		(pintype "passive")
+		(uuid "ba70c3cb-8287-438a-bd15-3c459e9376d1")
+	)
+	(pad
+		"4"
+		thru_hole
+		rect
+		(at -9.416 -5.824 45)
+		(size 1.778 1.778)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(pinfunction "K4_4")
+		(pintype "passive")
+		(uuid "696daa6c-de5d-454c-b168-a22c8212d72c")
+	)
+	(pad
+		"5"
+		thru_hole
+		circle
+		(at -9.416 5.824 135)
+		(size 1.778 1.778)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(pinfunction "K5_5")
+		(pintype "passive")
+		(uuid "4ce4cff6-494b-4a1f-a818-2b654ba363ab")
+	)
+	(pad
+		"6"
+		thru_hole
+		circle
+		(at -7.62 7.62 135)
+		(size 1.778 1.778)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(pinfunction "K6_6")
+		(pintype "passive")
+		(uuid "ba547f96-6319-4f68-9069-6ae7e7437338")
+	)
+	(pad
+		"7"
+		thru_hole
+		rect
+		(at -5.824 9.416 135)
+		(size 1.778 1.778)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(pinfunction "K7_7")
+		(pintype "passive")
+		(uuid "370aa91a-fffc-42ca-b399-5faffb809f78")
+	)
+	(pad
+		"8"
+		thru_hole
+		circle
+		(at 5.824 9.416 225)
+		(size 1.778 1.778)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(pinfunction "K8_8")
+		(pintype "passive")
+		(uuid "15a1eefa-86f2-4ad0-808d-dbb8df881d5d")
+	)
+	(pad
+		"9"
+		thru_hole
+		circle
+		(at 7.62 7.62 225)
+		(size 1.778 1.778)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(pinfunction "K9_9")
+		(pintype "passive")
+		(uuid "0fb5d5a8-4be7-4457-bf4b-50abee3a6640")
+	)
+	(pad
+		"10"
+		thru_hole
+		rect
+		(at 9.416 5.824 225)
+		(size 1.778 1.778)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(pinfunction "K_DP_10")
+		(pintype "passive")
+		(uuid "e6753783-7140-4d4b-a344-197c87ab6714")
+	)
+	(pad
+		"11"
+		thru_hole
+		circle
+		(at 7.62 -7.62 315)
+		(size 1.778 1.778)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(pinfunction "K0_11")
+		(pintype "passive")
+		(uuid "48eece65-96d1-4113-8fa3-036fe9cd1a70")
+	)
+	(pad
+		"12"
+		thru_hole
+		circle
+		(at 9.416 -5.824 315)
+		(size 1.778 1.778)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(pinfunction "A_12")
+		(pintype "passive")
+		(uuid "5a6b8438-12d9-4257-8b0e-b589c809ffa4")
+	)
+	(embedded_fonts no)
+)

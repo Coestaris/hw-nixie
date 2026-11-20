@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "mpn": "XDCR-1220-006",
+  "pdf": "XDCR-1220-006.pdf",
+  "pdf_sha256": "45c29a180e9e949ad651caf592880dffd1137370a803ff4c941537010589cafc",
+  "evidence": [
+    "XDCR-1220-006.mechanical.json"
+  ]
+}

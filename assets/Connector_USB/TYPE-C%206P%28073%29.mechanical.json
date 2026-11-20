@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "mpn": "TYPE-C 6P(073)",
+  "pdf": "TYPE-C%206P%28073%29.pdf",
+  "pdf_sha256": "98756b6026c3ad625679d384f382df5910246c3bf98a7d85897eb9f5d603b504",
+  "locator": {"page": 1, "figures": ["connector outline", "recommended PCB layout"], "units": "mm"},
+  "dimensions_mm": {
+    "overall_width": 8.94,
+    "overall_depth": 7.15,
+    "installed_height": 3.20,
+    "shell_anchor_x": [-4.32, 4.32],
+    "shell_anchor_y": [-2.125, 1.675],
+    "contact_x": [-2.75, -1.52, -0.50, 0.50, 1.52, 2.75],
+    "contact_y": 2.125
+  }
+}

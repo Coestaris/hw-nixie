@@ -1,0 +1,258 @@
+{
+  "schema_version": 1,
+  "source": {
+    "path": "XDCR-1220-006.pdf",
+    "page": 1,
+    "drawing_date": "2023-12-25",
+    "manufacturer": "Lian Xin Technology",
+    "part_number": "XDCR-1220-006",
+    "sha256": "45c29a180e9e949ad651caf592880dffd1137370a803ff4c941537010589cafc",
+    "units": "mm"
+  },
+  "coordinate_system": {
+    "origin": "midpoint of the two PCB locator-hole X coordinates",
+    "x": "terminal 1 toward terminal 2",
+    "y": "across holder",
+    "z": "upward from PCB seating plane"
+  },
+  "datasheet_bounding_boxes_mm": {
+    "documented_body_above_board": {
+      "size": {
+        "x": 19.4,
+        "y": 14.7,
+        "z": 4.15
+      },
+      "tolerance": {
+        "x": 0.3,
+        "y": 0.1,
+        "z": 0.1
+      },
+      "note": "Y uses the documented circular OD because it exceeds the separately shown 14.5 body dimension."
+    },
+    "terminal_inclusive_above_board": {
+      "min": {
+        "x": -10.4,
+        "y": -7.35,
+        "z": 0.0
+      },
+      "max": {
+        "x": 10.8,
+        "y": 7.35,
+        "z": 4.15
+      },
+      "size": {
+        "x": 21.2,
+        "y": 14.7,
+        "z": 4.15
+      },
+      "note": "X is derived from the PCB holes diagram chain 4.5 + 5.9 + 6.3 + 4.5."
+    },
+    "modeled_below_board_posts": {
+      "z_min": -0.8,
+      "note": "Fit-check assumption; post depth is not dimensioned in the drawing."
+    }
+  },
+  "datasheet_projections_mm": {
+    "top": {
+      "axes": [
+        "x",
+        "y"
+      ],
+      "bounds": [
+        -10.4,
+        -7.35,
+        10.8,
+        7.35
+      ]
+    },
+    "front": {
+      "axes": [
+        "x",
+        "z"
+      ],
+      "bounds": [
+        -10.4,
+        0.0,
+        10.8,
+        4.15
+      ]
+    },
+    "side": {
+      "axes": [
+        "y",
+        "z"
+      ],
+      "bounds": [
+        -7.35,
+        0.0,
+        7.35,
+        4.15
+      ]
+    }
+  },
+  "model": {
+    "bbox_mm": {
+      "max": {
+        "x": 10.800000190735,
+        "y": 7.345520019531,
+        "z": 4.150000095367
+      },
+      "min": {
+        "x": -10.39999961853,
+        "y": -7.345520019531,
+        "z": -0.799998998642
+      },
+      "size": {
+        "x": 21.199999809265,
+        "y": 14.691040039062,
+        "z": 4.949999094009
+      }
+    },
+    "solid_count": 8,
+    "valid": true,
+    "step_color_count": 2,
+    "connectivity_contract": {
+      "housing": 1,
+      "contacts": 2,
+      "note": "Checked per material region before STEP export; the two contacts are electrically distinct terminals."
+    },
+    "path": "assets/Battery/BatteryHolder_LianXin_XDCR-1220-006.stpz"
+  },
+  "footprint": {
+    "board": "hardware/rev2/nixie_rev2.kicad_pcb",
+    "reference": "BT1",
+    "pads": [
+      {
+        "at": [
+          "-3.7",
+          "0",
+          "180"
+        ],
+        "drill": [
+          "1.2"
+        ],
+        "layers": [
+          "*.Cu",
+          "*.Mask"
+        ],
+        "net": null,
+        "number": "",
+        "shape": "circle",
+        "size": [
+          "1.2",
+          "1.2"
+        ],
+        "source_path": "pad[895762:895922]",
+        "type": "np_thru_hole"
+      },
+      {
+        "at": [
+          "3.8",
+          "0",
+          "180"
+        ],
+        "drill": [
+          "1.2"
+        ],
+        "layers": [
+          "*.Cu",
+          "*.Mask"
+        ],
+        "net": null,
+        "number": "",
+        "shape": "circle",
+        "size": [
+          "1.2",
+          "1.2"
+        ],
+        "source_path": "pad[895925:896084]",
+        "type": "np_thru_hole"
+      },
+      {
+        "at": [
+          "-8.15",
+          "0",
+          "180"
+        ],
+        "drill": [],
+        "layers": [
+          "B.Cu",
+          "B.Mask",
+          "B.Paste"
+        ],
+        "net": "",
+        "number": "1",
+        "shape": "rect",
+        "size": [
+          "4.5",
+          "2.3"
+        ],
+        "source_path": "pad[896087:896302]",
+        "type": "smd"
+      },
+      {
+        "at": [
+          "8.55",
+          "0",
+          "180"
+        ],
+        "drill": [],
+        "layers": [
+          "B.Cu",
+          "B.Mask",
+          "B.Paste"
+        ],
+        "net": "",
+        "number": "2",
+        "shape": "rect",
+        "size": [
+          "4.5",
+          "2.3"
+        ],
+        "source_path": "pad[896305:896511]",
+        "type": "smd"
+      }
+    ]
+  },
+  "checks": [
+    {
+      "metric": "size_x",
+      "expected_mm": 21.2,
+      "tolerance_mm": 0.1,
+      "evidence": "PCB Holes Diagram terminal-inclusive chain",
+      "actual_mm": 21.199999809265,
+      "passed": true
+    },
+    {
+      "metric": "size_y",
+      "expected_mm": 14.7,
+      "tolerance_mm": 0.1,
+      "evidence": "top-view circular OD",
+      "actual_mm": 14.691040039062,
+      "passed": true
+    },
+    {
+      "metric": "max_z",
+      "expected_mm": 4.15,
+      "tolerance_mm": 0.1,
+      "evidence": "side-view installed height",
+      "actual_mm": 4.150000095367,
+      "passed": true
+    },
+    {
+      "metric": "min_z",
+      "expected_mm": -0.8,
+      "tolerance_mm": 0.05,
+      "evidence": "explicit modeled post-depth assumption",
+      "actual_mm": -0.799998998642,
+      "passed": true
+    }
+  ],
+  "artifacts": {
+    "top": "assets/Battery/BatteryHolder_LianXin_XDCR-1220-006-top.svg",
+    "front": "assets/Battery/BatteryHolder_LianXin_XDCR-1220-006-front.svg",
+    "side": "assets/Battery/BatteryHolder_LianXin_XDCR-1220-006-side.svg",
+    "footprint": "assets/Battery/BatteryHolder_LianXin_XDCR-1220-006-footprint-comparison.svg"
+  },
+  "status": "passed"
+}

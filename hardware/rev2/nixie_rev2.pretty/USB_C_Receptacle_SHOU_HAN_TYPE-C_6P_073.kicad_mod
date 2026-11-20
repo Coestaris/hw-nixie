@@ -1,0 +1,321 @@
+(footprint
+	"USB_C_Receptacle_SHOU_HAN_TYPE-C_6P_073"
+	(version 20260206)
+	(generator "kicad10_tree")
+	(layer "B.Cu")
+	(descr "SHOU HAN TYPE-C 6P(073), USB Type-C power-only receptacle, horizontal top-mount, 6 contacts; manufacturer drawing: https://datasheet.lcsc.com/datasheet/pdf/d6fa3a66f90705ec2119c71bf183c490.pdf?productCode=C668623")
+	(tags "USB C Type-C receptacle power-only 6P SHOU HAN C668623")
+	(property
+		"Reference"
+		"REF**"
+		(at 0 -1.292278 90)
+		(layer "B.SilkS")
+		(hide yes)
+		(uuid "dd5b5d31-3a65-4659-94d1-80420e059523")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property
+		"Value"
+		"USB_C_Receptacle_SHOU_HAN_TYPE-C_6P_073"
+		(at 0 -5.8 90)
+		(layer "B.Fab")
+		(uuid "3c5e41c0-6ddd-470a-9e00-95d0d1905650")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4.47 2.425)
+		(end -4.47 2.72)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "7e4c7c06-38a7-472a-bc1a-3e9bdfb7da88")
+	)
+	(fp_line
+		(start -4.47 2.425)
+		(end -3.25 2.425)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "b6236fab-5029-4d26-92b0-17458ab1e95e")
+	)
+	(fp_line
+		(start 3.25 2.425)
+		(end 4.47 2.425)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "fe57677d-58da-46fa-81de-f037d4de9ea2")
+	)
+	(fp_line
+		(start 4.47 2.425)
+		(end 4.47 2.72)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "b00e3a54-0c27-41f9-b958-731fecccbeb3")
+	)
+	(fp_line
+		(start -4.47 0.5)
+		(end -4.47 -1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "9977dc15-be38-42c8-8213-7afbe2dc0b6c")
+	)
+	(fp_line
+		(start 4.47 0.5)
+		(end 4.47 -1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "724e3cd8-c8a4-4fe9-b490-5e1c3bb96490")
+	)
+	(fp_line
+		(start -4.47 -3.05)
+		(end -4.47 -4.725)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "a66b3279-5125-4e93-9d2a-4bd061d50f80")
+	)
+	(fp_line
+		(start 4.47 -3.05)
+		(end 4.47 -4.725)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "edfd31ca-4719-4f4b-9c6c-f36c04b75546")
+	)
+	(fp_line
+		(start -4.47 -4.725)
+		(end 4.47 -4.725)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "bf4eb2bb-13a9-47b6-bbb9-cad24dbb6cf8")
+	)
+	(fp_poly
+		(pts
+			(xy -3.32 2.92)
+			(xy -3.02 2.92)
+			(xy -3.32 2.62)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.SilkS")
+		(uuid "4fd3c8c4-30a9-4fc6-ba06-22528f6c8a5d")
+	)
+	(fp_line
+		(start -4.47 -4.725)
+		(end 4.47 -4.725)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "41687311-5d8a-480d-8681-4773f3e16519")
+	)
+	(fp_rect
+		(start -5.07 2.98)
+		(end 5.07 -4.98)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "89368042-ab51-4f6f-a8cd-6bd0a9a4b0c5")
+	)
+	(fp_rect
+		(start -4.47 2.425)
+		(end 4.47 -4.725)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.Fab")
+		(uuid "980f0441-f22d-4837-aecb-2f384a373e3e")
+	)
+	(fp_text
+		user
+		"CONNECTOR EDGE"
+		(at 0 -5.15 90)
+		(layer "Dwgs.User")
+		(uuid "4035958c-2693-454a-b63c-d91be915ac15")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text
+		user
+		"${REFERENCE}"
+		(at 0 -1.2 90)
+		(layer "B.Fab")
+		(uuid "119d3cc5-d00b-4ffb-8b80-4501adcdd60b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(pad
+		"A5"
+		smd
+		rect
+		(at -0.5 2.125 0)
+		(size 0.7 1.2)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(pinfunction "CC1_A5")
+		(pintype "bidirectional")
+		(uuid "be4c5523-1f7e-45db-a814-de379f48d5f5")
+	)
+	(pad
+		"A9"
+		smd
+		rect
+		(at 1.52 2.125 0)
+		(size 0.7 1.2)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(pinfunction "VBUS_A9")
+		(pintype "passive")
+		(uuid "0ced09fa-eeb4-4935-af6c-54513e528830")
+	)
+	(pad
+		"A12"
+		smd
+		rect
+		(at 2.75 2.125 0)
+		(size 0.8 1.2)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(pinfunction "GND_A12")
+		(pintype "passive")
+		(uuid "791e4f80-7c30-45b7-b3ca-d2736365c9e5")
+	)
+	(pad
+		"B5"
+		smd
+		rect
+		(at 0.5 2.125 0)
+		(size 0.7 1.2)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(pinfunction "CC2_B5")
+		(pintype "bidirectional")
+		(uuid "cffb2b6c-7bf0-4911-b69d-44de45e4ddf9")
+	)
+	(pad
+		"B9"
+		smd
+		rect
+		(at -1.52 2.125 0)
+		(size 0.7 1.2)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(pinfunction "VBUS_B9")
+		(pintype "passive")
+		(uuid "6348ecb5-3327-45e1-b08f-7c691e9755e6")
+	)
+	(pad
+		"B12"
+		smd
+		rect
+		(at -2.75 2.125 0)
+		(size 0.8 1.2)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(pinfunction "GND_B12")
+		(pintype "passive")
+		(uuid "b3ac49cf-170a-46ec-8306-ee9357fe8d78")
+	)
+	(pad
+		"SH"
+		thru_hole
+		oval
+		(at -4.32 -2.125 0)
+		(size 1 1.7)
+		(drill oval 0.5 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(pinfunction "SHIELD_SH")
+		(pintype "passive")
+		(uuid "f10dd469-62cd-458a-9017-7a7df1af77cd")
+	)
+	(pad
+		"SH"
+		thru_hole
+		oval
+		(at -4.32 1.675 0)
+		(size 1 1.7)
+		(drill oval 0.5 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(pinfunction "SHIELD_SH")
+		(pintype "passive")
+		(uuid "ad1be285-bfcc-453f-ac9c-61bd072ce6ae")
+	)
+	(pad
+		"SH"
+		thru_hole
+		oval
+		(at 4.32 -2.125 0)
+		(size 1 1.7)
+		(drill oval 0.5 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(pinfunction "SHIELD_SH")
+		(pintype "passive")
+		(uuid "b01194b3-f76e-4a24-b85a-73d3cf416c6d")
+	)
+	(pad
+		"SH"
+		thru_hole
+		oval
+		(at 4.32 1.675 0)
+		(size 1 1.7)
+		(drill oval 0.5 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(pinfunction "SHIELD_SH")
+		(pintype "passive")
+		(uuid "46f66bfb-929b-46fe-9bd0-4b5d29adeec4")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,544 @@
+{
+  "categories": [
+    "driver"
+  ],
+  "document": {
+    "identity": {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "520b6a4f489716ebf41701fe169ce36b4688a41ae400c0494f763b31620420ce",
+          "method": "table",
+          "page": 12,
+          "section": "Ordering information, UMW ULN2003AIPWR row"
+        }
+      ],
+      "family_members": [
+        "ULN2003AIPWR(UMW)"
+      ],
+      "requested_mpn": "ULN2003AIPWR(UMW)",
+      "status": "exact"
+    },
+    "manufacturer": "UMW(Youtai Semiconductor Co., Ltd.)",
+    "pages": 12,
+    "path": "ULN2003AIPWR%28UMW%29.pdf",
+    "sha256": "520b6a4f489716ebf41701fe169ce36b4688a41ae400c0494f763b31620420ce"
+  },
+  "extracted_at": "2026-09-30T10:11:45.085429+00:00",
+  "extractor_version": "manual-evidence-2",
+  "manufacturer": "UMW(Youtai Semiconductor Co., Ltd.)",
+  "missing": [
+    "Continuous output current requires thermal and duty-cycle derating; the 500 mA number is an absolute maximum.",
+    "Thermal resistance and a manufacturer simulation model are not published."
+  ],
+  "mpn": "ULN2003AIPWR(UMW)",
+  "packages": [
+    {
+      "applicable_mpns": [
+        "ULN2003AIPWR(UMW)"
+      ],
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "520b6a4f489716ebf41701fe169ce36b4688a41ae400c0494f763b31620420ce",
+          "method": "table",
+          "page": 12,
+          "section": "Ordering information, UMW ULN2003AIPWR row"
+        }
+      ],
+      "manufacturer_name": "TSSOP-16",
+      "pin_count": 16
+    }
+  ],
+  "pins": [
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "520b6a4f489716ebf41701fe169ce36b4688a41ae400c0494f763b31620420ce",
+          "method": "table",
+          "page": 2,
+          "section": "Pin descriptions"
+        }
+      ],
+      "functions": [
+        "Darlington input 1"
+      ],
+      "name": "1B",
+      "numbers": [
+        "1"
+      ],
+      "type": "input"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "520b6a4f489716ebf41701fe169ce36b4688a41ae400c0494f763b31620420ce",
+          "method": "table",
+          "page": 2,
+          "section": "Pin descriptions"
+        }
+      ],
+      "functions": [
+        "Darlington input 2"
+      ],
+      "name": "2B",
+      "numbers": [
+        "2"
+      ],
+      "type": "input"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "520b6a4f489716ebf41701fe169ce36b4688a41ae400c0494f763b31620420ce",
+          "method": "table",
+          "page": 2,
+          "section": "Pin descriptions"
+        }
+      ],
+      "functions": [
+        "Darlington input 3"
+      ],
+      "name": "3B",
+      "numbers": [
+        "3"
+      ],
+      "type": "input"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "520b6a4f489716ebf41701fe169ce36b4688a41ae400c0494f763b31620420ce",
+          "method": "table",
+          "page": 2,
+          "section": "Pin descriptions"
+        }
+      ],
+      "functions": [
+        "Darlington input 4"
+      ],
+      "name": "4B",
+      "numbers": [
+        "4"
+      ],
+      "type": "input"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "520b6a4f489716ebf41701fe169ce36b4688a41ae400c0494f763b31620420ce",
+          "method": "table",
+          "page": 2,
+          "section": "Pin descriptions"
+        }
+      ],
+      "functions": [
+        "Darlington input 5"
+      ],
+      "name": "5B",
+      "numbers": [
+        "5"
+      ],
+      "type": "input"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "520b6a4f489716ebf41701fe169ce36b4688a41ae400c0494f763b31620420ce",
+          "method": "table",
+          "page": 2,
+          "section": "Pin descriptions"
+        }
+      ],
+      "functions": [
+        "Darlington input 6"
+      ],
+      "name": "6B",
+      "numbers": [
+        "6"
+      ],
+      "type": "input"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "520b6a4f489716ebf41701fe169ce36b4688a41ae400c0494f763b31620420ce",
+          "method": "table",
+          "page": 2,
+          "section": "Pin descriptions"
+        }
+      ],
+      "functions": [
+        "Darlington input 7"
+      ],
+      "name": "7B",
+      "numbers": [
+        "7"
+      ],
+      "type": "input"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "520b6a4f489716ebf41701fe169ce36b4688a41ae400c0494f763b31620420ce",
+          "method": "table",
+          "page": 2,
+          "section": "Pin descriptions"
+        }
+      ],
+      "functions": [
+        "Common emitter ground"
+      ],
+      "name": "E",
+      "numbers": [
+        "8"
+      ],
+      "type": "ground"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "520b6a4f489716ebf41701fe169ce36b4688a41ae400c0494f763b31620420ce",
+          "method": "table",
+          "page": 2,
+          "section": "Pin descriptions"
+        }
+      ],
+      "functions": [
+        "Clamp diode common"
+      ],
+      "name": "COM",
+      "numbers": [
+        "9"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "520b6a4f489716ebf41701fe169ce36b4688a41ae400c0494f763b31620420ce",
+          "method": "table",
+          "page": 2,
+          "section": "Pin descriptions"
+        }
+      ],
+      "functions": [
+        "Open collector output 1"
+      ],
+      "name": "1C",
+      "numbers": [
+        "16"
+      ],
+      "type": "output"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "520b6a4f489716ebf41701fe169ce36b4688a41ae400c0494f763b31620420ce",
+          "method": "table",
+          "page": 2,
+          "section": "Pin descriptions"
+        }
+      ],
+      "functions": [
+        "Open collector output 2"
+      ],
+      "name": "2C",
+      "numbers": [
+        "15"
+      ],
+      "type": "output"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "520b6a4f489716ebf41701fe169ce36b4688a41ae400c0494f763b31620420ce",
+          "method": "table",
+          "page": 2,
+          "section": "Pin descriptions"
+        }
+      ],
+      "functions": [
+        "Open collector output 3"
+      ],
+      "name": "3C",
+      "numbers": [
+        "14"
+      ],
+      "type": "output"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "520b6a4f489716ebf41701fe169ce36b4688a41ae400c0494f763b31620420ce",
+          "method": "table",
+          "page": 2,
+          "section": "Pin descriptions"
+        }
+      ],
+      "functions": [
+        "Open collector output 4"
+      ],
+      "name": "4C",
+      "numbers": [
+        "13"
+      ],
+      "type": "output"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "520b6a4f489716ebf41701fe169ce36b4688a41ae400c0494f763b31620420ce",
+          "method": "table",
+          "page": 2,
+          "section": "Pin descriptions"
+        }
+      ],
+      "functions": [
+        "Open collector output 5"
+      ],
+      "name": "5C",
+      "numbers": [
+        "12"
+      ],
+      "type": "output"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "520b6a4f489716ebf41701fe169ce36b4688a41ae400c0494f763b31620420ce",
+          "method": "table",
+          "page": 2,
+          "section": "Pin descriptions"
+        }
+      ],
+      "functions": [
+        "Open collector output 6"
+      ],
+      "name": "6C",
+      "numbers": [
+        "11"
+      ],
+      "type": "output"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "520b6a4f489716ebf41701fe169ce36b4688a41ae400c0494f763b31620420ce",
+          "method": "table",
+          "page": 2,
+          "section": "Pin descriptions"
+        }
+      ],
+      "functions": [
+        "Open collector output 7"
+      ],
+      "name": "7C",
+      "numbers": [
+        "10"
+      ],
+      "type": "output"
+    }
+  ],
+  "quality": {
+    "base_specs": 85,
+    "category_specs": 82,
+    "evidence": 100,
+    "identity": 90,
+    "overall": 88,
+    "pinout": 95
+  },
+  "schema_version": 1,
+  "specs": [
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "520b6a4f489716ebf41701fe169ce36b4688a41ae400c0494f763b31620420ce",
+          "method": "table",
+          "page": 3,
+          "section": "Absolute maximum ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 50,
+      "name": "output_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "520b6a4f489716ebf41701fe169ce36b4688a41ae400c0494f763b31620420ce",
+          "method": "table",
+          "page": 3,
+          "section": "Absolute maximum ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 500,
+      "name": "output_current",
+      "unit": "mA"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "520b6a4f489716ebf41701fe169ce36b4688a41ae400c0494f763b31620420ce",
+          "method": "table",
+          "page": 3,
+          "section": "Absolute maximum ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 50,
+      "name": "clamp_diode_reverse_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "520b6a4f489716ebf41701fe169ce36b4688a41ae400c0494f763b31620420ce",
+          "method": "table",
+          "page": 3,
+          "section": "Absolute maximum ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 500,
+      "name": "clamp_current",
+      "unit": "mA"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "520b6a4f489716ebf41701fe169ce36b4688a41ae400c0494f763b31620420ce",
+          "method": "table",
+          "page": 3,
+          "section": "Absolute maximum ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 30,
+      "min": -0.5,
+      "name": "input_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "520b6a4f489716ebf41701fe169ce36b4688a41ae400c0494f763b31620420ce",
+          "method": "table",
+          "page": 3,
+          "section": "Absolute maximum ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 85,
+      "min": -40,
+      "name": "operating_temperature",
+      "unit": "degC"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "output_current",
+          "unit": "mA",
+          "value": 350
+        },
+        {
+          "operator": "=",
+          "parameter": "input_current",
+          "unit": "uA",
+          "value": 500
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "520b6a4f489716ebf41701fe169ce36b4688a41ae400c0494f763b31620420ce",
+          "method": "table",
+          "page": 4,
+          "section": "Electrical characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 1.6,
+      "name": "collector_emitter_saturation_voltage",
+      "typ": 1.3,
+      "unit": "V"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "collector_emitter_voltage",
+          "unit": "V",
+          "value": 50
+        },
+        {
+          "operator": "=",
+          "parameter": "ambient_temperature",
+          "unit": "degC",
+          "value": 25
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "520b6a4f489716ebf41701fe169ce36b4688a41ae400c0494f763b31620420ce",
+          "method": "table",
+          "page": 4,
+          "section": "Electrical characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 20,
+      "name": "output_leakage_current",
+      "unit": "uA"
+    }
+  ],
+  "status": "active"
+}

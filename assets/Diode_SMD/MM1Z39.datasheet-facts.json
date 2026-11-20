@@ -1,0 +1,263 @@
+{
+  "categories": [
+    "diode"
+  ],
+  "description": "39 V nominal Zener diode",
+  "document": {
+    "identity": {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d2f49b7e6aadb844c66c178cc1cf54dea6d761023afc9e8749f423d213a579a",
+          "method": "prose",
+          "page": 1,
+          "section": "Part number and document title"
+        }
+      ],
+      "family_members": [
+        "MM1Z39"
+      ],
+      "requested_mpn": "MM1Z39",
+      "status": "exact"
+    },
+    "manufacturer": "Shandong Jingdao Microelectronics",
+    "pages": 3,
+    "path": "MM1Z39.pdf",
+    "sha256": "0d2f49b7e6aadb844c66c178cc1cf54dea6d761023afc9e8749f423d213a579a"
+  },
+  "extracted_at": "2026-09-30T10:02:51.944967+00:00",
+  "extractor_version": "manual-evidence-2",
+  "manufacturer": "Shandong Jingdao Microelectronics",
+  "missing": [
+    "Zener temperature coefficient, knee current, pulse-energy limit, and junction capacitance are not published for MM1Z39.",
+    "No simulation model is identified."
+  ],
+  "mpn": "MM1Z39",
+  "packages": [
+    {
+      "applicable_mpns": [
+        "MM1Z39"
+      ],
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d2f49b7e6aadb844c66c178cc1cf54dea6d761023afc9e8749f423d213a579a",
+          "method": "table",
+          "page": 1,
+          "section": "Mechanical data"
+        }
+      ],
+      "manufacturer_name": "SOD-123",
+      "pin_count": 2
+    }
+  ],
+  "pins": [
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d2f49b7e6aadb844c66c178cc1cf54dea6d761023afc9e8749f423d213a579a",
+          "method": "table",
+          "page": 1,
+          "section": "Pinning"
+        }
+      ],
+      "functions": [
+        "Cathode"
+      ],
+      "name": "K",
+      "numbers": [
+        "1"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d2f49b7e6aadb844c66c178cc1cf54dea6d761023afc9e8749f423d213a579a",
+          "method": "table",
+          "page": 1,
+          "section": "Pinning"
+        }
+      ],
+      "functions": [
+        "Anode"
+      ],
+      "name": "A",
+      "numbers": [
+        "2"
+      ],
+      "type": "passive"
+    }
+  ],
+  "quality": {
+    "base_specs": 85,
+    "category_specs": 80,
+    "evidence": 100,
+    "identity": 90,
+    "overall": 88,
+    "pinout": 95
+  },
+  "schema_version": 1,
+  "specs": [
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "zener_test_current",
+          "unit": "mA",
+          "value": 2.5
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d2f49b7e6aadb844c66c178cc1cf54dea6d761023afc9e8749f423d213a579a",
+          "method": "table",
+          "page": 2,
+          "section": "Characteristics, MM1Z39 row"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 41,
+      "min": 37,
+      "name": "zener_voltage",
+      "typ": 39,
+      "unit": "V"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "zener_test_current",
+          "unit": "mA",
+          "value": 2.5
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d2f49b7e6aadb844c66c178cc1cf54dea6d761023afc9e8749f423d213a579a",
+          "method": "table",
+          "page": 2,
+          "section": "Characteristics, MM1Z39 row"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 100,
+      "name": "zener_dynamic_impedance",
+      "unit": "ohm"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "reverse_voltage",
+          "unit": "V",
+          "value": 30
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d2f49b7e6aadb844c66c178cc1cf54dea6d761023afc9e8749f423d213a579a",
+          "method": "table",
+          "page": 2,
+          "section": "Characteristics, MM1Z39 row"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 2,
+      "name": "reverse_current",
+      "unit": "uA"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d2f49b7e6aadb844c66c178cc1cf54dea6d761023afc9e8749f423d213a579a",
+          "method": "table",
+          "page": 1,
+          "section": "Absolute maximum ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 500,
+      "name": "power_dissipation",
+      "unit": "mW"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "forward_current",
+          "unit": "mA",
+          "value": 10
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d2f49b7e6aadb844c66c178cc1cf54dea6d761023afc9e8749f423d213a579a",
+          "method": "table",
+          "page": 1,
+          "section": "Absolute maximum ratings and characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 0.9,
+      "name": "forward_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d2f49b7e6aadb844c66c178cc1cf54dea6d761023afc9e8749f423d213a579a",
+          "method": "table",
+          "page": 1,
+          "section": "Absolute maximum ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 150,
+      "min": -55,
+      "name": "operating_temperature",
+      "unit": "degC"
+    },
+    {
+      "classification": "thermal_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d2f49b7e6aadb844c66c178cc1cf54dea6d761023afc9e8749f423d213a579a",
+          "method": "table",
+          "page": 1,
+          "section": "Absolute maximum ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "junction_to_ambient_thermal_resistance",
+      "typ": 340,
+      "unit": "degC/W"
+    }
+  ],
+  "status": "active"
+}

@@ -1,0 +1,18 @@
+* Diagnostic variant: same startup case, but R6 is changed from 100 kOhm to 1 MOhm.
+.options method=gear reltol=0.003 abstol=1n vntol=10u chgtol=1e-14
+.save time V(VCC) V(LINE) V(FB) V(MC_BOOST_CV) V(Net-_D1-A_) V(Net-_D2-A_) V(Net-_D2-K_) V(Net-_Q1-S_) V(Net-_Q1-G_) I(VUSB)
+.tran 100n 30m 0 100n uic
+.meas tran VOUT_FINAL avg V(LINE) from=29m to=30m
+.meas tran VOUT_RIPPLE pp V(LINE) from=29m to=30m
+.meas tran FB_FINAL avg V(FB) from=29m to=30m
+.meas tran VOUT_MAX max V(LINE)
+.meas tran SW_MAX max V(Net-_D1-A_)
+.meas tran SECONDARY_MAX max V(Net-_D2-A_)
+.meas tran IUSB_FINAL avg I(VUSB) from=29m to=30m
+.control
+alter R6=1Meg
+set filetype=binary
+run
+write build/startup_200v_r6_1m.raw all
+quit
+.endc

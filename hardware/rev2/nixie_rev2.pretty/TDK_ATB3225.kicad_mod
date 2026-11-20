@@ -1,0 +1,162 @@
+(footprint
+	"TDK_ATB3225"
+	(version 20260206)
+	(generator "kicad10_tree")
+	(layer "B.Cu")
+	(descr "TDK ATB3225 wound SMD step-up transformer, 3.2 x 2.5 x 2.4 mm; recommended land pattern from ATB322524-0110-T000 datasheet")
+	(tags "TDK ATB3225 ATB322524 transformer SMD-4 3.2x2.5mm")
+	(property
+		"Reference"
+		"REF**"
+		(at -3.05 -0.021659 0)
+		(layer "B.SilkS")
+		(uuid "5bbb31ab-f52f-4049-a4a6-98e9ddb07722")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+			(justify mirror)
+		)
+	)
+	(property
+		"Value"
+		"TDK_ATB3225"
+		(at 0 -2.2 0)
+		(layer "B.Fab")
+		(uuid "a41cef85-a315-44be-99f2-9ca68c6f90bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.8 -1.35)
+		(end 0.8 -1.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "fc690729-dbca-4157-a96d-0fe1cad909a6")
+	)
+	(fp_line
+		(start -0.8 1.35)
+		(end 0.8 1.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "3b0848bf-eb14-4608-a948-ff43d3989ff4")
+	)
+	(fp_poly
+		(pts
+			(xy -2.2 -1.45)
+			(xy -1.95 -1.45)
+			(xy -2.2 -1.2)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.SilkS")
+		(uuid "84be74f3-100e-43a6-805f-5ef8f9abc697")
+	)
+	(fp_rect
+		(start -2.25 1.5)
+		(end 2.25 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "a6078ded-0f23-4365-837b-a9e7b2a29bb7")
+	)
+	(fp_poly
+		(pts
+			(xy -1.6 1.25)
+			(xy 1.6 1.25)
+			(xy 1.6 -1.25)
+			(xy -1.2 -1.25)
+			(xy -1.6 -0.85)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.Fab")
+		(uuid "0e04030b-c366-44cf-a970-ac6c6f832c70")
+	)
+	(fp_text
+		user
+		"${REFERENCE}"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(uuid "4ca4b9c8-dbb2-42cf-9e87-7c1dd584685a")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+			(justify mirror)
+		)
+	)
+	(pad
+		"1"
+		smd
+		roundrect
+		(at -1.5 -0.885)
+		(size 1 0.55)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.2)
+		(pinfunction "P1_1")
+		(pintype "passive")
+		(uuid "1137c90a-e4e0-418e-8d53-5cc5333f70c6")
+	)
+	(pad
+		"2"
+		smd
+		roundrect
+		(at -1.5 0.885)
+		(size 1 0.55)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.2)
+		(pinfunction "S1_2")
+		(pintype "passive")
+		(uuid "59e7adfd-8add-41db-a659-d48c5a00de4a")
+	)
+	(pad
+		"3"
+		smd
+		roundrect
+		(at 1.5 0.885)
+		(size 1 0.55)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.2)
+		(pinfunction "S2_3")
+		(pintype "passive")
+		(uuid "2783dbe7-6f7f-483a-a74e-a86e4f91dd35")
+	)
+	(pad
+		"4"
+		smd
+		roundrect
+		(at 1.5 -0.885)
+		(size 1 0.55)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.2)
+		(pinfunction "P2_4")
+		(pintype "passive")
+		(uuid "9987be8f-0839-4794-8ffa-fb04aca1a898")
+	)
+	(embedded_fonts no)
+)

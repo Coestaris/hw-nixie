@@ -1,0 +1,214 @@
+{
+  "categories": [
+    "resistor"
+  ],
+  "category_facts": {
+    "resistor": {
+      "technology": "thick film"
+    }
+  },
+  "document": {
+    "identity": {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "c7bd24c751f556842e292f49f58100b2da9c362ed562c9edfbfd780061651bb9",
+          "method": "table",
+          "page": 1,
+          "section": "Family title and ordering-code applicability"
+        }
+      ],
+      "family_members": [
+        "GR0201J22KTAG00"
+      ],
+      "requested_mpn": "GR0201J22KTAG00",
+      "status": "family"
+    },
+    "manufacturer": "GiantOhm",
+    "pages": 9,
+    "path": "GR0201J22KTAG00.pdf",
+    "sha256": "c7bd24c751f556842e292f49f58100b2da9c362ed562c9edfbfd780061651bb9"
+  },
+  "extracted_at": "2026-09-30T09:52:03.878808+00:00",
+  "extractor_version": "manual-evidence-2",
+  "manufacturer": "GiantOhm",
+  "missing": [
+    "The manufacturer does not number the two symmetric terminals.",
+    "Pulse-energy limit, high-frequency parasitics, and thermal resistance are not published for this order code.",
+    "No simulation model is identified."
+  ],
+  "mpn": "GR0201J22KTAG00",
+  "packages": [
+    {
+      "applicable_mpns": [
+        "GR0201J22KTAG00"
+      ],
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "c7bd24c751f556842e292f49f58100b2da9c362ed562c9edfbfd780061651bb9",
+          "method": "table",
+          "page": 2,
+          "row": "GR0201",
+          "section": "Dimensions"
+        }
+      ],
+      "manufacturer_name": "GR0201",
+      "package_body": {
+        "height_mm": 0.23,
+        "length_mm": 0.6,
+        "width_mm": 0.3
+      },
+      "pin_count": null
+    }
+  ],
+  "pins": [],
+  "quality": {
+    "base_specs": 85,
+    "category_specs": 80,
+    "evidence": 100,
+    "identity": 85,
+    "overall": 85,
+    "pinout": 100
+  },
+  "schema_version": 1,
+  "specs": [
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "c7bd24c751f556842e292f49f58100b2da9c362ed562c9edfbfd780061651bb9",
+          "method": "table",
+          "page": 1,
+          "row": "GR0201",
+          "section": "Ordering code"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "resistance",
+      "typ": 22000,
+      "unit": "ohm"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "c7bd24c751f556842e292f49f58100b2da9c362ed562c9edfbfd780061651bb9",
+          "method": "table",
+          "page": 1,
+          "row": "GR0201",
+          "section": "Ordering code"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 5,
+      "min": -5,
+      "name": "tolerance",
+      "unit": "percent"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "c7bd24c751f556842e292f49f58100b2da9c362ed562c9edfbfd780061651bb9",
+          "method": "table",
+          "page": 1,
+          "row": "GR0201",
+          "section": "Characteristics, GR0201 row"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 0.05,
+      "name": "rated_power",
+      "unit": "W"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "c7bd24c751f556842e292f49f58100b2da9c362ed562c9edfbfd780061651bb9",
+          "method": "table",
+          "page": 1,
+          "row": "GR0201",
+          "section": "Characteristics, GR0201 row"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 25,
+      "name": "maximum_working_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "c7bd24c751f556842e292f49f58100b2da9c362ed562c9edfbfd780061651bb9",
+          "method": "table",
+          "page": 1,
+          "row": "GR0201",
+          "section": "Characteristics, GR0201 row"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 50,
+      "name": "maximum_overload_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "c7bd24c751f556842e292f49f58100b2da9c362ed562c9edfbfd780061651bb9",
+          "method": "table",
+          "page": 3,
+          "row": "GR0201",
+          "section": "Temperature coefficient"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 200,
+      "min": -200,
+      "name": "temperature_coefficient",
+      "unit": "ppm/degC"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "c7bd24c751f556842e292f49f58100b2da9c362ed562c9edfbfd780061651bb9",
+          "method": "table",
+          "page": 1,
+          "row": "GR0201",
+          "section": "Characteristics, GR0201 row"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 155,
+      "min": -55,
+      "name": "operating_temperature",
+      "unit": "degC"
+    }
+  ],
+  "status": "active"
+}

@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source": {"path":"TYPE-C%206P%28073%29.pdf","page":1,"manufacturer":"SHOU HAN","part_number":"TYPE-C 6P(073)","sha256":"98756b6026c3ad625679d384f382df5910246c3bf98a7d85897eb9f5d603b504","units":"mm"},
+  "coordinate_system": {"origin":"rev2 footprint origin","x":"across connector width","y":"from receptacle mouth toward contacts","z":"upward from PCB seating plane"},
+  "bounding_boxes_mm": {"model_inclusive":{"min":{"x":-4.57,"y":-4.675,"z":-1.20},"max":{"x":4.57,"y":2.725,"z":3.20},"size":{"x":9.14,"y":7.40,"z":4.40},"note":"Includes the 0.50 mm wide shell anchors on the documented 8.64 mm centre spacing and the 1.20 mm contact lands centred at Y=2.125; the metal housing itself is 8.94 x 7.15 mm."}},
+  "projections_mm": {"top":{"axes":["x","y"],"bounds":[-4.57,-4.675,4.57,2.725]},"front":{"axes":["x","z"],"bounds":[-4.57,-1.20,4.57,3.20]},"side":{"axes":["y","z"],"bounds":[-4.675,-1.20,2.725,3.20]}},
+  "connectivity_contract": {"shell":1,"insert":1,"contacts":6,"note":"The four board anchors are joined to the conductive shell."},
+  "checks": [{"metric":"size_x","expected_mm":9.14,"tolerance_mm":0.05,"evidence":"8.64 mm anchor centre spacing plus 0.50 mm anchor width"},{"metric":"size_y","expected_mm":7.40,"tolerance_mm":0.05,"evidence":"housing front edge to 1.20 mm contact land centred at Y=2.125"},{"metric":"max_z","expected_mm":3.20,"tolerance_mm":0.20,"evidence":"side-view installed height"},{"metric":"min_z","expected_mm":-1.20,"tolerance_mm":0.05,"evidence":"modeled board-anchor depth assumption"}]
+}

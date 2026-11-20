@@ -1,0 +1,14 @@
+manufacturer: jlcpcb
+rule_snapshot: assets/manufacturing/rules/jlcpcb-2026-10-30.json
+fresh_days: 30
+stale_days: 90
+pcb:
+  process: rigid
+  layers: 6
+  copper_outer: 1oz
+  copper_inner: 1oz
+  thickness_mm: 1.6
+pcba:
+  enabled: true
+  service: economic
+  sides: bottom

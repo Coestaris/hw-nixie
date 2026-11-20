@@ -1,0 +1,309 @@
+{
+  "categories": [
+    "diode"
+  ],
+  "document": {
+    "identity": {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "8ba7ab4ec1781b7f6052f5999a2304bd611c0ed2b5e8f36ffa5092552932a42e",
+          "method": "prose",
+          "page": 1,
+          "section": "Part number and document title"
+        }
+      ],
+      "family_members": [
+        "USBLC6-2SC6"
+      ],
+      "requested_mpn": "USBLC6-2SC6",
+      "status": "exact"
+    },
+    "manufacturer": "STMicroelectronics",
+    "pages": 14,
+    "path": "USBLC6-2SC6.pdf",
+    "sha256": "8ba7ab4ec1781b7f6052f5999a2304bd611c0ed2b5e8f36ffa5092552932a42e"
+  },
+  "extracted_at": "2026-09-30T10:11:45.085618+00:00",
+  "extractor_version": "manual-evidence-2",
+  "manufacturer": "STMicroelectronics",
+  "missing": [
+    "A continuous working-voltage maximum is not separately stated; 5.25 V appears as a leakage-test condition.",
+    "Clamping voltage depends on PCB parasitic inductance; the datasheet provides layout guidance rather than a board-level guarantee.",
+    "No simulation model is identified."
+  ],
+  "mpn": "USBLC6-2SC6",
+  "packages": [
+    {
+      "applicable_mpns": [
+        "USBLC6-2SC6"
+      ],
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "8ba7ab4ec1781b7f6052f5999a2304bd611c0ed2b5e8f36ffa5092552932a42e",
+          "method": "table",
+          "page": 1,
+          "section": "Package and functional diagram"
+        }
+      ],
+      "manufacturer_name": "SOT23-6L",
+      "pin_count": 6
+    }
+  ],
+  "pins": [
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "8ba7ab4ec1781b7f6052f5999a2304bd611c0ed2b5e8f36ffa5092552932a42e",
+          "method": "table",
+          "page": 1,
+          "section": "Functional diagram"
+        }
+      ],
+      "functions": [
+        "Protected data line 1"
+      ],
+      "name": "I/O1",
+      "numbers": [
+        "1"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "8ba7ab4ec1781b7f6052f5999a2304bd611c0ed2b5e8f36ffa5092552932a42e",
+          "method": "table",
+          "page": 1,
+          "section": "Functional diagram"
+        }
+      ],
+      "functions": [
+        "Ground"
+      ],
+      "name": "GND",
+      "numbers": [
+        "2"
+      ],
+      "type": "ground"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "8ba7ab4ec1781b7f6052f5999a2304bd611c0ed2b5e8f36ffa5092552932a42e",
+          "method": "table",
+          "page": 1,
+          "section": "Functional diagram"
+        }
+      ],
+      "functions": [
+        "Protected data line 2"
+      ],
+      "name": "I/O2",
+      "numbers": [
+        "3"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "8ba7ab4ec1781b7f6052f5999a2304bd611c0ed2b5e8f36ffa5092552932a42e",
+          "method": "table",
+          "page": 1,
+          "section": "Functional diagram"
+        }
+      ],
+      "functions": [
+        "Protected data line 2"
+      ],
+      "name": "I/O2",
+      "numbers": [
+        "4"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "8ba7ab4ec1781b7f6052f5999a2304bd611c0ed2b5e8f36ffa5092552932a42e",
+          "method": "table",
+          "page": 1,
+          "section": "Functional diagram"
+        }
+      ],
+      "functions": [
+        "Protected supply rail"
+      ],
+      "name": "VBUS",
+      "numbers": [
+        "5"
+      ],
+      "type": "power_in"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "8ba7ab4ec1781b7f6052f5999a2304bd611c0ed2b5e8f36ffa5092552932a42e",
+          "method": "table",
+          "page": 1,
+          "section": "Functional diagram"
+        }
+      ],
+      "functions": [
+        "Protected data line 1"
+      ],
+      "name": "I/O1",
+      "numbers": [
+        "6"
+      ],
+      "type": "bidirectional"
+    }
+  ],
+  "quality": {
+    "base_specs": 85,
+    "category_specs": 82,
+    "evidence": 100,
+    "identity": 90,
+    "overall": 88,
+    "pinout": 95
+  },
+  "schema_version": 1,
+  "specs": [
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "reverse_current",
+          "unit": "mA",
+          "value": 1
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "8ba7ab4ec1781b7f6052f5999a2304bd611c0ed2b5e8f36ffa5092552932a42e",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "min": 6,
+      "name": "breakdown_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "reverse_voltage",
+          "unit": "V",
+          "value": 5.25
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "8ba7ab4ec1781b7f6052f5999a2304bd611c0ed2b5e8f36ffa5092552932a42e",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 150,
+      "name": "leakage_current",
+      "typ": 10,
+      "unit": "nA"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "peak_pulse_current",
+          "unit": "A",
+          "value": 1
+        },
+        {
+          "operator": "=",
+          "parameter": "pulse_waveform",
+          "unit": null,
+          "value": "8/20 us"
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "8ba7ab4ec1781b7f6052f5999a2304bd611c0ed2b5e8f36ffa5092552932a42e",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 12,
+      "name": "clamping_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "reverse_voltage",
+          "unit": "V",
+          "value": 1.65
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "8ba7ab4ec1781b7f6052f5999a2304bd611c0ed2b5e8f36ffa5092552932a42e",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 3.5,
+      "name": "io_to_ground_capacitance",
+      "typ": 2.5,
+      "unit": "pF"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "8ba7ab4ec1781b7f6052f5999a2304bd611c0ed2b5e8f36ffa5092552932a42e",
+          "method": "table",
+          "page": 2,
+          "section": "Absolute ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 125,
+      "min": -40,
+      "name": "operating_junction_temperature",
+      "unit": "degC"
+    }
+  ],
+  "status": "active"
+}

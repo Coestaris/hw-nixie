@@ -1,0 +1,226 @@
+{
+  "categories": [
+    "transistor"
+  ],
+  "description": "NPN small-signal transistor",
+  "document": {
+    "identity": {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "8db6ea5d268b9450492937f3baa663fb95820ae25b48909043873528fe4ecc6a",
+          "method": "prose",
+          "page": 1,
+          "section": "Part number and document title"
+        }
+      ],
+      "family_members": [
+        "MMBTA42"
+      ],
+      "requested_mpn": "MMBTA42",
+      "status": "exact"
+    },
+    "manufacturer": "DDF",
+    "pages": 1,
+    "path": "MMBTA42.pdf",
+    "sha256": "8db6ea5d268b9450492937f3baa663fb95820ae25b48909043873528fe4ecc6a"
+  },
+  "extracted_at": "2026-09-30T10:02:51.944582+00:00",
+  "extractor_version": "manual-evidence-2",
+  "manufacturer": "DDF",
+  "missing": [
+    "The PDF labels B, E, and C in a package sketch but does not number the three terminals; the footprint pin mapping is not established by this source.",
+    "Safe operating area, thermal resistance, switching times, and simulation model are not published.",
+    "The current-gain test conditions have ambiguous current symbols in the source table and are omitted pending clarification."
+  ],
+  "mpn": "MMBTA42",
+  "packages": [
+    {
+      "applicable_mpns": [
+        "MMBTA42"
+      ],
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "8db6ea5d268b9450492937f3baa663fb95820ae25b48909043873528fe4ecc6a",
+          "method": "table",
+          "page": 1,
+          "section": "Package and terminal diagram"
+        }
+      ],
+      "manufacturer_name": "SOT-23",
+      "pin_count": 3
+    }
+  ],
+  "pins": [],
+  "quality": {
+    "base_specs": 85,
+    "category_specs": 80,
+    "evidence": 100,
+    "identity": 90,
+    "overall": 70,
+    "pinout": 0
+  },
+  "schema_version": 1,
+  "specs": [
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "8db6ea5d268b9450492937f3baa663fb95820ae25b48909043873528fe4ecc6a",
+          "method": "table",
+          "page": 1,
+          "section": "Maximum ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 300,
+      "name": "collector_base_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "8db6ea5d268b9450492937f3baa663fb95820ae25b48909043873528fe4ecc6a",
+          "method": "table",
+          "page": 1,
+          "section": "Maximum ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 300,
+      "name": "collector_emitter_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "8db6ea5d268b9450492937f3baa663fb95820ae25b48909043873528fe4ecc6a",
+          "method": "table",
+          "page": 1,
+          "section": "Maximum ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 6,
+      "name": "emitter_base_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "8db6ea5d268b9450492937f3baa663fb95820ae25b48909043873528fe4ecc6a",
+          "method": "table",
+          "page": 1,
+          "section": "Maximum ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 500,
+      "name": "collector_current",
+      "unit": "mA"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "8db6ea5d268b9450492937f3baa663fb95820ae25b48909043873528fe4ecc6a",
+          "method": "table",
+          "page": 1,
+          "section": "Maximum ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 350,
+      "name": "power_dissipation",
+      "unit": "mW"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "8db6ea5d268b9450492937f3baa663fb95820ae25b48909043873528fe4ecc6a",
+          "method": "table",
+          "page": 1,
+          "section": "Maximum ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 150,
+      "name": "junction_temperature",
+      "unit": "degC"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "8db6ea5d268b9450492937f3baa663fb95820ae25b48909043873528fe4ecc6a",
+          "method": "table",
+          "page": 1,
+          "section": "Maximum ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 150,
+      "min": -55,
+      "name": "storage_temperature",
+      "unit": "degC"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "collector_current",
+          "unit": "mA",
+          "value": 20
+        },
+        {
+          "operator": "=",
+          "parameter": "base_current",
+          "unit": "mA",
+          "value": 2
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "8db6ea5d268b9450492937f3baa663fb95820ae25b48909043873528fe4ecc6a",
+          "method": "table",
+          "page": 1,
+          "section": "Electrical characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 0.5,
+      "name": "collector_emitter_saturation_voltage",
+      "unit": "V"
+    }
+  ],
+  "status": "active"
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "manufacturer": "JLCPCB",
+  "snapshot": "2026-10-20",
+  "sources": [
+    {"id": "pcb-capabilities", "url": "https://jlcpcb.com/capabilities/Capab", "title": "JLCPCB PCB Capabilities", "source_type": "official", "retrieved_at": "2026-10-20T12:48:49+03:00", "source_date": null, "content_sha256": null},
+    {"id": "pcba-capabilities", "url": "https://jlcpcb.com/capabilities/pcb-assembly-capabilities", "title": "JLCPCB PCB Assembly Capabilities", "source_type": "official", "retrieved_at": "2026-09-22T00:00:00+03:00", "source_date": null, "content_sha256": null},
+    {"id": "bom-guide", "url": "https://jlcpcb.com/help/article/bill-of-materials-for-pcb-assembly", "title": "Bill of Materials for PCB Assembly", "source_type": "official", "retrieved_at": "2026-09-22T00:00:00+03:00", "source_date": null, "content_sha256": null},
+    {"id": "cpl-guide", "url": "https://jlcpcb.com/help/article/pick-place-file-for-pcb-assembly", "title": "Pick and Place File for PCB Assembly", "source_type": "official", "retrieved_at": "2026-09-22T00:00:00+03:00", "source_date": null, "content_sha256": null}
+  ],
+  "rules": [
+    {"id": "pcb.trace.min_width", "metric": "min_track_width_mm", "operator": "min", "value": 0.1, "unit": "mm", "classification": "manufacturer_limit", "conditions": {"pcb.process": "rigid", "pcb.layers": [1, 2], "pcb.copper_outer": "1oz"}, "source_id": "pcb-capabilities"},
+    {"id": "pcb.trace.min_width_4layer_1oz", "metric": "min_track_width_mm", "operator": "min", "value": 0.09, "unit": "mm", "classification": "manufacturer_limit", "conditions": {"pcb.process": "rigid", "pcb.layers": [4], "pcb.copper_outer": "1oz"}, "source_id": "pcb-capabilities"},
+    {"id": "pcb.trace.recommended_width", "metric": "min_track_width_mm", "operator": "min", "value": 0.15, "unit": "mm", "classification": "manufacturer_recommendation", "conditions": {"pcb.process": "rigid", "pcb.copper_outer": "1oz"}, "source_id": "pcb-capabilities"},
+    {"id": "pcb.spacing.min", "metric": "min_clearance_mm", "operator": "min", "value": 0.1, "unit": "mm", "classification": "manufacturer_limit", "conditions": {"pcb.process": "rigid", "pcb.layers": [1, 2], "pcb.copper_outer": "1oz"}, "source_id": "pcb-capabilities"},
+    {"id": "pcb.spacing.min_4layer_1oz", "metric": "min_clearance_mm", "operator": "min", "value": 0.09, "unit": "mm", "classification": "manufacturer_limit", "conditions": {"pcb.process": "rigid", "pcb.layers": [4], "pcb.copper_outer": "1oz"}, "source_id": "pcb-capabilities"},
+    {"id": "pcb.via.min_drill", "metric": "min_via_drill_mm", "operator": "min", "value": 0.15, "unit": "mm", "classification": "manufacturer_limit", "conditions": {"pcb.process": "rigid"}, "source_id": "pcb-capabilities"},
+    {"id": "pcb.via.recommended_drill", "metric": "min_via_drill_mm", "operator": "min", "value": 0.2, "unit": "mm", "classification": "manufacturer_recommendation", "conditions": {"pcb.process": "rigid"}, "source_id": "pcb-capabilities"},
+    {"id": "pcb.via.min_diameter", "metric": "min_via_diameter_mm", "operator": "min", "value": 0.25, "unit": "mm", "classification": "manufacturer_limit", "conditions": {"pcb.process": "rigid"}, "source_id": "pcb-capabilities"},
+    {"id": "pcb.board.min_thickness", "metric": "board_thickness_mm", "operator": "min", "value": 0.4, "unit": "mm", "classification": "manufacturer_limit", "conditions": {"pcb.process": "rigid"}, "source_id": "pcb-capabilities"},
+    {"id": "pcb.board.max_thickness", "metric": "board_thickness_mm", "operator": "max", "value": 4.5, "unit": "mm", "classification": "manufacturer_limit", "conditions": {"pcb.process": "rigid"}, "source_id": "pcb-capabilities"},
+    {"id": "pcb.copper.min_edge_clearance", "metric": "min_copper_edge_clearance_mm", "operator": "min", "value": 0.2, "unit": "mm", "classification": "manufacturer_limit", "conditions": {"pcb.process": "rigid"}, "source_id": "pcb-capabilities"},
+    {"id": "pcb.silkscreen.min_line_width", "metric": "min_silkscreen_width_mm", "operator": "min", "value": 0.15, "unit": "mm", "classification": "manufacturer_limit", "conditions": {"pcb.process": "rigid"}, "source_id": "pcb-capabilities"},
+    {"id": "pcba.economic.layers", "metric": "layers", "operator": "allowed", "value": [2, 4, 6], "unit": null, "classification": "manufacturer_limit", "conditions": {"pcba.enabled": true, "pcba.service": "economic"}, "source_id": "pcba-capabilities"},
+    {"id": "pcba.economic.sides", "metric": "assembly_sides", "operator": "allowed", "value": ["top"], "unit": null, "classification": "manufacturer_limit", "conditions": {"pcba.enabled": true, "pcba.service": "economic"}, "source_id": "pcba-capabilities"}
+  ]
+}

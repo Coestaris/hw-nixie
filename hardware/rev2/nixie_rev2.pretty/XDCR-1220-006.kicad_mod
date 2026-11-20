@@ -1,0 +1,181 @@
+(footprint
+	"XDCR-1220-006"
+	(version 20260206)
+	(generator "kicad10_tree")
+	(layer "B.Cu")
+	(descr "Lian Xin Technology XDCR-1220-006 CR1220 180-degree SMD battery holder; land pattern and retention holes from manufacturer drawing")
+	(tags "CR1220 battery holder Lian Xin XDCR-1220-006 C7498147")
+	(property
+		"Reference"
+		"REF**"
+		(at 0 9.2 0)
+		(layer "B.SilkS")
+		(hide yes)
+		(uuid "e320a394-9c62-49ed-bd57-d64115938790")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property
+		"Value"
+		"XDCR-1220-006"
+		(at 0 -9.2 0)
+		(layer "B.Fab")
+		(uuid "ca584175-6111-40f9-a341-7ab088003225")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 10.6 1.45)
+		(end 10.6 -1.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "749fa579-2f5b-4936-a2e4-cc542be02a9b")
+	)
+	(fp_line
+		(start -5.6 7.55)
+		(end 5.6 7.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "2f179fe9-7bb0-4d25-a0ba-0591259a28f1")
+	)
+	(fp_line
+		(start -5.6 -7.55)
+		(end 5.6 -7.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "5bbab50b-9ff4-4a46-bb90-386eb0dbd2f1")
+	)
+	(fp_line
+		(start -10.6 1.45)
+		(end -10.6 -1.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "e5063568-a4c0-4ff2-8742-7d344d83149e")
+	)
+	(fp_rect
+		(start -10.65 1.45)
+		(end 11.05 -1.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "736305ae-f5e8-4790-b2b9-9757bd5152eb")
+	)
+	(fp_rect
+		(start -9.7 7.35)
+		(end 9.7 -7.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.Fab")
+		(uuid "a10d93d6-023e-4be9-bc5f-4c31fcfb4324")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 6.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.Fab")
+		(uuid "8aecf61f-2a4a-447a-b481-f16d5cefd45a")
+	)
+	(fp_text
+		user
+		"+"
+		(at -8.15 2.1 0)
+		(layer "B.SilkS")
+		(uuid "295fbe28-44e3-41f8-89ec-36363cc771b2")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.18)
+			)
+			(justify mirror)
+		)
+	)
+	(pad
+		""
+		np_thru_hole
+		circle
+		(at -3.7 0 0)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "6ac08e72-7a32-4d5d-bf2e-1ef3f31442dd")
+	)
+	(pad
+		""
+		np_thru_hole
+		circle
+		(at 3.8 0 0)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "db9add51-1b45-4835-bb9c-0402395fe7e4")
+	)
+	(pad
+		"1"
+		smd
+		rect
+		(at -8.15 0 0)
+		(size 4.5 2.3)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(pinfunction "+_1")
+		(pintype "passive")
+		(uuid "9d4435c7-0b2e-45e8-908a-989afe85c61a")
+	)
+	(pad
+		"2"
+		smd
+		rect
+		(at 8.55 0 0)
+		(size 4.5 2.3)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(pinfunction "-_2")
+		(pintype "passive")
+		(uuid "8a0c01fb-63ba-420a-9c05-2e26342f80f4")
+	)
+	(embedded_fonts no)
+	(model
+		"${KIPRJMOD}/../../assets/Battery/BatteryHolder_LianXin_XDCR-1220-006.stpz"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

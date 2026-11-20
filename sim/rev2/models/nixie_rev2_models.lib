@@ -1,0 +1,72 @@
+* nixie_rev2 simulation-only models
+* These models are intentionally local and documented approximations.
+* They are suitable for topology bring-up, not final tolerance or stress sign-off.
+
+.model ES2J_APPROX D(Is=5n N=1.8 Rs=0.12 Cjo=25p M=0.33 Vj=0.7 Tt=35n Bv=600 Ibv=10u)
+.model NCD0603R1_APPROX D(Is=1e-18 N=2 Rs=10 Cjo=20p Bv=5 Ibv=10u)
+
+.subckt PTC_FUSE_1A_APPROX P N
+RFUSE P N 0.055
+.ends PTC_FUSE_1A_APPROX
+
+.subckt 2N7002_APPROX D G S
+MCHANNEL D G S S 2N7002_CORE
+.model 2N7002_CORE NMOS(Level=1 Vto=1.6 Kp=0.07 Lambda=0.02 Rd=1 Rs=1 Cgso=10p Cgdo=5p Cbd=10p Cbs=10p)
+.ends 2N7002_APPROX
+
+* Five-pin order follows the MCP6001-OT symbol: OUT, VSS, IN+, IN-, VDD.
+* The 1 kHz dominant pole with gain 1000 approximates a 1 MHz gain-bandwidth product.
+.subckt MCP6001_APPROX OUT VSS INP INN VDD
+RINP INP VSS 1T
+RINN INN VSS 1T
+BGAIN NRAW VSS V={0.5*V(VDD,VSS)*(1+tanh(400*V(INP,INN)))}
+RDOM NRAW NPOLE 10k
+CDOM NPOLE VSS 15.9n
+ROUT NPOLE OUT 50
+COUT OUT VSS 10p
+.ends MCP6001_APPROX
+
+* TDK ATB322524-0110-T000 transformer approximation from the manufacturer data.
+* Defaults use 7 uH primary inductance, 1:10.2 turns ratio, and the published
+* maximum primary/secondary DCR values of 0.5/60 ohm. K=0.9710083 corresponds to
+* the published 0.4 uH maximum primary-referred leakage inductance.
+* Physical mapping is 1=P1, 4=P2, 2=S1, 3=S2. The datasheet has no polarity
+* dots, so the model assumes physical pins 1 and 2 are the in-phase starts.
+.subckt ATB322524_0110_APPROX P1 P2 S1 S2 params: LPRI=7u NTR=10.2 RPRI=0.5 RSEC=60 KCOUP=0.9710083
+RPRI_E P1 NP {RPRI}
+LPRIMARY NP P2 {LPRI}
+RSEC_E S1 NS {RSEC}
+LSECONDARY NS S2 {LPRI*NTR*NTR}
+KXFMR LPRIMARY LSECONDARY {KCOUP}
+.ends ATB322524_0110_APPROX
+
+* Behavioral XL6007 topology model.
+* It models a 400 kHz PWM-controlled 0.12 ohm low-side switch, a 1.25 V
+* feedback target, an approximate 50 ms soft-start, 50 pF switch capacitance,
+* and a 60 V switch-node protection clamp. The soft-start timing and clamp
+* characteristic are simulation assumptions because the datasheet does not
+* specify them. A clock-reset latch approximates the published 2 A cycle
+* current limit. Current-mode compensation, thermal behavior, and detailed
+* losses are not modeled.
+.subckt XL6007_APPROX EN VIN FB NC SW1 SW2 GND1 GND2
+RSW_JOIN SW1 SW2 1m
+RGND_JOIN GND1 GND2 1m
+RFB_BIAS FB GND1 100Meg
+REN_BIAS EN GND1 10Meg
+RNC NC GND1 1Gig
+RQUIESCENT VIN GND1 2.4k
+RSS EN SS 500k
+CSS SS GND1 100n
+VRAMP RAMP GND1 PULSE(0 1 0 2.498u 1n 1n 2.5u)
+BDUTY DUTY GND1 V={0.45*(1+tanh(1.18+20*(1.25-V(FB,GND1))))*min(1,max(0,V(SS,GND1)/5))}
+BPWM CTRL GND1 V={5*(0.5+0.5*tanh(100*(V(EN,GND1)-1.4)))*(0.5+0.5*tanh(100*(V(VIN,GND1)-3.6)))*(0.5+0.5*tanh(100*(V(DUTY,GND1)-V(RAMP,GND1))))}
+RSENSE SW1 NSW 1m
+BLATCH QLIM GND1 I={V(RAMP,GND1)<0.01 ? V(QLIM,GND1) : (V(SW1,NSW)>2m ? V(QLIM,GND1)-5 : 0)}
+CLATCH QLIM GND1 100p
+BGATE GATE GND1 V={V(CTRL,GND1)*(0.5+0.5*tanh(100*(2.5-V(QLIM,GND1))))}
+SPOWER NSW GND1 GATE GND1 XL6007_SW
+COSS SW1 GND1 50p
+DBODY GND1 SW1 XL6007_BODY
+.model XL6007_SW SW(Ron=0.12 Roff=100Meg Vt=2.5 Vh=0.1)
+.model XL6007_BODY D(Is=1n N=1.5 Rs=0.1 Cjo=20p Bv=60 Ibv=1m)
+.ends XL6007_APPROX

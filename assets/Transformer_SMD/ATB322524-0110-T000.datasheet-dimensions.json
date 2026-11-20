@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "source": {
+    "path": "ATB322524-0110-T000.pdf",
+    "page": 3,
+    "figure": "ATB322524 shape & dimensions and recommended land pattern",
+    "revision_date": "2019-02-21",
+    "manufacturer": "TDK",
+    "part_number": "ATB322524-0110-T000",
+    "sha256": "871abefa8b09ed06e3417a92577496d4df9047f8e43b8ebe84f02a8e40084d1d",
+    "units": "mm"
+  },
+  "coordinate_system": {
+    "origin": "package centre at PCB seating plane",
+    "x": "pins 1/2 toward pins 4/3",
+    "y": "pins 2/3 toward pins 1/4",
+    "z": "upward from PCB seating plane",
+    "pin_1": "-X,+Y"
+  },
+  "bounding_boxes_mm": {
+    "documented_package_envelope": {
+      "min": {"x": -1.6, "y": -1.25, "z": 0.0},
+      "max": {"x": 1.6, "y": 1.25, "z": 2.4},
+      "size": {"x": 3.2, "y": 2.5, "z": 2.4},
+      "tolerance": {"x": 0.3, "y": 0.3, "z": "maximum"},
+      "note": "Nominal X/Y and maximum Z from the ATB322524 drawing."
+    },
+    "documented_internal_regions": {
+      "end_region_x": 0.5,
+      "winding_region_y": 1.37,
+      "note": "Dimensions shown in the ATB322524 top/bottom view."
+    },
+    "derived_terminal_region": {
+      "terminal_y": 0.565,
+      "expression": "(2.50 - 1.37) / 2"
+    }
+  },
+  "projections_mm": {
+    "top": {"axes": ["x", "y"], "bounds": [-1.6, -1.25, 1.6, 1.25]},
+    "front": {"axes": ["x", "z"], "bounds": [-1.6, 0.0, 1.6, 2.4]},
+    "side": {"axes": ["y", "z"], "bounds": [-1.25, 0.0, 1.25, 2.4]}
+  },
+  "connectivity_contract": {
+    "housing": 1,
+    "windings": 12,
+    "terminals": 4,
+    "marking": 1,
+    "note": "Winding turns are cosmetic separate rings; four terminals remain separate conductors."
+  },
+  "assumptions": [
+    "Terminal thickness is 0.12 mm and does not change the documented envelope.",
+    "Core beam thickness and winding height are visual proportions within the documented envelope.",
+    "Twelve visible winding rings are cosmetic; the manufacturer does not publish physical turn count.",
+    "The pin-1 mark size and exact location are approximate from the drawing and remain within the envelope.",
+    "Internal ferrite and winding construction is not asserted to be exact."
+  ],
+  "checks": [
+    {"metric": "size_x", "expected_mm": 3.2, "tolerance_mm": 0.02, "evidence": "page 3 package length"},
+    {"metric": "size_y", "expected_mm": 2.5, "tolerance_mm": 0.02, "evidence": "page 3 package width"},
+    {"metric": "size_z", "expected_mm": 2.4, "tolerance_mm": 0.02, "evidence": "page 3 package maximum height"},
+    {"metric": "min_z", "expected_mm": 0.0, "tolerance_mm": 0.01, "evidence": "defined PCB seating plane"}
+  ]
+}

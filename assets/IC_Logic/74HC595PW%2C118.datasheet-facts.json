@@ -1,0 +1,519 @@
+{
+  "categories": [
+    "logic"
+  ],
+  "document": {
+    "identity": {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "fa24207e780cd8c4cdb9018d67eb83e53ee75578fc126bda6f59f0d84ceb211a",
+          "method": "table",
+          "page": 1,
+          "section": "Family title and ordering-code applicability"
+        }
+      ],
+      "family_members": [
+        "74HC595PW,118"
+      ],
+      "requested_mpn": "74HC595PW,118",
+      "status": "family"
+    },
+    "manufacturer": "Nexperia",
+    "pages": 21,
+    "path": "74HC595PW%2C118.pdf",
+    "sha256": "fa24207e780cd8c4cdb9018d67eb83e53ee75578fc126bda6f59f0d84ceb211a"
+  },
+  "extracted_at": "2026-09-30T10:14:28.021793+00:00",
+  "extractor_version": "manual-evidence-2",
+  "manufacturer": "Nexperia",
+  "missing": [
+    "The PDF names 74HC595PW but does not decode the ,118 packing suffix.",
+    "Timing and output-drive limits depend on supply, load, and temperature; only representative conditions are extracted here.",
+    "No manufacturer simulation model is identified."
+  ],
+  "mpn": "74HC595PW,118",
+  "packages": [
+    {
+      "applicable_mpns": [
+        "74HC595PW,118"
+      ],
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "fa24207e780cd8c4cdb9018d67eb83e53ee75578fc126bda6f59f0d84ceb211a",
+          "method": "table",
+          "page": 2,
+          "section": "Ordering information, 74HC595PW row"
+        }
+      ],
+      "manufacturer_name": "TSSOP16",
+      "pin_count": 16
+    }
+  ],
+  "pins": [
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "fa24207e780cd8c4cdb9018d67eb83e53ee75578fc126bda6f59f0d84ceb211a",
+          "method": "table",
+          "page": 5,
+          "section": "Pin description"
+        }
+      ],
+      "functions": [
+        "Parallel data output 1"
+      ],
+      "name": "Q1",
+      "numbers": [
+        "1"
+      ],
+      "type": "output"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "fa24207e780cd8c4cdb9018d67eb83e53ee75578fc126bda6f59f0d84ceb211a",
+          "method": "table",
+          "page": 5,
+          "section": "Pin description"
+        }
+      ],
+      "functions": [
+        "Parallel data output 2"
+      ],
+      "name": "Q2",
+      "numbers": [
+        "2"
+      ],
+      "type": "output"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "fa24207e780cd8c4cdb9018d67eb83e53ee75578fc126bda6f59f0d84ceb211a",
+          "method": "table",
+          "page": 5,
+          "section": "Pin description"
+        }
+      ],
+      "functions": [
+        "Parallel data output 3"
+      ],
+      "name": "Q3",
+      "numbers": [
+        "3"
+      ],
+      "type": "output"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "fa24207e780cd8c4cdb9018d67eb83e53ee75578fc126bda6f59f0d84ceb211a",
+          "method": "table",
+          "page": 5,
+          "section": "Pin description"
+        }
+      ],
+      "functions": [
+        "Parallel data output 4"
+      ],
+      "name": "Q4",
+      "numbers": [
+        "4"
+      ],
+      "type": "output"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "fa24207e780cd8c4cdb9018d67eb83e53ee75578fc126bda6f59f0d84ceb211a",
+          "method": "table",
+          "page": 5,
+          "section": "Pin description"
+        }
+      ],
+      "functions": [
+        "Parallel data output 5"
+      ],
+      "name": "Q5",
+      "numbers": [
+        "5"
+      ],
+      "type": "output"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "fa24207e780cd8c4cdb9018d67eb83e53ee75578fc126bda6f59f0d84ceb211a",
+          "method": "table",
+          "page": 5,
+          "section": "Pin description"
+        }
+      ],
+      "functions": [
+        "Parallel data output 6"
+      ],
+      "name": "Q6",
+      "numbers": [
+        "6"
+      ],
+      "type": "output"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "fa24207e780cd8c4cdb9018d67eb83e53ee75578fc126bda6f59f0d84ceb211a",
+          "method": "table",
+          "page": 5,
+          "section": "Pin description"
+        }
+      ],
+      "functions": [
+        "Parallel data output 7"
+      ],
+      "name": "Q7",
+      "numbers": [
+        "7"
+      ],
+      "type": "output"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "fa24207e780cd8c4cdb9018d67eb83e53ee75578fc126bda6f59f0d84ceb211a",
+          "method": "table",
+          "page": 5,
+          "section": "Pin description"
+        }
+      ],
+      "functions": [
+        "Ground"
+      ],
+      "name": "GND",
+      "numbers": [
+        "8"
+      ],
+      "type": "ground"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "fa24207e780cd8c4cdb9018d67eb83e53ee75578fc126bda6f59f0d84ceb211a",
+          "method": "table",
+          "page": 5,
+          "section": "Pin description"
+        }
+      ],
+      "functions": [
+        "Serial data output"
+      ],
+      "name": "Q7S",
+      "numbers": [
+        "9"
+      ],
+      "type": "output"
+    },
+    {
+      "active_level": "low",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "fa24207e780cd8c4cdb9018d67eb83e53ee75578fc126bda6f59f0d84ceb211a",
+          "method": "table",
+          "page": 5,
+          "section": "Pin description"
+        }
+      ],
+      "functions": [
+        "Master reset"
+      ],
+      "name": "MR",
+      "numbers": [
+        "10"
+      ],
+      "type": "input"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "fa24207e780cd8c4cdb9018d67eb83e53ee75578fc126bda6f59f0d84ceb211a",
+          "method": "table",
+          "page": 5,
+          "section": "Pin description"
+        }
+      ],
+      "functions": [
+        "Shift register clock"
+      ],
+      "name": "SHCP",
+      "numbers": [
+        "11"
+      ],
+      "type": "input"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "fa24207e780cd8c4cdb9018d67eb83e53ee75578fc126bda6f59f0d84ceb211a",
+          "method": "table",
+          "page": 5,
+          "section": "Pin description"
+        }
+      ],
+      "functions": [
+        "Storage register clock"
+      ],
+      "name": "STCP",
+      "numbers": [
+        "12"
+      ],
+      "type": "input"
+    },
+    {
+      "active_level": "low",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "fa24207e780cd8c4cdb9018d67eb83e53ee75578fc126bda6f59f0d84ceb211a",
+          "method": "table",
+          "page": 5,
+          "section": "Pin description"
+        }
+      ],
+      "functions": [
+        "Output enable"
+      ],
+      "name": "OE",
+      "numbers": [
+        "13"
+      ],
+      "type": "input"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "fa24207e780cd8c4cdb9018d67eb83e53ee75578fc126bda6f59f0d84ceb211a",
+          "method": "table",
+          "page": 5,
+          "section": "Pin description"
+        }
+      ],
+      "functions": [
+        "Serial data input"
+      ],
+      "name": "DS",
+      "numbers": [
+        "14"
+      ],
+      "type": "input"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "fa24207e780cd8c4cdb9018d67eb83e53ee75578fc126bda6f59f0d84ceb211a",
+          "method": "table",
+          "page": 5,
+          "section": "Pin description"
+        }
+      ],
+      "functions": [
+        "Parallel data output 0"
+      ],
+      "name": "Q0",
+      "numbers": [
+        "15"
+      ],
+      "type": "output"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "fa24207e780cd8c4cdb9018d67eb83e53ee75578fc126bda6f59f0d84ceb211a",
+          "method": "table",
+          "page": 5,
+          "section": "Pin description"
+        }
+      ],
+      "functions": [
+        "Supply"
+      ],
+      "name": "VCC",
+      "numbers": [
+        "16"
+      ],
+      "type": "power_in"
+    }
+  ],
+  "quality": {
+    "base_specs": 82,
+    "category_specs": 80,
+    "evidence": 100,
+    "identity": 85,
+    "overall": 85,
+    "pinout": 95
+  },
+  "schema_version": 1,
+  "specs": [
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "fa24207e780cd8c4cdb9018d67eb83e53ee75578fc126bda6f59f0d84ceb211a",
+          "method": "table",
+          "page": 6,
+          "section": "Limiting values"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 7,
+      "min": -0.5,
+      "name": "supply_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "fa24207e780cd8c4cdb9018d67eb83e53ee75578fc126bda6f59f0d84ceb211a",
+          "method": "table",
+          "page": 7,
+          "section": "Recommended operating conditions, 74HC595 column"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 6,
+      "min": 2,
+      "name": "supply_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "fa24207e780cd8c4cdb9018d67eb83e53ee75578fc126bda6f59f0d84ceb211a",
+          "method": "table",
+          "page": 7,
+          "section": "Recommended operating conditions"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 125,
+      "min": -40,
+      "name": "operating_temperature",
+      "unit": "degC"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "supply_voltage",
+          "unit": "V",
+          "value": 4.5
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "fa24207e780cd8c4cdb9018d67eb83e53ee75578fc126bda6f59f0d84ceb211a",
+          "method": "table",
+          "page": 7,
+          "section": "Static characteristics, 74HC595"
+        }
+      ],
+      "fact_kind": "fact",
+      "min": 3.15,
+      "name": "input_high_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "supply_voltage",
+          "unit": "V",
+          "value": 4.5
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "fa24207e780cd8c4cdb9018d67eb83e53ee75578fc126bda6f59f0d84ceb211a",
+          "method": "table",
+          "page": 7,
+          "section": "Static characteristics, 74HC595"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 1.35,
+      "name": "input_low_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "fa24207e780cd8c4cdb9018d67eb83e53ee75578fc126bda6f59f0d84ceb211a",
+          "method": "table",
+          "page": 6,
+          "section": "Limiting values, Qn outputs"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 35,
+      "min": -35,
+      "name": "parallel_output_current",
+      "unit": "mA"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "fa24207e780cd8c4cdb9018d67eb83e53ee75578fc126bda6f59f0d84ceb211a",
+          "method": "table",
+          "page": 6,
+          "section": "Limiting values, Q7S output"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 25,
+      "min": -25,
+      "name": "serial_output_current",
+      "unit": "mA"
+    }
+  ],
+  "status": "active"
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "suppressions": [
+    {
+      "id": "existing-front-silkscreen-strokes",
+      "tool": "drc",
+      "type": "assertion_failure",
+      "severity": "warning",
+      "description": "Assertion failure (rule 'JLCPCB: Silkscreen graphic stroke')",
+      "item_description_suffix": " on F.Silkscreen",
+      "rationale": "Approved for the existing released board; preserve its front silkscreen while testing the release harness."
+    },
+    {
+      "id": "board-only-high-voltage-symbol",
+      "tool": "drc",
+      "type": "extra_footprint",
+      "severity": "warning",
+      "description": "Extra footprint",
+      "item_description_contains": "Footprint REF**",
+      "rationale": "This padless high-voltage copper symbol is intentional board-only artwork and has no schematic counterpart."
+    }
+  ],
+  "catalog_exceptions": [
+    {
+      "id": "privately-quoted-assembly-part",
+      "part": "C27035627",
+      "check": "public-catalog-availability",
+      "rationale": "Project owner confirms this exact part is quoted by JLCPCB despite being absent from the public assembly catalog."
+    }
+  ]
+}

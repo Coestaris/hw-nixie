@@ -1,0 +1,214 @@
+{
+  "categories": [
+    "resistor"
+  ],
+  "category_facts": {
+    "resistor": {
+      "technology": "thick film"
+    }
+  },
+  "document": {
+    "identity": {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "fb6ac211ca2f1c23ed05ac6306ba61202b2f9bfdc414213604803a76f50693d9",
+          "method": "table",
+          "page": 1,
+          "section": "Family title and ordering-code applicability"
+        }
+      ],
+      "family_members": [
+        "1206 \u00b11% 390K"
+      ],
+      "requested_mpn": "1206 \u00b11% 390K",
+      "status": "family"
+    },
+    "manufacturer": "VO",
+    "pages": 14,
+    "path": "1206%20%C2%B11%25%20390K.pdf",
+    "sha256": "fb6ac211ca2f1c23ed05ac6306ba61202b2f9bfdc414213604803a76f50693d9"
+  },
+  "extracted_at": "2026-09-30T09:52:03.878650+00:00",
+  "extractor_version": "manual-evidence-2",
+  "manufacturer": "VO",
+  "missing": [
+    "The manufacturer does not number the two symmetric terminals.",
+    "Pulse-energy limit, high-frequency parasitics, and thermal resistance are not published for this order code.",
+    "No simulation model is identified."
+  ],
+  "mpn": "1206 \u00b11% 390K",
+  "packages": [
+    {
+      "applicable_mpns": [
+        "1206 \u00b11% 390K"
+      ],
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "fb6ac211ca2f1c23ed05ac6306ba61202b2f9bfdc414213604803a76f50693d9",
+          "method": "table",
+          "page": 4,
+          "row": "1206",
+          "section": "Dimensions"
+        }
+      ],
+      "manufacturer_name": "1206",
+      "package_body": {
+        "height_mm": 0.5,
+        "length_mm": 3.05,
+        "width_mm": 1.55
+      },
+      "pin_count": null
+    }
+  ],
+  "pins": [],
+  "quality": {
+    "base_specs": 85,
+    "category_specs": 80,
+    "evidence": 100,
+    "identity": 85,
+    "overall": 85,
+    "pinout": 100
+  },
+  "schema_version": 1,
+  "specs": [
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "fb6ac211ca2f1c23ed05ac6306ba61202b2f9bfdc414213604803a76f50693d9",
+          "method": "table",
+          "page": 2,
+          "row": "1206",
+          "section": "Ordering code"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "resistance",
+      "typ": 390000,
+      "unit": "ohm"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "fb6ac211ca2f1c23ed05ac6306ba61202b2f9bfdc414213604803a76f50693d9",
+          "method": "table",
+          "page": 2,
+          "row": "1206",
+          "section": "Ordering code"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 1,
+      "min": -1,
+      "name": "tolerance",
+      "unit": "percent"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "fb6ac211ca2f1c23ed05ac6306ba61202b2f9bfdc414213604803a76f50693d9",
+          "method": "table",
+          "page": 2,
+          "row": "1206",
+          "section": "Specifications table, 1206 F row"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 0.25,
+      "name": "rated_power",
+      "unit": "W"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "fb6ac211ca2f1c23ed05ac6306ba61202b2f9bfdc414213604803a76f50693d9",
+          "method": "table",
+          "page": 2,
+          "row": "1206",
+          "section": "Specifications table, 1206 F row"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 200,
+      "name": "maximum_working_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "fb6ac211ca2f1c23ed05ac6306ba61202b2f9bfdc414213604803a76f50693d9",
+          "method": "table",
+          "page": 2,
+          "row": "1206",
+          "section": "Specifications table, 1206 F row"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 400,
+      "name": "maximum_overload_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "fb6ac211ca2f1c23ed05ac6306ba61202b2f9bfdc414213604803a76f50693d9",
+          "method": "table",
+          "page": 2,
+          "row": "1206",
+          "section": "Temperature coefficient"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 100,
+      "min": -100,
+      "name": "temperature_coefficient",
+      "unit": "ppm/degC"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "fb6ac211ca2f1c23ed05ac6306ba61202b2f9bfdc414213604803a76f50693d9",
+          "method": "table",
+          "page": 2,
+          "row": "1206",
+          "section": "Specifications table, 1206 F row"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 155,
+      "min": -55,
+      "name": "operating_temperature",
+      "unit": "degC"
+    }
+  ],
+  "status": "active"
+}

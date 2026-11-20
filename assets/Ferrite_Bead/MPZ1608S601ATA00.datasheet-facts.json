@@ -1,0 +1,171 @@
+{
+  "categories": [
+    "inductor"
+  ],
+  "document": {
+    "identity": {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "248facf5bc65c85e0c5a74ce83ebf316bbf69a8de9ff04bc2422db49afdc680a",
+          "method": "prose",
+          "page": 1,
+          "section": "Part number and document title"
+        }
+      ],
+      "family_members": [
+        "MPZ1608S601ATA00"
+      ],
+      "requested_mpn": "MPZ1608S601ATA00",
+      "status": "exact"
+    },
+    "manufacturer": "TDK",
+    "pages": 7,
+    "path": "MPZ1608S601ATA00.pdf",
+    "sha256": "248facf5bc65c85e0c5a74ce83ebf316bbf69a8de9ff04bc2422db49afdc680a"
+  },
+  "extracted_at": "2026-09-30T10:06:31.229096+00:00",
+  "extractor_version": "manual-evidence-2",
+  "manufacturer": "TDK",
+  "missing": [
+    "The manufacturer does not number the two symmetric terminals.",
+    "Current derating above 85 degC is given only by a graph; no guaranteed numeric points are tabulated.",
+    "A numerical saturation-current limit and simulation model are not published."
+  ],
+  "mpn": "MPZ1608S601ATA00",
+  "packages": [
+    {
+      "applicable_mpns": [
+        "MPZ1608S601ATA00"
+      ],
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "248facf5bc65c85e0c5a74ce83ebf316bbf69a8de9ff04bc2422db49afdc680a",
+          "method": "table",
+          "page": 6,
+          "section": "Shape and dimensions"
+        }
+      ],
+      "manufacturer_name": "MPZ1608",
+      "package_body": {
+        "height_mm": 0.8,
+        "length_mm": 1.6,
+        "width_mm": 0.8
+      },
+      "pin_count": null
+    }
+  ],
+  "pins": [],
+  "quality": {
+    "base_specs": 85,
+    "category_specs": 82,
+    "evidence": 100,
+    "identity": 90,
+    "overall": 88,
+    "pinout": 100
+  },
+  "schema_version": 1,
+  "specs": [
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "248facf5bc65c85e0c5a74ce83ebf316bbf69a8de9ff04bc2422db49afdc680a",
+          "method": "table",
+          "page": 2,
+          "section": "Characteristics specification table, MPZ1608S601ATA00 row"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "impedance_at_100MHz",
+      "typ": 600,
+      "unit": "ohm"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "248facf5bc65c85e0c5a74ce83ebf316bbf69a8de9ff04bc2422db49afdc680a",
+          "method": "table",
+          "page": 2,
+          "section": "Characteristics specification table, MPZ1608S601ATA00 row"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 25,
+      "min": -25,
+      "name": "impedance_tolerance",
+      "unit": "percent"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "248facf5bc65c85e0c5a74ce83ebf316bbf69a8de9ff04bc2422db49afdc680a",
+          "method": "table",
+          "page": 2,
+          "section": "Characteristics specification table, MPZ1608S601ATA00 row"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 0.15,
+      "name": "dc_resistance",
+      "unit": "ohm"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [
+        {
+          "operator": "<=",
+          "parameter": "ambient_temperature",
+          "unit": "degC",
+          "value": 85
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "248facf5bc65c85e0c5a74ce83ebf316bbf69a8de9ff04bc2422db49afdc680a",
+          "method": "table",
+          "page": 2,
+          "section": "Characteristics specification table, MPZ1608S601ATA00 row"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 1,
+      "name": "rated_current",
+      "unit": "A"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "248facf5bc65c85e0c5a74ce83ebf316bbf69a8de9ff04bc2422db49afdc680a",
+          "method": "table",
+          "page": 1,
+          "section": "Features"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 125,
+      "min": -55,
+      "name": "operating_temperature",
+      "unit": "degC"
+    }
+  ],
+  "status": "active"
+}

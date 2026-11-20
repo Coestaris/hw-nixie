@@ -1,0 +1,250 @@
+{
+  "categories": [
+    "crystal"
+  ],
+  "document": {
+    "identity": {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "de01887f9ca1469da8676b04912c1dbaebac316e01e3737376931a3ca649b2a5",
+          "method": "table",
+          "page": 1,
+          "section": "Family title and ordering-code applicability"
+        }
+      ],
+      "family_members": [
+        "NX3215SA-32.768K-STD-MUA-14"
+      ],
+      "requested_mpn": "NX3215SA-32.768K-STD-MUA-14",
+      "status": "family"
+    },
+    "manufacturer": "NDK",
+    "pages": 1,
+    "path": "NX3215SA-32.768K-STD-MUA-14.pdf",
+    "sha256": "de01887f9ca1469da8676b04912c1dbaebac316e01e3737376931a3ca649b2a5"
+  },
+  "extracted_at": "2026-09-30T10:06:31.229302+00:00",
+  "extractor_version": "manual-evidence-2",
+  "manufacturer": "NDK",
+  "missing": [
+    "Motional inductance and capacitance, aging rate, and startup time are not published.",
+    "No manufacturer simulation model is identified."
+  ],
+  "mpn": "NX3215SA-32.768K-STD-MUA-14",
+  "packages": [
+    {
+      "applicable_mpns": [
+        "NX3215SA-32.768K-STD-MUA-14"
+      ],
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "de01887f9ca1469da8676b04912c1dbaebac316e01e3737376931a3ca649b2a5",
+          "method": "table",
+          "page": 1,
+          "section": "Dimensions and terminal land connections"
+        }
+      ],
+      "manufacturer_name": "NX3215SA",
+      "package_body": {
+        "height_mm": 0.8,
+        "length_mm": 3.2,
+        "width_mm": 1.5
+      },
+      "pin_count": 2
+    }
+  ],
+  "pins": [
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "de01887f9ca1469da8676b04912c1dbaebac316e01e3737376931a3ca649b2a5",
+          "method": "table",
+          "page": 1,
+          "section": "Terminal land connections"
+        }
+      ],
+      "functions": [
+        "Crystal terminal"
+      ],
+      "name": "1",
+      "numbers": [
+        "1"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "de01887f9ca1469da8676b04912c1dbaebac316e01e3737376931a3ca649b2a5",
+          "method": "table",
+          "page": 1,
+          "section": "Terminal land connections"
+        }
+      ],
+      "functions": [
+        "Crystal terminal"
+      ],
+      "name": "2",
+      "numbers": [
+        "2"
+      ],
+      "type": "passive"
+    }
+  ],
+  "quality": {
+    "base_specs": 85,
+    "category_specs": 82,
+    "evidence": 100,
+    "identity": 90,
+    "overall": 88,
+    "pinout": 100
+  },
+  "schema_version": 1,
+  "specs": [
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "de01887f9ca1469da8676b04912c1dbaebac316e01e3737376931a3ca649b2a5",
+          "method": "table",
+          "page": 1,
+          "section": "Specifications, STD-MUA-14 column"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "frequency",
+      "typ": 32768,
+      "unit": "Hz"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "range",
+          "parameter": "ambient_temperature",
+          "unit": "degC",
+          "value": [
+            22,
+            28
+          ]
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "de01887f9ca1469da8676b04912c1dbaebac316e01e3737376931a3ca649b2a5",
+          "method": "table",
+          "page": 1,
+          "section": "Specifications, STD-MUA-14 column"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 20,
+      "min": -20,
+      "name": "frequency_tolerance",
+      "unit": "ppm"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "de01887f9ca1469da8676b04912c1dbaebac316e01e3737376931a3ca649b2a5",
+          "method": "table",
+          "page": 1,
+          "section": "Specifications, STD-MUA-14 column"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "load_capacitance",
+      "typ": 6,
+      "unit": "pF"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "de01887f9ca1469da8676b04912c1dbaebac316e01e3737376931a3ca649b2a5",
+          "method": "table",
+          "page": 1,
+          "section": "Specifications, STD-MUA-14 column"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 70000,
+      "name": "equivalent_series_resistance",
+      "unit": "ohm"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "de01887f9ca1469da8676b04912c1dbaebac316e01e3737376931a3ca649b2a5",
+          "method": "table",
+          "page": 1,
+          "section": "Specifications, STD-MUA-14 column"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 0.5,
+      "name": "drive_level",
+      "typ": 0.1,
+      "unit": "uW"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "de01887f9ca1469da8676b04912c1dbaebac316e01e3737376931a3ca649b2a5",
+          "method": "table",
+          "page": 1,
+          "section": "Specifications, STD-MUA-14 column"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 85,
+      "min": -40,
+      "name": "operating_temperature",
+      "unit": "degC"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "de01887f9ca1469da8676b04912c1dbaebac316e01e3737376931a3ca649b2a5",
+          "method": "table",
+          "page": 1,
+          "section": "Specifications"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 1.5,
+      "name": "shunt_capacitance",
+      "typ": 1,
+      "unit": "pF"
+    }
+  ],
+  "status": "active"
+}

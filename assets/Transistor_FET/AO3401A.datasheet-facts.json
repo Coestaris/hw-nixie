@@ -1,0 +1,1313 @@
+{
+  "categories": [
+    "mosfet"
+  ],
+  "description": "30 V P-channel MOSFET in SOT23",
+  "document": {
+    "identity": {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "prose",
+          "page": 1,
+          "section": "Title and SOT23 device drawing"
+        }
+      ],
+      "family_members": [
+        "AO3401A"
+      ],
+      "package_variant": "SOT23",
+      "requested_mpn": "AO3401A",
+      "status": "exact"
+    },
+    "manufacturer": "Alpha & Omega Semiconductor",
+    "pages": 5,
+    "path": "AO3401A.pdf",
+    "revision": "3.1",
+    "revision_date": "December 2023",
+    "sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c"
+  },
+  "extracted_at": "2026-10-30T18:44:06.621899+00:00",
+  "extractor_version": "manual-2",
+  "manufacturer": "Alpha & Omega Semiconductor",
+  "missing": [
+    "The device PDF shows gate/source/drain terminal positions and a pin-1 dot but does not print numeric terminal labels; numbers follow SOT23 top-view numbering.",
+    "The device PDF does not contain a dimensioned package drawing or recommended PCB land pattern; AOS publishes these in a separate SOT23 package document.",
+    "Recommended operating ranges are not specified separately from absolute maximum ratings.",
+    "Avalanche and safe-operating-area ratings are shown only as curves; no guaranteed numeric UIS/SOA values are tabulated.",
+    "No exact SPICE or IBIS model or model-coverage statement is published in this PDF."
+  ],
+  "mpn": "AO3401A",
+  "packages": [
+    {
+      "applicable_mpns": [
+        "AO3401A"
+      ],
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "prose",
+          "page": 1,
+          "section": "SOT23 top/bottom views"
+        }
+      ],
+      "manufacturer_name": "SOT23",
+      "pin_count": 3
+    }
+  ],
+  "pins": [
+    {
+      "evidence": [
+        {
+          "confidence": "medium",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "prose",
+          "page": 1,
+          "section": "SOT23 top/bottom views"
+        }
+      ],
+      "functions": [
+        "gate"
+      ],
+      "name": "G",
+      "numbers": [
+        "1"
+      ],
+      "type": "input"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "medium",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "prose",
+          "page": 1,
+          "section": "SOT23 top/bottom views"
+        }
+      ],
+      "functions": [
+        "source"
+      ],
+      "name": "S",
+      "numbers": [
+        "2"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "medium",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "prose",
+          "page": 1,
+          "section": "SOT23 top/bottom views"
+        }
+      ],
+      "functions": [
+        "drain"
+      ],
+      "name": "D",
+      "numbers": [
+        "3"
+      ],
+      "type": "passive"
+    }
+  ],
+  "quality": {
+    "base_specs": 95,
+    "category_specs": 90,
+    "evidence": 95,
+    "identity": 100,
+    "overall": 92,
+    "pinout": 85
+  },
+  "schema_version": 1,
+  "specs": [
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "table",
+          "page": 1,
+          "section": "Absolute Maximum Ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "min": -30,
+      "name": "drain_source_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "table",
+          "page": 1,
+          "section": "Absolute Maximum Ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 12,
+      "min": -12,
+      "name": "gate_source_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "ambient_temperature",
+          "unit": "degC",
+          "value": 25
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "table",
+          "page": 1,
+          "section": "Absolute Maximum Ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "min": -4,
+      "name": "continuous_drain_current",
+      "unit": "A"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "ambient_temperature",
+          "unit": "degC",
+          "value": 70
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "table",
+          "page": 1,
+          "section": "Absolute Maximum Ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "min": -3.2,
+      "name": "continuous_drain_current",
+      "unit": "A"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "table",
+          "page": 1,
+          "section": "Absolute Maximum Ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "min": -27,
+      "name": "pulsed_drain_current",
+      "unit": "A"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "ambient_temperature",
+          "unit": "degC",
+          "value": 25
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "table",
+          "page": 1,
+          "section": "Absolute Maximum Ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 1.4,
+      "name": "power_dissipation",
+      "unit": "W"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "ambient_temperature",
+          "unit": "degC",
+          "value": 70
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "table",
+          "page": 1,
+          "section": "Absolute Maximum Ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 0.9,
+      "name": "power_dissipation",
+      "unit": "W"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "table",
+          "page": 1,
+          "section": "Absolute Maximum Ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 150,
+      "min": -55,
+      "name": "junction_storage_temperature",
+      "unit": "degC"
+    },
+    {
+      "classification": "thermal_characteristic",
+      "conditions": [
+        {
+          "operator": "<=",
+          "parameter": "measurement_duration",
+          "unit": "s",
+          "value": 10
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "table",
+          "page": 1,
+          "section": "Thermal Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 90,
+      "name": "junction_to_ambient_thermal_resistance",
+      "typ": 70,
+      "unit": "degC/W"
+    },
+    {
+      "classification": "thermal_characteristic",
+      "conditions": [
+        {
+          "operator": "text",
+          "parameter": "measurement",
+          "unit": null,
+          "value": "steady_state"
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "table",
+          "page": 1,
+          "section": "Thermal Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 125,
+      "name": "junction_to_ambient_thermal_resistance",
+      "typ": 100,
+      "unit": "degC/W"
+    },
+    {
+      "classification": "thermal_characteristic",
+      "conditions": [
+        {
+          "operator": "text",
+          "parameter": "measurement",
+          "unit": null,
+          "value": "steady_state"
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "table",
+          "page": 1,
+          "section": "Thermal Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 80,
+      "name": "junction_to_lead_thermal_resistance",
+      "typ": 63,
+      "unit": "degC/W"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "drain_current",
+          "unit": "uA",
+          "value": -250
+        },
+        {
+          "operator": "=",
+          "parameter": "gate_source_voltage",
+          "unit": "V",
+          "value": 0
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "min": -30,
+      "name": "drain_source_breakdown_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "drain_source_voltage",
+          "unit": "V",
+          "value": -30
+        },
+        {
+          "operator": "=",
+          "parameter": "gate_source_voltage",
+          "unit": "V",
+          "value": 0
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "min": -1,
+      "name": "drain_leakage_current",
+      "unit": "uA"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "drain_source_voltage",
+          "unit": "V",
+          "value": -30
+        },
+        {
+          "operator": "=",
+          "parameter": "gate_source_voltage",
+          "unit": "V",
+          "value": 0
+        },
+        {
+          "operator": "=",
+          "parameter": "junction_temperature",
+          "unit": "degC",
+          "value": 55
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "min": -5,
+      "name": "drain_leakage_current",
+      "unit": "uA"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "drain_source_voltage",
+          "unit": "V",
+          "value": 0
+        },
+        {
+          "operator": "text",
+          "parameter": "gate_source_voltage",
+          "unit": null,
+          "value": "plus_or_minus_12V"
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 100,
+      "min": -100,
+      "name": "gate_leakage_current",
+      "unit": "nA"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "text",
+          "parameter": "drain_source_voltage",
+          "unit": null,
+          "value": "equal_to_gate_source_voltage"
+        },
+        {
+          "operator": "=",
+          "parameter": "drain_current",
+          "unit": "uA",
+          "value": -250
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": -0.5,
+      "min": -1.3,
+      "name": "gate_threshold_voltage",
+      "typ": -0.9,
+      "unit": "V"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "gate_source_voltage",
+          "unit": "V",
+          "value": -10
+        },
+        {
+          "operator": "=",
+          "parameter": "drain_source_voltage",
+          "unit": "V",
+          "value": -5
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "min": -27,
+      "name": "on_state_drain_current",
+      "unit": "A"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "gate_source_voltage",
+          "unit": "V",
+          "value": -10
+        },
+        {
+          "operator": "=",
+          "parameter": "drain_current",
+          "unit": "A",
+          "value": -4
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 50,
+      "name": "on_resistance",
+      "typ": 41,
+      "unit": "mOhm"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "gate_source_voltage",
+          "unit": "V",
+          "value": -10
+        },
+        {
+          "operator": "=",
+          "parameter": "drain_current",
+          "unit": "A",
+          "value": -4
+        },
+        {
+          "operator": "=",
+          "parameter": "junction_temperature",
+          "unit": "degC",
+          "value": 125
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 75,
+      "name": "on_resistance",
+      "typ": 62,
+      "unit": "mOhm"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "gate_source_voltage",
+          "unit": "V",
+          "value": -4.5
+        },
+        {
+          "operator": "=",
+          "parameter": "drain_current",
+          "unit": "A",
+          "value": -3.5
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 60,
+      "name": "on_resistance",
+      "typ": 47,
+      "unit": "mOhm"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "gate_source_voltage",
+          "unit": "V",
+          "value": -2.5
+        },
+        {
+          "operator": "=",
+          "parameter": "drain_current",
+          "unit": "A",
+          "value": -2.5
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 85,
+      "name": "on_resistance",
+      "typ": 60,
+      "unit": "mOhm"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "drain_source_voltage",
+          "unit": "V",
+          "value": -5
+        },
+        {
+          "operator": "=",
+          "parameter": "drain_current",
+          "unit": "A",
+          "value": -4
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "min": 17,
+      "name": "forward_transconductance",
+      "unit": "S"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "source_current",
+          "unit": "A",
+          "value": -1
+        },
+        {
+          "operator": "=",
+          "parameter": "gate_source_voltage",
+          "unit": "V",
+          "value": 0
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "min": -1,
+      "name": "body_diode_forward_voltage",
+      "typ": -0.7,
+      "unit": "V"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "min": -2,
+      "name": "body_diode_continuous_current",
+      "unit": "A"
+    },
+    {
+      "classification": "typical_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "gate_source_voltage",
+          "unit": "V",
+          "value": 0
+        },
+        {
+          "operator": "=",
+          "parameter": "drain_source_voltage",
+          "unit": "V",
+          "value": -15
+        },
+        {
+          "operator": "=",
+          "parameter": "frequency",
+          "unit": "MHz",
+          "value": 1
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "input_capacitance",
+      "typ": 645,
+      "unit": "pF"
+    },
+    {
+      "classification": "typical_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "gate_source_voltage",
+          "unit": "V",
+          "value": 0
+        },
+        {
+          "operator": "=",
+          "parameter": "drain_source_voltage",
+          "unit": "V",
+          "value": -15
+        },
+        {
+          "operator": "=",
+          "parameter": "frequency",
+          "unit": "MHz",
+          "value": 1
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "output_capacitance",
+      "typ": 80,
+      "unit": "pF"
+    },
+    {
+      "classification": "typical_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "gate_source_voltage",
+          "unit": "V",
+          "value": 0
+        },
+        {
+          "operator": "=",
+          "parameter": "drain_source_voltage",
+          "unit": "V",
+          "value": -15
+        },
+        {
+          "operator": "=",
+          "parameter": "frequency",
+          "unit": "MHz",
+          "value": 1
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "reverse_transfer_capacitance",
+      "typ": 55,
+      "unit": "pF"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "gate_source_voltage",
+          "unit": "V",
+          "value": 0
+        },
+        {
+          "operator": "=",
+          "parameter": "drain_source_voltage",
+          "unit": "V",
+          "value": 0
+        },
+        {
+          "operator": "=",
+          "parameter": "frequency",
+          "unit": "MHz",
+          "value": 1
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 12,
+      "min": 4,
+      "name": "gate_resistance",
+      "typ": 7.8,
+      "unit": "Ohm"
+    },
+    {
+      "classification": "typical_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "gate_source_voltage",
+          "unit": "V",
+          "value": -10
+        },
+        {
+          "operator": "=",
+          "parameter": "drain_source_voltage",
+          "unit": "V",
+          "value": -15
+        },
+        {
+          "operator": "=",
+          "parameter": "drain_current",
+          "unit": "A",
+          "value": -4
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "total_gate_charge",
+      "typ": 14,
+      "unit": "nC"
+    },
+    {
+      "classification": "typical_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "gate_source_voltage",
+          "unit": "V",
+          "value": -4.5
+        },
+        {
+          "operator": "=",
+          "parameter": "drain_source_voltage",
+          "unit": "V",
+          "value": -15
+        },
+        {
+          "operator": "=",
+          "parameter": "drain_current",
+          "unit": "A",
+          "value": -4
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "total_gate_charge",
+      "typ": 7,
+      "unit": "nC"
+    },
+    {
+      "classification": "typical_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "drain_source_voltage",
+          "unit": "V",
+          "value": -15
+        },
+        {
+          "operator": "=",
+          "parameter": "drain_current",
+          "unit": "A",
+          "value": -4
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "gate_source_charge",
+      "typ": 1.5,
+      "unit": "nC"
+    },
+    {
+      "classification": "typical_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "drain_source_voltage",
+          "unit": "V",
+          "value": -15
+        },
+        {
+          "operator": "=",
+          "parameter": "drain_current",
+          "unit": "A",
+          "value": -4
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "gate_drain_charge",
+      "typ": 2.5,
+      "unit": "nC"
+    },
+    {
+      "classification": "typical_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "gate_source_voltage",
+          "unit": "V",
+          "value": -10
+        },
+        {
+          "operator": "=",
+          "parameter": "drain_source_voltage",
+          "unit": "V",
+          "value": -15
+        },
+        {
+          "operator": "=",
+          "parameter": "load_resistance",
+          "unit": "Ohm",
+          "value": 3.75
+        },
+        {
+          "operator": "=",
+          "parameter": "generator_resistance",
+          "unit": "Ohm",
+          "value": 3
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "turn_on_delay",
+      "typ": 6.5,
+      "unit": "ns"
+    },
+    {
+      "classification": "typical_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "gate_source_voltage",
+          "unit": "V",
+          "value": -10
+        },
+        {
+          "operator": "=",
+          "parameter": "drain_source_voltage",
+          "unit": "V",
+          "value": -15
+        },
+        {
+          "operator": "=",
+          "parameter": "load_resistance",
+          "unit": "Ohm",
+          "value": 3.75
+        },
+        {
+          "operator": "=",
+          "parameter": "generator_resistance",
+          "unit": "Ohm",
+          "value": 3
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "turn_on_rise_time",
+      "typ": 3.5,
+      "unit": "ns"
+    },
+    {
+      "classification": "typical_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "gate_source_voltage",
+          "unit": "V",
+          "value": -10
+        },
+        {
+          "operator": "=",
+          "parameter": "drain_source_voltage",
+          "unit": "V",
+          "value": -15
+        },
+        {
+          "operator": "=",
+          "parameter": "load_resistance",
+          "unit": "Ohm",
+          "value": 3.75
+        },
+        {
+          "operator": "=",
+          "parameter": "generator_resistance",
+          "unit": "Ohm",
+          "value": 3
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "turn_off_delay",
+      "typ": 41,
+      "unit": "ns"
+    },
+    {
+      "classification": "typical_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "gate_source_voltage",
+          "unit": "V",
+          "value": -10
+        },
+        {
+          "operator": "=",
+          "parameter": "drain_source_voltage",
+          "unit": "V",
+          "value": -15
+        },
+        {
+          "operator": "=",
+          "parameter": "load_resistance",
+          "unit": "Ohm",
+          "value": 3.75
+        },
+        {
+          "operator": "=",
+          "parameter": "generator_resistance",
+          "unit": "Ohm",
+          "value": 3
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "turn_off_fall_time",
+      "typ": 9,
+      "unit": "ns"
+    },
+    {
+      "classification": "typical_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "forward_current",
+          "unit": "A",
+          "value": -4
+        },
+        {
+          "operator": "=",
+          "parameter": "current_slew",
+          "unit": "A/us",
+          "value": 100
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "body_diode_reverse_recovery_time",
+      "typ": 11,
+      "unit": "ns"
+    },
+    {
+      "classification": "typical_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "forward_current",
+          "unit": "A",
+          "value": -4
+        },
+        {
+          "operator": "=",
+          "parameter": "current_slew",
+          "unit": "A/us",
+          "value": 100
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "body_diode_reverse_recovery_charge",
+      "typ": 3.5,
+      "unit": "nC"
+    }
+  ],
+  "status": "active"
+}

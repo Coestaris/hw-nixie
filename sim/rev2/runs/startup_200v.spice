@@ -1,0 +1,12 @@
+* Mid-scale startup transient: 5 V input, enabled converter, 1.65 V control.
+* The filename is historical; the current feedback network targets about 154.4 V.
+.options method=gear reltol=0.003 abstol=1n vntol=10u chgtol=1e-14
+.save time V(Net-_U8-VBUS_) V(LINE) V(FB) V(MC_BOOST_CV) V(Net-_D1-A_) V(Net-_D2-A_) V(Net-_D2-K_) V(Net-_Q1-S_) V(Net-_Q1-G_) I(VUSB) @l.xt1.lprimary[i]
+.tran 100n 100m 0 100n uic
+.meas tran VOUT_FINAL avg V(LINE) from=99m to=100m
+.meas tran VOUT_RIPPLE pp V(LINE) from=99m to=100m
+.meas tran FB_FINAL avg V(FB) from=99m to=100m
+.meas tran VOUT_MAX max V(LINE)
+.meas tran SW_MAX max V(Net-_D1-A_)
+.meas tran SECONDARY_MAX max V(Net-_D2-A_)
+.meas tran IUSB_FINAL avg I(VUSB) from=99m to=100m

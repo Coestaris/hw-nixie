@@ -1,0 +1,220 @@
+{
+  "name": "QX851_CuH_S_SMD4",
+  "description": "NQUNXIN QX851-CuH-S SMD4; body 6.50 x 4.60 mm, lead span 10.16 mm, pitch 2.54 mm. Source: assets/Optocoupler/QX851-CuH-S.pdf page 9. Land pattern adapted from KiCad SMDIP-4_W9.53mm.",
+  "reference_at": [
+    0,
+    -3.65
+  ],
+  "value_at": [
+    0,
+    3.65
+  ],
+  "pads": [
+    {
+      "number": "1",
+      "at": [
+        -4.765,
+        -1.27
+      ],
+      "size": [
+        2.0,
+        1.78
+      ],
+      "shape": "roundrect"
+    },
+    {
+      "number": "2",
+      "at": [
+        -4.765,
+        1.27
+      ],
+      "size": [
+        2.0,
+        1.78
+      ],
+      "shape": "roundrect"
+    },
+    {
+      "number": "3",
+      "at": [
+        4.765,
+        1.27
+      ],
+      "size": [
+        2.0,
+        1.78
+      ],
+      "shape": "roundrect"
+    },
+    {
+      "number": "4",
+      "at": [
+        4.765,
+        -1.27
+      ],
+      "size": [
+        2.0,
+        1.78
+      ],
+      "shape": "roundrect"
+    }
+  ],
+  "lines": [
+    {
+      "start": [
+        -3.25,
+        -2.3
+      ],
+      "end": [
+        3.25,
+        -2.3
+      ],
+      "layer": "F.Fab",
+      "width": 0.1
+    },
+    {
+      "start": [
+        3.25,
+        -2.3
+      ],
+      "end": [
+        3.25,
+        2.3
+      ],
+      "layer": "F.Fab",
+      "width": 0.1
+    },
+    {
+      "start": [
+        3.25,
+        2.3
+      ],
+      "end": [
+        -3.25,
+        2.3
+      ],
+      "layer": "F.Fab",
+      "width": 0.1
+    },
+    {
+      "start": [
+        -3.25,
+        2.3
+      ],
+      "end": [
+        -3.25,
+        -2.3
+      ],
+      "layer": "F.Fab",
+      "width": 0.1
+    },
+    {
+      "start": [
+        -6.05,
+        -2.65
+      ],
+      "end": [
+        6.05,
+        -2.65
+      ],
+      "layer": "F.CrtYd",
+      "width": 0.05
+    },
+    {
+      "start": [
+        6.05,
+        -2.65
+      ],
+      "end": [
+        6.05,
+        2.65
+      ],
+      "layer": "F.CrtYd",
+      "width": 0.05
+    },
+    {
+      "start": [
+        6.05,
+        2.65
+      ],
+      "end": [
+        -6.05,
+        2.65
+      ],
+      "layer": "F.CrtYd",
+      "width": 0.05
+    },
+    {
+      "start": [
+        -6.05,
+        2.65
+      ],
+      "end": [
+        -6.05,
+        -2.65
+      ],
+      "layer": "F.CrtYd",
+      "width": 0.05
+    },
+    {
+      "start": [
+        -3.25,
+        -2.4
+      ],
+      "end": [
+        3.25,
+        -2.4
+      ],
+      "layer": "F.SilkS",
+      "width": 0.12
+    },
+    {
+      "start": [
+        -3.25,
+        2.4
+      ],
+      "end": [
+        3.25,
+        2.4
+      ],
+      "layer": "F.SilkS",
+      "width": 0.12
+    },
+    {
+      "start": [
+        -3.25,
+        -2.3
+      ],
+      "end": [
+        -2.7,
+        -2.3
+      ],
+      "layer": "F.Fab",
+      "width": 0.1
+    },
+    {
+      "start": [
+        -3.25,
+        -2.3
+      ],
+      "end": [
+        -3.25,
+        -1.75
+      ],
+      "layer": "F.Fab",
+      "width": 0.1
+    },
+    {
+      "start": [
+        -5.1,
+        -2.45
+      ],
+      "end": [
+        -4.4,
+        -2.45
+      ],
+      "layer": "F.SilkS",
+      "width": 0.12
+    }
+  ]
+}

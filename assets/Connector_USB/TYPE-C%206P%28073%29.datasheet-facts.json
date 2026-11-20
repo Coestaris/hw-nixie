@@ -1,0 +1,316 @@
+{
+  "categories": [
+    "connector"
+  ],
+  "document": {
+    "identity": {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "98756b6026c3ad625679d384f382df5910246c3bf98a7d85897eb9f5d603b504",
+          "method": "prose",
+          "page": 1,
+          "section": "Part number and document title"
+        }
+      ],
+      "family_members": [
+        "TYPE-C 6P(073)"
+      ],
+      "requested_mpn": "TYPE-C 6P(073)",
+      "status": "exact"
+    },
+    "manufacturer": "SHOU HAN",
+    "pages": 6,
+    "path": "TYPE-C%206P%28073%29.pdf",
+    "sha256": "98756b6026c3ad625679d384f382df5910246c3bf98a7d85897eb9f5d603b504"
+  },
+  "extracted_at": "2026-09-30T10:19:21.316468+00:00",
+  "extractor_version": "manual-evidence-2",
+  "manufacturer": "SHOU HAN",
+  "missing": [
+    "The drawing names six contacts but does not state the VBUS, GND, or CC signal functions for each contact.",
+    "Shield and mounting-pad count and electrical connection are not fully specified in the text.",
+    "No simulation model is identified."
+  ],
+  "mpn": "TYPE-C 6P(073)",
+  "packages": [
+    {
+      "applicable_mpns": [
+        "TYPE-C 6P(073)"
+      ],
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "98756b6026c3ad625679d384f382df5910246c3bf98a7d85897eb9f5d603b504",
+          "method": "table",
+          "page": 1,
+          "section": "Connector drawing and pin assignments"
+        }
+      ],
+      "manufacturer_name": "USB Type-C 6P(073)",
+      "pin_count": 6
+    }
+  ],
+  "pins": [
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "98756b6026c3ad625679d384f382df5910246c3bf98a7d85897eb9f5d603b504",
+          "method": "table",
+          "page": 1,
+          "section": "Pin assignments"
+        }
+      ],
+      "functions": [
+        "Contact A5"
+      ],
+      "name": "A5",
+      "numbers": [
+        "A5"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "98756b6026c3ad625679d384f382df5910246c3bf98a7d85897eb9f5d603b504",
+          "method": "table",
+          "page": 1,
+          "section": "Pin assignments"
+        }
+      ],
+      "functions": [
+        "Contact A9"
+      ],
+      "name": "A9",
+      "numbers": [
+        "A9"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "98756b6026c3ad625679d384f382df5910246c3bf98a7d85897eb9f5d603b504",
+          "method": "table",
+          "page": 1,
+          "section": "Pin assignments"
+        }
+      ],
+      "functions": [
+        "Contact A12"
+      ],
+      "name": "A12",
+      "numbers": [
+        "A12"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "98756b6026c3ad625679d384f382df5910246c3bf98a7d85897eb9f5d603b504",
+          "method": "table",
+          "page": 1,
+          "section": "Pin assignments"
+        }
+      ],
+      "functions": [
+        "Contact B12"
+      ],
+      "name": "B12",
+      "numbers": [
+        "B12"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "98756b6026c3ad625679d384f382df5910246c3bf98a7d85897eb9f5d603b504",
+          "method": "table",
+          "page": 1,
+          "section": "Pin assignments"
+        }
+      ],
+      "functions": [
+        "Contact B9"
+      ],
+      "name": "B9",
+      "numbers": [
+        "B9"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "98756b6026c3ad625679d384f382df5910246c3bf98a7d85897eb9f5d603b504",
+          "method": "table",
+          "page": 1,
+          "section": "Pin assignments"
+        }
+      ],
+      "functions": [
+        "Contact B5"
+      ],
+      "name": "B5",
+      "numbers": [
+        "B5"
+      ],
+      "type": "passive"
+    }
+  ],
+  "quality": {
+    "base_specs": 85,
+    "category_specs": 80,
+    "evidence": 100,
+    "identity": 85,
+    "overall": 84,
+    "pinout": 80
+  },
+  "schema_version": 1,
+  "specs": [
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "98756b6026c3ad625679d384f382df5910246c3bf98a7d85897eb9f5d603b504",
+          "method": "table",
+          "page": 1,
+          "section": "Electrical performance"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 5,
+      "name": "rated_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "98756b6026c3ad625679d384f382df5910246c3bf98a7d85897eb9f5d603b504",
+          "method": "table",
+          "page": 1,
+          "section": "Electrical performance"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 3,
+      "name": "rated_current",
+      "unit": "A"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "98756b6026c3ad625679d384f382df5910246c3bf98a7d85897eb9f5d603b504",
+          "method": "table",
+          "page": 1,
+          "section": "Electrical performance"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 40,
+      "name": "contact_resistance",
+      "unit": "mohm"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "98756b6026c3ad625679d384f382df5910246c3bf98a7d85897eb9f5d603b504",
+          "method": "table",
+          "page": 1,
+          "section": "Electrical performance"
+        }
+      ],
+      "fact_kind": "fact",
+      "min": 100,
+      "name": "insulation_resistance",
+      "unit": "Mohm"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "duration",
+          "unit": "minute",
+          "value": 1
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "98756b6026c3ad625679d384f382df5910246c3bf98a7d85897eb9f5d603b504",
+          "method": "table",
+          "page": 1,
+          "section": "Electrical performance"
+        }
+      ],
+      "fact_kind": "fact",
+      "min": 100,
+      "name": "dielectric_withstand",
+      "unit": "Vac"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "98756b6026c3ad625679d384f382df5910246c3bf98a7d85897eb9f5d603b504",
+          "method": "table",
+          "page": 1,
+          "section": "Environmental performance"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 80,
+      "min": -30,
+      "name": "operating_temperature",
+      "unit": "degC"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "98756b6026c3ad625679d384f382df5910246c3bf98a7d85897eb9f5d603b504",
+          "method": "table",
+          "page": 1,
+          "section": "Mechanical performance"
+        }
+      ],
+      "fact_kind": "fact",
+      "min": 10000,
+      "name": "mating_cycles",
+      "unit": "cycles"
+    }
+  ],
+  "status": "active"
+}

@@ -1,0 +1,189 @@
+{
+  "categories": [
+    "capacitor"
+  ],
+  "category_facts": {
+    "capacitor": {
+      "dielectric": "X7R"
+    }
+  },
+  "document": {
+    "identity": {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "61a606825ab314ea318cfb5362848a62fdffb851efa9818d642e9a541c56a648",
+          "method": "table",
+          "page": 1,
+          "section": "Family title and ordering-code applicability"
+        }
+      ],
+      "family_members": [
+        "CC0201KRX7R9BB102"
+      ],
+      "requested_mpn": "CC0201KRX7R9BB102",
+      "status": "family"
+    },
+    "manufacturer": "YAGEO",
+    "pages": 29,
+    "path": "CC0201KRX7R9BB102.pdf",
+    "sha256": "61a606825ab314ea318cfb5362848a62fdffb851efa9818d642e9a541c56a648"
+  },
+  "extracted_at": "2026-09-30T09:56:10.464434+00:00",
+  "extractor_version": "manual-evidence-2",
+  "manufacturer": "YAGEO",
+  "missing": [
+    "The manufacturer does not number the two symmetric terminals.",
+    "The exact capacitance loss under DC bias and AC drive is not tabulated for this order code.",
+    "ESR, ESL, self-resonant frequency, and ripple-current limit are not published for this order code.",
+    "No simulation model is identified."
+  ],
+  "mpn": "CC0201KRX7R9BB102",
+  "packages": [
+    {
+      "applicable_mpns": [
+        "CC0201KRX7R9BB102"
+      ],
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "61a606825ab314ea318cfb5362848a62fdffb851efa9818d642e9a541c56a648",
+          "method": "table",
+          "page": 3,
+          "section": "Dimensions, Table 1"
+        }
+      ],
+      "manufacturer_name": "0201",
+      "package_body": {
+        "height_mm": 0.3,
+        "length_mm": 0.6,
+        "width_mm": 0.3
+      },
+      "pin_count": null
+    }
+  ],
+  "pins": [],
+  "quality": {
+    "base_specs": 85,
+    "category_specs": 75,
+    "evidence": 100,
+    "identity": 85,
+    "overall": 83,
+    "pinout": 100
+  },
+  "schema_version": 1,
+  "specs": [
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "61a606825ab314ea318cfb5362848a62fdffb851efa9818d642e9a541c56a648",
+          "method": "table",
+          "page": 2,
+          "section": "Ordering information"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "capacitance",
+      "typ": 1e-09,
+      "unit": "F"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "61a606825ab314ea318cfb5362848a62fdffb851efa9818d642e9a541c56a648",
+          "method": "table",
+          "page": 2,
+          "section": "Ordering information"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 50,
+      "name": "rated_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "61a606825ab314ea318cfb5362848a62fdffb851efa9818d642e9a541c56a648",
+          "method": "table",
+          "page": 14,
+          "section": "Electrical characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 125,
+      "min": -55,
+      "name": "operating_temperature",
+      "unit": "degC"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "61a606825ab314ea318cfb5362848a62fdffb851efa9818d642e9a541c56a648",
+          "method": "table",
+          "page": 2,
+          "section": "Ordering information"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 10,
+      "min": -10,
+      "name": "capacitance_tolerance",
+      "unit": "percent"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "61a606825ab314ea318cfb5362848a62fdffb851efa9818d642e9a541c56a648",
+          "method": "table",
+          "page": 14,
+          "section": "Electrical characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 5,
+      "name": "dissipation_factor",
+      "unit": "percent"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "61a606825ab314ea318cfb5362848a62fdffb851efa9818d642e9a541c56a648",
+          "method": "table",
+          "page": 14,
+          "section": "Electrical characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 15,
+      "min": -15,
+      "name": "capacitance_temperature_change",
+      "unit": "percent"
+    }
+  ],
+  "status": "active"
+}

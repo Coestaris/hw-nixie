@@ -1,0 +1,214 @@
+{
+  "categories": [
+    "resistor"
+  ],
+  "category_facts": {
+    "resistor": {
+      "technology": "thick film"
+    }
+  },
+  "document": {
+    "identity": {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "379548968431087a8b309918ef8dbd5c9d4da08d1f6517665541fc746d163bcc",
+          "method": "table",
+          "page": 1,
+          "section": "Family title and ordering-code applicability"
+        }
+      ],
+      "family_members": [
+        "SC1206F1003F8ANRH"
+      ],
+      "requested_mpn": "SC1206F1003F8ANRH",
+      "status": "family"
+    },
+    "manufacturer": "Sunway",
+    "pages": 22,
+    "path": "SC1206F1003F8ANRH.pdf",
+    "sha256": "379548968431087a8b309918ef8dbd5c9d4da08d1f6517665541fc746d163bcc"
+  },
+  "extracted_at": "2026-09-30T09:52:03.878443+00:00",
+  "extractor_version": "manual-evidence-2",
+  "manufacturer": "Sunway",
+  "missing": [
+    "The manufacturer does not number the two symmetric terminals.",
+    "Pulse-energy limit, high-frequency parasitics, and thermal resistance are not published for this order code.",
+    "No simulation model is identified."
+  ],
+  "mpn": "SC1206F1003F8ANRH",
+  "packages": [
+    {
+      "applicable_mpns": [
+        "SC1206F1003F8ANRH"
+      ],
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "379548968431087a8b309918ef8dbd5c9d4da08d1f6517665541fc746d163bcc",
+          "method": "table",
+          "page": 6,
+          "row": "SC1206",
+          "section": "Dimensions"
+        }
+      ],
+      "manufacturer_name": "SC1206",
+      "package_body": {
+        "height_mm": 0.55,
+        "length_mm": 3.1,
+        "width_mm": 1.6
+      },
+      "pin_count": null
+    }
+  ],
+  "pins": [],
+  "quality": {
+    "base_specs": 85,
+    "category_specs": 80,
+    "evidence": 100,
+    "identity": 85,
+    "overall": 85,
+    "pinout": 100
+  },
+  "schema_version": 1,
+  "specs": [
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "379548968431087a8b309918ef8dbd5c9d4da08d1f6517665541fc746d163bcc",
+          "method": "table",
+          "page": 3,
+          "row": "SC1206",
+          "section": "Ordering code"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "resistance",
+      "typ": 100000,
+      "unit": "ohm"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "379548968431087a8b309918ef8dbd5c9d4da08d1f6517665541fc746d163bcc",
+          "method": "table",
+          "page": 3,
+          "row": "SC1206",
+          "section": "Ordering code"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 1,
+      "min": -1,
+      "name": "tolerance",
+      "unit": "percent"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "379548968431087a8b309918ef8dbd5c9d4da08d1f6517665541fc746d163bcc",
+          "method": "table",
+          "page": 8,
+          "row": "SC1206",
+          "section": "Electrical characteristics, Table 1"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 0.25,
+      "name": "rated_power",
+      "unit": "W"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "379548968431087a8b309918ef8dbd5c9d4da08d1f6517665541fc746d163bcc",
+          "method": "table",
+          "page": 8,
+          "row": "SC1206",
+          "section": "Electrical characteristics, Table 1"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 200,
+      "name": "maximum_working_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "379548968431087a8b309918ef8dbd5c9d4da08d1f6517665541fc746d163bcc",
+          "method": "table",
+          "page": 8,
+          "row": "SC1206",
+          "section": "Electrical characteristics, Table 1"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 400,
+      "name": "maximum_overload_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "379548968431087a8b309918ef8dbd5c9d4da08d1f6517665541fc746d163bcc",
+          "method": "table",
+          "page": 8,
+          "row": "SC1206",
+          "section": "Temperature coefficient"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 100,
+      "min": -100,
+      "name": "temperature_coefficient",
+      "unit": "ppm/degC"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "379548968431087a8b309918ef8dbd5c9d4da08d1f6517665541fc746d163bcc",
+          "method": "table",
+          "page": 8,
+          "row": "SC1206",
+          "section": "Electrical characteristics, Table 1"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 155,
+      "min": -55,
+      "name": "operating_temperature",
+      "unit": "degC"
+    }
+  ],
+  "status": "active"
+}

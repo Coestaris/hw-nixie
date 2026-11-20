@@ -1,0 +1,365 @@
+{
+  "categories": [
+    "regulator"
+  ],
+  "document": {
+    "identity": {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "83e9f5ba1c369a0544974c9816e4819cae4b657e58f7169f184ee38aaeac38e7",
+          "method": "table",
+          "page": 1,
+          "section": "Family title and ordering-code applicability"
+        }
+      ],
+      "family_members": [
+        "XC6206P332MR"
+      ],
+      "requested_mpn": "XC6206P332MR",
+      "status": "family"
+    },
+    "manufacturer": "PUOLOP",
+    "pages": 7,
+    "path": "XC6206P332MR.pdf",
+    "sha256": "83e9f5ba1c369a0544974c9816e4819cae4b657e58f7169f184ee38aaeac38e7"
+  },
+  "extracted_at": "2026-09-30T10:11:45.085213+00:00",
+  "extractor_version": "manual-evidence-2",
+  "manufacturer": "PUOLOP",
+  "missing": [
+    "The exact part code does not appear verbatim; applicability follows the XC6206P ordering-code table.",
+    "PSRR across frequency, transient performance limits, and reverse-current behavior are not fully specified.",
+    "No simulation model is identified."
+  ],
+  "mpn": "XC6206P332MR",
+  "packages": [
+    {
+      "applicable_mpns": [
+        "XC6206P332MR"
+      ],
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "83e9f5ba1c369a0544974c9816e4819cae4b657e58f7169f184ee38aaeac38e7",
+          "method": "table",
+          "page": 5,
+          "section": "Ordering information, M package code"
+        }
+      ],
+      "manufacturer_name": "SOT-23-3",
+      "pin_count": 3
+    }
+  ],
+  "pins": [
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "83e9f5ba1c369a0544974c9816e4819cae4b657e58f7169f184ee38aaeac38e7",
+          "method": "table",
+          "page": 6,
+          "section": "Pin configuration, SOT23-3 top view"
+        }
+      ],
+      "functions": [
+        "Ground"
+      ],
+      "name": "VSS",
+      "numbers": [
+        "1"
+      ],
+      "type": "ground"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "83e9f5ba1c369a0544974c9816e4819cae4b657e58f7169f184ee38aaeac38e7",
+          "method": "table",
+          "page": 6,
+          "section": "Pin configuration, SOT23-3 top view"
+        }
+      ],
+      "functions": [
+        "Regulated output"
+      ],
+      "name": "VOUT",
+      "numbers": [
+        "2"
+      ],
+      "type": "power_out"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "83e9f5ba1c369a0544974c9816e4819cae4b657e58f7169f184ee38aaeac38e7",
+          "method": "table",
+          "page": 6,
+          "section": "Pin configuration, SOT23-3 top view"
+        }
+      ],
+      "functions": [
+        "Supply input"
+      ],
+      "name": "VIN",
+      "numbers": [
+        "3"
+      ],
+      "type": "power_in"
+    }
+  ],
+  "quality": {
+    "base_specs": 85,
+    "category_specs": 82,
+    "evidence": 100,
+    "identity": 90,
+    "overall": 88,
+    "pinout": 95
+  },
+  "schema_version": 1,
+  "specs": [
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "83e9f5ba1c369a0544974c9816e4819cae4b657e58f7169f184ee38aaeac38e7",
+          "method": "table",
+          "page": 2,
+          "section": "Absolute maximum ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 6,
+      "name": "input_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "83e9f5ba1c369a0544974c9816e4819cae4b657e58f7169f184ee38aaeac38e7",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 6,
+      "min": 1.8,
+      "name": "input_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "83e9f5ba1c369a0544974c9816e4819cae4b657e58f7169f184ee38aaeac38e7",
+          "method": "table",
+          "page": 5,
+          "section": "Ordering information, 33 voltage code"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "output_voltage",
+      "typ": 3.3,
+      "unit": "V"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "input_voltage",
+          "unit": "V",
+          "value": 4.3
+        },
+        {
+          "operator": "=",
+          "parameter": "output_current",
+          "unit": "mA",
+          "value": 1
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "83e9f5ba1c369a0544974c9816e4819cae4b657e58f7169f184ee38aaeac38e7",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 2,
+      "min": -2,
+      "name": "output_accuracy",
+      "unit": "percent"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": ">=",
+          "parameter": "input_voltage_headroom",
+          "unit": "V",
+          "value": 1
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "83e9f5ba1c369a0544974c9816e4819cae4b657e58f7169f184ee38aaeac38e7",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "min": 100,
+      "name": "output_current",
+      "unit": "mA"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "output_current",
+          "unit": "mA",
+          "value": 50
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "83e9f5ba1c369a0544974c9816e4819cae4b657e58f7169f184ee38aaeac38e7",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical characteristics, 2.6 to 3.3V row"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 0.24,
+      "name": "dropout_voltage",
+      "typ": 0.16,
+      "unit": "V"
+    },
+    {
+      "classification": "typical_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "input_voltage_headroom",
+          "unit": "V",
+          "value": 1
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "83e9f5ba1c369a0544974c9816e4819cae4b657e58f7169f184ee38aaeac38e7",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "supply_current",
+      "typ": 2,
+      "unit": "uA"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "83e9f5ba1c369a0544974c9816e4819cae4b657e58f7169f184ee38aaeac38e7",
+          "method": "table",
+          "page": 2,
+          "section": "Absolute maximum ratings, SOT23-3"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 250,
+      "name": "power_dissipation",
+      "unit": "mW"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "83e9f5ba1c369a0544974c9816e4819cae4b657e58f7169f184ee38aaeac38e7",
+          "method": "table",
+          "page": 2,
+          "section": "Absolute maximum ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 85,
+      "min": -40,
+      "name": "operating_temperature",
+      "unit": "degC"
+    },
+    {
+      "classification": "application_recommendation",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "83e9f5ba1c369a0544974c9816e4819cae4b657e58f7169f184ee38aaeac38e7",
+          "method": "table",
+          "page": 4,
+          "section": "Application conditions"
+        }
+      ],
+      "fact_kind": "fact",
+      "min": 1,
+      "name": "input_capacitance_minimum",
+      "unit": "uF"
+    },
+    {
+      "classification": "application_recommendation",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "83e9f5ba1c369a0544974c9816e4819cae4b657e58f7169f184ee38aaeac38e7",
+          "method": "table",
+          "page": 4,
+          "section": "Application conditions"
+        }
+      ],
+      "fact_kind": "fact",
+      "min": 0.1,
+      "name": "output_capacitance_minimum",
+      "unit": "uF"
+    }
+  ],
+  "status": "active",
+  "warnings": [
+    "The PDF bears a PUOLOP logo, but an internal remark names Natlinear; retain family-level identity pending supplier confirmation.",
+    "The output capacitor example is tantalum and the datasheet instructs checking the selected capacitors for oscillation."
+  ]
+}

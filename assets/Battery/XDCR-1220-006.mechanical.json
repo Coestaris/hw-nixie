@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "mpn": "XDCR-1220-006",
+  "pdf": "XDCR-1220-006.pdf",
+  "pdf_sha256": "45c29a180e9e949ad651caf592880dffd1137370a803ff4c941537010589cafc",
+  "locator": {
+    "page": 1,
+    "figures": [
+      "top view",
+      "side view",
+      "bottom view",
+      "PCB Holes Diagram"
+    ],
+    "units": "mm"
+  },
+  "dimensions_mm": {
+    "body_width": {
+      "nominal": 19.4,
+      "tolerance": 0.3
+    },
+    "circular_outer_diameter": {
+      "nominal": 14.7,
+      "tolerance": 0.1
+    },
+    "circular_inner_diameter": {
+      "nominal": 12.7,
+      "tolerance": 0.1
+    },
+    "installed_height": {
+      "nominal": 4.15,
+      "tolerance": 0.1
+    },
+    "terminal_inclusive_width": {
+      "nominal": 21.2,
+      "derivation": "PCB-hole chain 4.5 + 5.9 + 6.3 + 4.5"
+    },
+    "locator_hole_diameter": 1.2,
+    "locator_hole_x": [
+      -3.7,
+      3.8
+    ],
+    "terminal_center_x": [
+      -8.15,
+      8.55
+    ],
+    "terminal_land_size": [
+      4.5,
+      2.3
+    ]
+  },
+  "derived_artifacts": {
+    "dimension_contract": "BatteryHolder_LianXin_XDCR-1220-006.datasheet-dimensions.json",
+    "qa_report": "BatteryHolder_LianXin_XDCR-1220-006-qa.json",
+    "top_projection": "BatteryHolder_LianXin_XDCR-1220-006-top.svg",
+    "front_projection": "BatteryHolder_LianXin_XDCR-1220-006-front.svg",
+    "side_projection": "BatteryHolder_LianXin_XDCR-1220-006-side.svg",
+    "footprint_comparison": "BatteryHolder_LianXin_XDCR-1220-006-footprint-comparison.svg"
+  }
+}

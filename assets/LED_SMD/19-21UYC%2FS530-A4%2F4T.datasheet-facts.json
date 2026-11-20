@@ -1,0 +1,319 @@
+{
+  "categories": [
+    "led"
+  ],
+  "document": {
+    "identity": {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "804146c9f50710f5b141f6a25059b7ff9cfedac17aef9257bbd0a9bd6a0fe4fd",
+          "method": "prose",
+          "page": 1,
+          "section": "Part number and document title"
+        }
+      ],
+      "family_members": [
+        "19-21UYC/S530-A4/4T"
+      ],
+      "requested_mpn": "19-21UYC/S530-A4/4T",
+      "status": "exact"
+    },
+    "manufacturer": "Everlight Elec",
+    "pages": 10,
+    "path": "19-21UYC%2FS530-A4%2F4T.pdf",
+    "sha256": "804146c9f50710f5b141f6a25059b7ff9cfedac17aef9257bbd0a9bd6a0fe4fd"
+  },
+  "extracted_at": "2026-09-30T10:06:31.229471+00:00",
+  "extractor_version": "manual-evidence-2",
+  "manufacturer": "Everlight Elec",
+  "missing": [
+    "Junction-to-ambient thermal resistance, luminous bin details, long-term aging, and simulation model are not published."
+  ],
+  "mpn": "19-21UYC/S530-A4/4T",
+  "packages": [
+    {
+      "applicable_mpns": [
+        "19-21UYC/S530-A4/4T"
+      ],
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "804146c9f50710f5b141f6a25059b7ff9cfedac17aef9257bbd0a9bd6a0fe4fd",
+          "method": "table",
+          "page": 5,
+          "section": "Package dimension and polarity"
+        }
+      ],
+      "manufacturer_name": "19-21 SMD B",
+      "package_body": {
+        "height_mm": 0.8,
+        "length_mm": 1.6,
+        "width_mm": 0.8
+      },
+      "pin_count": 2
+    }
+  ],
+  "pins": [
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "804146c9f50710f5b141f6a25059b7ff9cfedac17aef9257bbd0a9bd6a0fe4fd",
+          "method": "table",
+          "page": 5,
+          "section": "Package polarity diagram"
+        }
+      ],
+      "functions": [
+        "Anode"
+      ],
+      "name": "A",
+      "numbers": [
+        "1"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "804146c9f50710f5b141f6a25059b7ff9cfedac17aef9257bbd0a9bd6a0fe4fd",
+          "method": "table",
+          "page": 5,
+          "section": "Package polarity diagram"
+        }
+      ],
+      "functions": [
+        "Cathode"
+      ],
+      "name": "K",
+      "numbers": [
+        "2"
+      ],
+      "type": "passive"
+    }
+  ],
+  "quality": {
+    "base_specs": 85,
+    "category_specs": 82,
+    "evidence": 100,
+    "identity": 90,
+    "overall": 88,
+    "pinout": 100
+  },
+  "schema_version": 1,
+  "specs": [
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "804146c9f50710f5b141f6a25059b7ff9cfedac17aef9257bbd0a9bd6a0fe4fd",
+          "method": "table",
+          "page": 2,
+          "section": "Absolute maximum ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 25,
+      "name": "forward_current",
+      "unit": "mA"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "duty_cycle",
+          "unit": null,
+          "value": 0.1
+        },
+        {
+          "operator": "=",
+          "parameter": "repetition_frequency",
+          "unit": "Hz",
+          "value": 1000
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "804146c9f50710f5b141f6a25059b7ff9cfedac17aef9257bbd0a9bd6a0fe4fd",
+          "method": "table",
+          "page": 2,
+          "section": "Absolute maximum ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 60,
+      "name": "peak_forward_current",
+      "unit": "mA"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "804146c9f50710f5b141f6a25059b7ff9cfedac17aef9257bbd0a9bd6a0fe4fd",
+          "method": "table",
+          "page": 2,
+          "section": "Absolute maximum ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 5,
+      "name": "reverse_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "804146c9f50710f5b141f6a25059b7ff9cfedac17aef9257bbd0a9bd6a0fe4fd",
+          "method": "table",
+          "page": 2,
+          "section": "Absolute maximum ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 60,
+      "name": "power_dissipation",
+      "unit": "mW"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "804146c9f50710f5b141f6a25059b7ff9cfedac17aef9257bbd0a9bd6a0fe4fd",
+          "method": "table",
+          "page": 2,
+          "section": "Absolute maximum ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 85,
+      "min": -40,
+      "name": "operating_temperature",
+      "unit": "degC"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "forward_current",
+          "unit": "mA",
+          "value": 20
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "804146c9f50710f5b141f6a25059b7ff9cfedac17aef9257bbd0a9bd6a0fe4fd",
+          "method": "table",
+          "page": 3,
+          "section": "Electro-optical characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 2.4,
+      "min": 1.7,
+      "name": "forward_voltage",
+      "typ": 2,
+      "unit": "V"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "forward_current",
+          "unit": "mA",
+          "value": 20
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "804146c9f50710f5b141f6a25059b7ff9cfedac17aef9257bbd0a9bd6a0fe4fd",
+          "method": "table",
+          "page": 3,
+          "section": "Electro-optical characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "min": 53,
+      "name": "luminous_intensity",
+      "typ": 80,
+      "unit": "mcd"
+    },
+    {
+      "classification": "typical_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "forward_current",
+          "unit": "mA",
+          "value": 20
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "804146c9f50710f5b141f6a25059b7ff9cfedac17aef9257bbd0a9bd6a0fe4fd",
+          "method": "table",
+          "page": 3,
+          "section": "Electro-optical characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "dominant_wavelength",
+      "typ": 589,
+      "unit": "nm"
+    },
+    {
+      "classification": "typical_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "forward_current",
+          "unit": "mA",
+          "value": 20
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "804146c9f50710f5b141f6a25059b7ff9cfedac17aef9257bbd0a9bd6a0fe4fd",
+          "method": "table",
+          "page": 3,
+          "section": "Electro-optical characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "viewing_angle",
+      "typ": 100,
+      "unit": "deg"
+    }
+  ],
+  "status": "active",
+  "warnings": [
+    "The datasheet states that reverse voltage is an IR test condition only and the LED is not designed for reverse operation."
+  ]
+}

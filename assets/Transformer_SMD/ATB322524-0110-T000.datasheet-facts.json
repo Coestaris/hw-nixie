@@ -1,0 +1,350 @@
+{
+  "application_notes": [
+    {
+      "application": "Xenon flash and haptics",
+      "page": 1
+    },
+    {
+      "page": 3,
+      "recommendation": "Use the published reflow profile; peak 245 degC for 10 seconds maximum."
+    }
+  ],
+  "categories": [
+    "transformer"
+  ],
+  "category_facts": {
+    "transformer": {
+      "construction": "wound SMD step-up transformer"
+    }
+  },
+  "description": "Wound SMD step-up transformer for xenon flash and haptics",
+  "document": {
+    "identity": {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "871abefa8b09ed06e3417a92577496d4df9047f8e43b8ebe84f02a8e40084d1d",
+          "method": "table",
+          "page": 1,
+          "row": "ATB322524-0110-T000",
+          "section": "Characteristics specification table"
+        }
+      ],
+      "family_members": [
+        "ATB322524-0110-T000"
+      ],
+      "package_variant": "ATB322524",
+      "requested_mpn": "ATB322524-0110-T000",
+      "status": "exact"
+    },
+    "manufacturer": "TDK",
+    "pages": 5,
+    "path": "ATB322524-0110-T000.pdf",
+    "revision_date": "2019-02-21",
+    "sha256": "871abefa8b09ed06e3417a92577496d4df9047f8e43b8ebe84f02a8e40084d1d"
+  },
+  "extracted_at": "2026-09-23T18:40:00Z",
+  "extractor_version": "manual-2",
+  "family": "ATB3225",
+  "manufacturer": "TDK",
+  "missing": [
+    "Interwinding capacitance, insulation resistance, coupling coefficient, core material, flux limit, loss data, and safety approvals are not published.",
+    "The circuit diagram identifies winding pairs but does not designate polarity dots.",
+    "No simulation model is identified."
+  ],
+  "models": [],
+  "mpn": "ATB322524-0110-T000",
+  "packages": [
+    {
+      "applicable_mpns": [
+        "ATB322524-0110-T000"
+      ],
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "871abefa8b09ed06e3417a92577496d4df9047f8e43b8ebe84f02a8e40084d1d",
+          "method": "table",
+          "page": 3,
+          "section": "Shape & dimensions"
+        }
+      ],
+      "exposed_pad": false,
+      "manufacturer_name": "ATB322524",
+      "package_body": {
+        "height_mm": 2.4,
+        "length_mm": 3.2,
+        "width_mm": 2.5
+      },
+      "pin_count": 4,
+      "thermal_pad": false
+    }
+  ],
+  "pins": [
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "871abefa8b09ed06e3417a92577496d4df9047f8e43b8ebe84f02a8e40084d1d",
+          "method": "table",
+          "page": 3,
+          "section": "Circuit diagram"
+        }
+      ],
+      "functions": [
+        "primary winding terminal"
+      ],
+      "name": "PRI1",
+      "numbers": [
+        "1"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "871abefa8b09ed06e3417a92577496d4df9047f8e43b8ebe84f02a8e40084d1d",
+          "method": "table",
+          "page": 3,
+          "section": "Circuit diagram"
+        }
+      ],
+      "functions": [
+        "secondary winding terminal"
+      ],
+      "name": "SEC1",
+      "numbers": [
+        "2"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "871abefa8b09ed06e3417a92577496d4df9047f8e43b8ebe84f02a8e40084d1d",
+          "method": "table",
+          "page": 3,
+          "section": "Circuit diagram"
+        }
+      ],
+      "functions": [
+        "secondary winding terminal"
+      ],
+      "name": "SEC2",
+      "numbers": [
+        "3"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "871abefa8b09ed06e3417a92577496d4df9047f8e43b8ebe84f02a8e40084d1d",
+          "method": "table",
+          "page": 3,
+          "section": "Circuit diagram"
+        }
+      ],
+      "functions": [
+        "primary winding terminal"
+      ],
+      "name": "PRI2",
+      "numbers": [
+        "4"
+      ],
+      "type": "passive"
+    }
+  ],
+  "quality": {
+    "base_specs": 95,
+    "category_specs": 90,
+    "evidence": 100,
+    "identity": 100,
+    "overall": 96,
+    "pinout": 100
+  },
+  "schema_version": 1,
+  "specs": [
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "text",
+          "parameter": "definition",
+          "unit": null,
+          "value": "primary:secondary = 1:10.2"
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "871abefa8b09ed06e3417a92577496d4df9047f8e43b8ebe84f02a8e40084d1d",
+          "method": "table",
+          "page": 1,
+          "row": "ATB322524-0110-T000",
+          "section": "Characteristics specification table"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "turns_ratio",
+      "typ": 10.2,
+      "unit": "ratio"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "frequency",
+          "unit": "kHz",
+          "value": 100
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "871abefa8b09ed06e3417a92577496d4df9047f8e43b8ebe84f02a8e40084d1d",
+          "method": "table",
+          "page": 1,
+          "row": "ATB322524-0110-T000",
+          "section": "Characteristics specification table"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 8.4,
+      "min": 5.6,
+      "name": "primary_inductance",
+      "typ": 7,
+      "unit": "uH"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "871abefa8b09ed06e3417a92577496d4df9047f8e43b8ebe84f02a8e40084d1d",
+          "method": "table",
+          "page": 1,
+          "section": "Characteristics specification table"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 0.5,
+      "name": "primary_dc_resistance",
+      "unit": "ohm"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "871abefa8b09ed06e3417a92577496d4df9047f8e43b8ebe84f02a8e40084d1d",
+          "method": "table",
+          "page": 1,
+          "section": "Characteristics specification table"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 60,
+      "name": "secondary_dc_resistance",
+      "unit": "ohm"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "frequency",
+          "unit": "kHz",
+          "value": 100
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "871abefa8b09ed06e3417a92577496d4df9047f8e43b8ebe84f02a8e40084d1d",
+          "method": "table",
+          "page": 1,
+          "section": "Characteristics specification table"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 0.4,
+      "name": "leakage_inductance",
+      "unit": "uH"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "871abefa8b09ed06e3417a92577496d4df9047f8e43b8ebe84f02a8e40084d1d",
+          "method": "table",
+          "page": 1,
+          "section": "Characteristics specification table"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 500,
+      "name": "withstand_voltage",
+      "unit": "Vrms"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "871abefa8b09ed06e3417a92577496d4df9047f8e43b8ebe84f02a8e40084d1d",
+          "method": "table",
+          "page": 1,
+          "section": "Characteristics specification table"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 0.7,
+      "name": "rated_current",
+      "unit": "Arms"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [
+        {
+          "operator": "text",
+          "parameter": "self_temperature_rise",
+          "unit": null,
+          "value": "included"
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "871abefa8b09ed06e3417a92577496d4df9047f8e43b8ebe84f02a8e40084d1d",
+          "method": "table",
+          "page": 4,
+          "row": "ATB322524",
+          "section": "Temperature range"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 85,
+      "min": -40,
+      "name": "operating_temperature",
+      "unit": "degC"
+    }
+  ],
+  "status": "active"
+}

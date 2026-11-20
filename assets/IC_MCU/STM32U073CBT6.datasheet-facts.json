@@ -1,0 +1,1177 @@
+{
+  "categories": [
+    "mcu"
+  ],
+  "document": {
+    "identity": {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 1,
+          "section": "Family title and ordering-code applicability"
+        }
+      ],
+      "family_members": [
+        "STM32U073CBT6"
+      ],
+      "requested_mpn": "STM32U073CBT6",
+      "status": "family"
+    },
+    "manufacturer": "STMicroelectronics",
+    "pages": 146,
+    "path": "STM32U073CBT6.pdf",
+    "sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00"
+  },
+  "extracted_at": "2026-09-30T10:17:00.334631+00:00",
+  "extractor_version": "manual-evidence-2",
+  "manufacturer": "STMicroelectronics",
+  "missing": [
+    "The 48 physical pins are mapped, but the many peripheral alternate functions and per-pin electrical types in the family tables require a separate complete extraction.",
+    "Current consumption by power mode, GPIO thresholds, ADC accuracy, flash endurance, reset thresholds, and clock startup limits have not been extracted from the 146-page family datasheet.",
+    "The datasheet must be used with RM0503 and errata ES0602 for functional design."
+  ],
+  "mpn": "STM32U073CBT6",
+  "packages": [
+    {
+      "applicable_mpns": [
+        "STM32U073CBT6"
+      ],
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 1,
+          "section": "Package overview and ordering information"
+        }
+      ],
+      "manufacturer_name": "LQFP48",
+      "package_body": {
+        "length_mm": 7,
+        "width_mm": 7
+      },
+      "pin_count": 48
+    }
+  ],
+  "pins": [
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "Backup supply"
+      ],
+      "name": "VBAT",
+      "numbers": [
+        "1"
+      ],
+      "type": "power_in"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "GPIO"
+      ],
+      "name": "PC13",
+      "numbers": [
+        "2"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "GPIO / OSC32_IN"
+      ],
+      "name": "PC14",
+      "numbers": [
+        "3"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "GPIO / OSC32_OUT"
+      ],
+      "name": "PC15",
+      "numbers": [
+        "4"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "GPIO / OSC_IN"
+      ],
+      "name": "PF0",
+      "numbers": [
+        "5"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "GPIO / OSC_OUT"
+      ],
+      "name": "PF1",
+      "numbers": [
+        "6"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "Reset input / GPIO"
+      ],
+      "name": "PF2",
+      "numbers": [
+        "7"
+      ],
+      "type": "input"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "GPIO / "
+      ],
+      "name": "VSSA/VREF",
+      "numbers": [
+        "8"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "Analog supply and positive reference"
+      ],
+      "name": "VDDA/VREF+",
+      "numbers": [
+        "9"
+      ],
+      "type": "power_in"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "GPIO"
+      ],
+      "name": "PA0",
+      "numbers": [
+        "10"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "GPIO"
+      ],
+      "name": "PA1",
+      "numbers": [
+        "11"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "GPIO"
+      ],
+      "name": "PA2",
+      "numbers": [
+        "12"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "GPIO"
+      ],
+      "name": "PA3",
+      "numbers": [
+        "13"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "GPIO"
+      ],
+      "name": "PA4",
+      "numbers": [
+        "14"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "GPIO"
+      ],
+      "name": "PA5",
+      "numbers": [
+        "15"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "GPIO"
+      ],
+      "name": "PA6",
+      "numbers": [
+        "16"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "GPIO"
+      ],
+      "name": "PA7",
+      "numbers": [
+        "17"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "GPIO"
+      ],
+      "name": "PB0",
+      "numbers": [
+        "18"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "GPIO"
+      ],
+      "name": "PB1",
+      "numbers": [
+        "19"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "GPIO"
+      ],
+      "name": "PB2",
+      "numbers": [
+        "20"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "GPIO"
+      ],
+      "name": "PB10",
+      "numbers": [
+        "21"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "GPIO"
+      ],
+      "name": "PB11",
+      "numbers": [
+        "22"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "Ground"
+      ],
+      "name": "VSS",
+      "numbers": [
+        "23"
+      ],
+      "type": "ground"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "Digital supply"
+      ],
+      "name": "VDD",
+      "numbers": [
+        "24"
+      ],
+      "type": "power_in"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "GPIO"
+      ],
+      "name": "PB12",
+      "numbers": [
+        "25"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "GPIO"
+      ],
+      "name": "PB13",
+      "numbers": [
+        "26"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "GPIO"
+      ],
+      "name": "PB14",
+      "numbers": [
+        "27"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "GPIO"
+      ],
+      "name": "PB15",
+      "numbers": [
+        "28"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "GPIO"
+      ],
+      "name": "PA8",
+      "numbers": [
+        "29"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "GPIO"
+      ],
+      "name": "PA9",
+      "numbers": [
+        "30"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "GPIO"
+      ],
+      "name": "PA10",
+      "numbers": [
+        "31"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "GPIO"
+      ],
+      "name": "PA11",
+      "numbers": [
+        "32"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "GPIO"
+      ],
+      "name": "PA12",
+      "numbers": [
+        "33"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "GPIO"
+      ],
+      "name": "PA13",
+      "numbers": [
+        "34"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "Ground"
+      ],
+      "name": "VSS",
+      "numbers": [
+        "35"
+      ],
+      "type": "ground"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "USB supply"
+      ],
+      "name": "VDDUSB",
+      "numbers": [
+        "36"
+      ],
+      "type": "power_in"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "GPIO"
+      ],
+      "name": "PA14",
+      "numbers": [
+        "37"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "GPIO"
+      ],
+      "name": "PA15",
+      "numbers": [
+        "38"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "GPIO"
+      ],
+      "name": "PB3",
+      "numbers": [
+        "39"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "GPIO"
+      ],
+      "name": "PB4",
+      "numbers": [
+        "40"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "GPIO"
+      ],
+      "name": "PB5",
+      "numbers": [
+        "41"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "GPIO"
+      ],
+      "name": "PB6",
+      "numbers": [
+        "42"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "GPIO"
+      ],
+      "name": "PB7",
+      "numbers": [
+        "43"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "GPIO / BOOT0"
+      ],
+      "name": "PF3",
+      "numbers": [
+        "44"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "GPIO"
+      ],
+      "name": "PB8",
+      "numbers": [
+        "45"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "GPIO"
+      ],
+      "name": "PB9",
+      "numbers": [
+        "46"
+      ],
+      "type": "bidirectional"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "Ground"
+      ],
+      "name": "VSS",
+      "numbers": [
+        "47"
+      ],
+      "type": "ground"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 28,
+          "section": "Figure 5, LQFP48 pinout"
+        }
+      ],
+      "functions": [
+        "Digital supply"
+      ],
+      "name": "VDD",
+      "numbers": [
+        "48"
+      ],
+      "type": "power_in"
+    }
+  ],
+  "quality": {
+    "base_specs": 75,
+    "category_specs": 60,
+    "evidence": 100,
+    "identity": 90,
+    "overall": 78,
+    "pinout": 88
+  },
+  "schema_version": 1,
+  "specs": [
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 135,
+          "section": "Ordering information, B code"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "flash_memory",
+      "typ": 128,
+      "unit": "Kbyte"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 1,
+          "section": "Features"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "sram",
+      "typ": 40,
+      "unit": "Kbyte"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 1,
+          "section": "Features"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 56,
+      "name": "cpu_clock_frequency",
+      "unit": "MHz"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 44,
+          "section": "General operating conditions"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 3.6,
+      "min": 1.71,
+      "name": "vdd_supply_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 44,
+          "section": "General operating conditions"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 3.6,
+      "min": 1.55,
+      "name": "vbat_supply_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "usb",
+          "unit": null,
+          "value": "used"
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 44,
+          "section": "General operating conditions"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 3.6,
+      "min": 3,
+      "name": "vddusb_supply_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 43,
+          "section": "Absolute maximum ratings, Table 19"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 4,
+      "min": -0.3,
+      "name": "supply_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 135,
+          "section": "Ordering information, suffix 6"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 85,
+      "min": -40,
+      "name": "ambient_temperature",
+      "unit": "degC"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 44,
+          "section": "Absolute maximum ratings, Table 21"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 150,
+      "min": -65,
+      "name": "storage_temperature",
+      "unit": "degC"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "e6a32a9ee1c29f3e68d411fe6304ab3c106e49d1af49db3f0c1913ee58dccf00",
+          "method": "table",
+          "page": 44,
+          "section": "Absolute maximum ratings, Table 20"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 20,
+      "name": "gpio_output_current",
+      "unit": "mA"
+    }
+  ],
+  "status": "active"
+}

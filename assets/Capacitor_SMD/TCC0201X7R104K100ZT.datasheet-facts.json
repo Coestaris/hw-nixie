@@ -1,0 +1,171 @@
+{
+  "categories": [
+    "capacitor"
+  ],
+  "category_facts": {
+    "capacitor": {
+      "dielectric": "X7R"
+    }
+  },
+  "document": {
+    "identity": {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "3eae359a544792b48fb9f4697721b1e23ae2378fe09120ac330b5f3fabf3d581",
+          "method": "table",
+          "page": 6,
+          "section": "Part-numbering code table"
+        }
+      ],
+      "family_members": [
+        "TCC0201X7R104K100ZT"
+      ],
+      "requested_mpn": "TCC0201X7R104K100ZT",
+      "status": "family"
+    },
+    "manufacturer": "CCTC",
+    "pages": 40,
+    "path": "TCC0201X7R104K100ZT.pdf",
+    "sha256": "3eae359a544792b48fb9f4697721b1e23ae2378fe09120ac330b5f3fabf3d581"
+  },
+  "extracted_at": "2026-09-30T13:22:57.379058+00:00",
+  "extractor_version": "manual-evidence-2",
+  "manufacturer": "CCTC",
+  "missing": [
+    "The two symmetric terminals are not numbered in this family datasheet.",
+    "DC-bias capacitance loss, ESR, ESL, self-resonant frequency, and ripple current are not tabulated for this exact order code.",
+    "The family document does not list the full order code as an approved part-specific specification; obtain the approval sheet for release use.",
+    "No simulation model is identified."
+  ],
+  "mpn": "TCC0201X7R104K100ZT",
+  "packages": [
+    {
+      "applicable_mpns": [
+        "TCC0201X7R104K100ZT"
+      ],
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "3eae359a544792b48fb9f4697721b1e23ae2378fe09120ac330b5f3fabf3d581",
+          "method": "table",
+          "page": 16,
+          "section": "Dimensions, 0201 Z row"
+        }
+      ],
+      "manufacturer_name": "0201",
+      "package_body": {
+        "height_mm": 0.3,
+        "length_mm": 0.6,
+        "width_mm": 0.3
+      },
+      "pin_count": null
+    }
+  ],
+  "pins": [],
+  "quality": {
+    "base_specs": 85,
+    "category_specs": 75,
+    "evidence": 95,
+    "identity": 85,
+    "overall": 82,
+    "pinout": 100
+  },
+  "schema_version": 1,
+  "specs": [
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "3eae359a544792b48fb9f4697721b1e23ae2378fe09120ac330b5f3fabf3d581",
+          "method": "table",
+          "page": 6,
+          "section": "Part-numbering code table"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "capacitance",
+      "typ": 1e-07,
+      "unit": "F"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "3eae359a544792b48fb9f4697721b1e23ae2378fe09120ac330b5f3fabf3d581",
+          "method": "table",
+          "page": 6,
+          "section": "Part-numbering code table"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 10,
+      "min": -10,
+      "name": "capacitance_tolerance",
+      "unit": "percent"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "3eae359a544792b48fb9f4697721b1e23ae2378fe09120ac330b5f3fabf3d581",
+          "method": "table",
+          "page": 6,
+          "section": "Part-numbering code table"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 10,
+      "name": "rated_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "3eae359a544792b48fb9f4697721b1e23ae2378fe09120ac330b5f3fabf3d581",
+          "method": "table",
+          "page": 6,
+          "section": "Dielectric characteristic group"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 125,
+      "min": -55,
+      "name": "operating_temperature",
+      "unit": "degC"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "3eae359a544792b48fb9f4697721b1e23ae2378fe09120ac330b5f3fabf3d581",
+          "method": "table",
+          "page": 6,
+          "section": "Dielectric characteristic group"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 15,
+      "min": -15,
+      "name": "capacitance_temperature_change",
+      "unit": "percent"
+    }
+  ],
+  "status": "active"
+}
