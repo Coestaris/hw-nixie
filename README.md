@@ -31,3 +31,55 @@ Revision notes retain the modeled operating points and component-stress limitati
 ## Working with the design
 
 Run `git lfs pull` after cloning. Each revision includes local KiCad libraries; required component models, datasheets, manufacturing rules, and review evidence live in [assets](assets/). Native design use does not require infra access. See [development and release tooling](docs/development.md) for the private maintainer toolchain.
+
+## Board renders and releases
+
+### Rev1 — boost topology test board
+
+[Published rev1 release](https://github.com/Coestaris/hw-nixie/releases/tag/rev1). The release workflow passed the complete gate and manufacturing export.
+
+![Rev1 board, perspective view](docs/images/rev1-perspective.png)
+
+<details>
+<summary>Top and bottom views</summary>
+
+![Rev1 board, top view](docs/images/rev1-top.png)
+
+![Rev1 board, bottom view](docs/images/rev1-bottom.png)
+
+</details>
+
+| File | Download |
+| --- | --- |
+| Schematic PDF | [nixie_rev1-schematic.pdf](https://github.com/Coestaris/hw-nixie/releases/download/rev1/nixie_rev1-schematic.pdf) |
+| PCB PDF | [nixie_rev1-pcb.pdf](https://github.com/Coestaris/hw-nixie/releases/download/rev1/nixie_rev1-pcb.pdf) |
+| Gerbers and drill files | [nixie_rev1-gerbers.zip](https://github.com/Coestaris/hw-nixie/releases/download/rev1/nixie_rev1-gerbers.zip) |
+| JLCPCB BOM | [nixie_rev1-jlcpcb-bom.csv](https://github.com/Coestaris/hw-nixie/releases/download/rev1/nixie_rev1-jlcpcb-bom.csv) |
+| JLCPCB placement | [nixie_rev1-jlcpcb-pnp.csv](https://github.com/Coestaris/hw-nixie/releases/download/rev1/nixie_rev1-jlcpcb-pnp.csv) |
+| 3D assembly model | [nixie_rev1.stpz](https://github.com/Coestaris/hw-nixie/releases/download/rev1/nixie_rev1.stpz) |
+| Simulation netlist, log, and results | [nixie_rev1-simulation.tar.gz](https://github.com/Coestaris/hw-nixie/releases/download/rev1/nixie_rev1-simulation.tar.gz) |
+
+### Rev2 — full clock design
+
+[Published rev2 release](https://github.com/Coestaris/hw-nixie/releases/tag/rev2). The release workflow passed the complete gate and manufacturing export.
+
+![Rev2 board, perspective view](docs/images/rev2-perspective.png)
+
+<details>
+<summary>Top and bottom views</summary>
+
+![Rev2 board, top view](docs/images/rev2-top.png)
+
+![Rev2 board, bottom view](docs/images/rev2-bottom.png)
+
+</details>
+
+| File | Download |
+| --- | --- |
+| Schematic PDF | [nixie_rev2-schematic.pdf](https://github.com/Coestaris/hw-nixie/releases/download/rev2/nixie_rev2-schematic.pdf) |
+| PCB PDF | [nixie_rev2-pcb.pdf](https://github.com/Coestaris/hw-nixie/releases/download/rev2/nixie_rev2-pcb.pdf) |
+| Gerbers and drill files | [nixie_rev2-gerbers.zip](https://github.com/Coestaris/hw-nixie/releases/download/rev2/nixie_rev2-gerbers.zip) |
+| JLCPCB BOM | [nixie_rev2-jlcpcb-bom.csv](https://github.com/Coestaris/hw-nixie/releases/download/rev2/nixie_rev2-jlcpcb-bom.csv) |
+| JLCPCB placement | [nixie_rev2-jlcpcb-pnp.csv](https://github.com/Coestaris/hw-nixie/releases/download/rev2/nixie_rev2-jlcpcb-pnp.csv) |
+| 3D assembly model | [nixie_rev2.stpz](https://github.com/Coestaris/hw-nixie/releases/download/rev2/nixie_rev2.stpz) |
+| Simulation netlist, log, and results | [nixie_rev2-simulation.tar.gz](https://github.com/Coestaris/hw-nixie/releases/download/rev2/nixie_rev2-simulation.tar.gz) |
