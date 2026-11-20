@@ -1,10 +1,8 @@
 # Nixie clock — revision 1
 
-This project currently covers the power supply for a future USB-powered nixie clock: a nominal 5 V input and an adjustable 150–250 V output. The rest of the clock is not designed yet.
+Manufactured boost-converter board built to test the topology for a USB-powered nixie clock: a nominal 5 V input and an adjustable 150–250 V output. The full clock schematic is in revision 2.
 
 The only KiCad project is [`nixie_rev1.kicad_pro`](nixie_rev1.kicad_pro). Its schematic is PCB-linked and also contains the KiCad/ngspice model mappings, testbench includes, and default transient analysis. The [`../../sim/rev1`](../../sim/rev1) directory contains supporting behavioral models, run profiles, result notes, and analysis tools; it does not contain a second schematic or project copy.
-
-Gate the release with `uv run --project tools release gate nixie_rev1`, then export the reviewed PDFs, Gerber/drill ZIP, JLCPCB BOM, and JLCPCB pick-and-place file with `uv run --project tools release export nixie_rev1 --gerbers --stpz --bom --pnp`. Gerber and drill files are retained only inside the ZIP.
 
 ## Current hardware state
 

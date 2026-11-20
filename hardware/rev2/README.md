@@ -4,8 +4,6 @@ This revision has a USB-powered 5 V boost supply and four IN-8-2 lamp docks. Wit
 
 The only KiCad project is [`nixie_rev2.kicad_pro`](nixie_rev2.kicad_pro). Its schematic is PCB-linked and also contains the KiCad/ngspice model mappings, testbench includes, and default transient analysis. The [`../../sim/rev2`](../../sim/rev2) directory contains supporting behavioral models, run profiles, result notes, and analysis tools; it does not contain a second schematic or project copy.
 
-Gate the release with `uv run --project tools release gate nixie_rev2`, then export the reviewed PDFs, Gerber/drill ZIP, JLCPCB BOM, and JLCPCB pick-and-place file with `uv run --project tools release export nixie_rev2 --gerbers --stpz --bom --pnp`. Gerber and drill files are retained only inside the ZIP.
-
 ## Current hardware state
 
 - `N1`–`N4` use the project-local `nixie_rev2:IN-8-2_Dock` symbol and footprint. Each footprint reproduces the exact four diagonal 1×3, 2.54 mm header locations from the historical lamp-dock design; the inner lamp-solder pads remain part of the manufactured dock and are intentionally not duplicated on the motherboard.

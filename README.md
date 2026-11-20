@@ -30,7 +30,7 @@ Revision notes retain the modeled operating points and component-stress limitati
 
 ## Working with the design
 
-Run `git lfs pull` after cloning. Each revision includes local KiCad libraries; required component models, datasheets, manufacturing rules, and review evidence live in [assets](assets/). Native design use does not require infra access. See [development and release tooling](docs/development.md) for the private maintainer toolchain.
+Run `git lfs pull` after cloning. Each revision includes local KiCad libraries; required component models, datasheets, manufacturing rules, and review evidence live in [assets](assets/). Native design use does not require infra access. The pinned private `infra` submodule supplies the maintainer toolchain.
 
 ## Board renders and releases
 
@@ -38,14 +38,14 @@ Run `git lfs pull` after cloning. Each revision includes local KiCad libraries; 
 
 [Published rev1 release](https://github.com/Coestaris/hw-nixie/releases/tag/rev1). The release workflow passed the complete gate and manufacturing export.
 
-![Rev1 board, perspective view](docs/images/rev1-perspective.png)
+![Rev1 board, perspective view](https://github.com/Coestaris/hw-nixie/releases/download/rev1/nixie_rev1-3d-corner.png)
 
 <details>
 <summary>Top and bottom views</summary>
 
-![Rev1 board, top view](docs/images/rev1-top.png)
+![Rev1 board, top view](https://github.com/Coestaris/hw-nixie/releases/download/rev1/nixie_rev1-3d-top.png)
 
-![Rev1 board, bottom view](docs/images/rev1-bottom.png)
+![Rev1 board, bottom view](https://github.com/Coestaris/hw-nixie/releases/download/rev1/nixie_rev1-3d-bottom.png)
 
 </details>
 
@@ -63,14 +63,14 @@ Run `git lfs pull` after cloning. Each revision includes local KiCad libraries; 
 
 [Published rev2 release](https://github.com/Coestaris/hw-nixie/releases/tag/rev2). The release workflow passed the complete gate and manufacturing export.
 
-![Rev2 board, perspective view](docs/images/rev2-perspective.png)
+![Rev2 board, perspective view](https://github.com/Coestaris/hw-nixie/releases/download/rev2/nixie_rev2-3d-corner.png)
 
 <details>
 <summary>Top and bottom views</summary>
 
-![Rev2 board, top view](docs/images/rev2-top.png)
+![Rev2 board, top view](https://github.com/Coestaris/hw-nixie/releases/download/rev2/nixie_rev2-3d-top.png)
 
-![Rev2 board, bottom view](docs/images/rev2-bottom.png)
+![Rev2 board, bottom view](https://github.com/Coestaris/hw-nixie/releases/download/rev2/nixie_rev2-3d-bottom.png)
 
 </details>
 
