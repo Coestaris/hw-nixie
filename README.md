@@ -1,10 +1,9 @@
-# Nixie clock hardware
-
-**Project status — Rev1 and Rev2 have been manufactured. Updated Rev2 and dock assembly models are published.**
+# Nixie clock
 
 > **AI use.** The authors use AI for additional validation, component research, testbench setup and simulation, intermediate design reviews, release setup, and assistance with KiCad and 3D model edits. The authors developed the original designs and schematics manually, and other people reviewed them. The authors make the technical and visual decisions and take responsibility for them.
 
 This USB-powered clock drives four IN-8-2 nixie tubes. Rev1 tests the boost converter. Rev2 combines the high-voltage supply, controller, and tube drivers on one motherboard. Each standalone dock carries one tube and plugs into Rev2.
+Both revisions and docks were manufactured and tested.
 
 ## Goals and architecture
 
@@ -27,15 +26,33 @@ flowchart LR
 
 | Board | Purpose | Design | Simulation |
 | --- | --- | --- | --- |
+| IN-8-2 dock | Plug-in tube carrier | [KiCad project](hardware/dock_rev1/dock_rev1.kicad_pro), [assembly notes and pinout](hardware/dock_rev1/README.md) | — |
 | Rev1 | Boost converter test board | [KiCad project](hardware/rev1/nixie_rev1.kicad_pro), [notes](hardware/rev1/README.md) | [Models, runner, and results](sim/rev1/) |
 | Rev2 | Four-tube clock motherboard | [KiCad project](hardware/rev2/nixie_rev2.kicad_pro), [notes](hardware/rev2/README.md) | [Models, runner, and results](sim/rev2/) |
-| IN-8-2 dock | Plug-in tube carrier | [KiCad project](hardware/dock_rev1/dock_rev1.kicad_pro), [assembly notes and pinout](hardware/dock_rev1/README.md) | — |
 
-The board notes document simulated operating points and component stress. [Component models and datasheets](assets/)
+### IN-8-2 dock
 
-## Board renders and releases
+The two-layer dock carries one wire-ended IN-8-2 tube. Four 1×3, 2.54 mm sockets mate with the motherboard pin headers and carry the anode, digit cathodes, and decimal point. The assembly model includes the tube and all four sockets. [Dock release](https://github.com/Coestaris/hw-nixie/releases/tag/dock_rev1)
 
-### Rev1 — boost topology test board
+![IN-8-2 dock, perspective view](https://github.com/Coestaris/hw-nixie/releases/download/dock_rev1/dock_rev1-3d-corner.png)
+
+<details>
+<summary>Top and bottom views</summary>
+
+![IN-8-2 dock, top view](https://github.com/Coestaris/hw-nixie/releases/download/dock_rev1/dock_rev1-3d-top.png)
+
+![IN-8-2 dock, bottom view](https://github.com/Coestaris/hw-nixie/releases/download/dock_rev1/dock_rev1-3d-bottom.png)
+
+</details>
+
+| File | Download |
+| --- | --- |
+| Schematic PDF | [dock_rev1-schematic.pdf](https://github.com/Coestaris/hw-nixie/releases/download/dock_rev1/dock_rev1-schematic.pdf) |
+| PCB PDF | [dock_rev1-pcb.pdf](https://github.com/Coestaris/hw-nixie/releases/download/dock_rev1/dock_rev1-pcb.pdf) |
+| Gerbers and drill files | [dock_rev1-gerbers.zip](https://github.com/Coestaris/hw-nixie/releases/download/dock_rev1/dock_rev1-gerbers.zip) |
+| 3D assembly model | [dock_rev1.stpz](https://github.com/Coestaris/hw-nixie/releases/download/dock_rev1/dock_rev1.stpz) |
+
+### Rev1 - boost topology test board
 
 Rev1 isolates the high-voltage converter and its control loop for bring-up. [Rev1 release](https://github.com/Coestaris/hw-nixie/releases/tag/rev1)
 
@@ -60,7 +77,7 @@ Rev1 isolates the high-voltage converter and its control loop for bring-up. [Rev
 | 3D assembly model | [nixie_rev1.stpz](https://github.com/Coestaris/hw-nixie/releases/download/rev1/nixie_rev1.stpz) |
 | Simulation netlist, log, and results | [nixie_rev1-simulation.tar.gz](https://github.com/Coestaris/hw-nixie/releases/download/rev1/nixie_rev1-simulation.tar.gz) |
 
-### Rev2 — clock motherboard
+### Rev2 - clock motherboard
 
 Rev2 supplies power and digit-drive signals to four plug-in docks. The assembly model includes the docks, their pin headers, and M2 standoffs. [Rev2 release](https://github.com/Coestaris/hw-nixie/releases/tag/rev2)
 
@@ -84,25 +101,3 @@ Rev2 supplies power and digit-drive signals to four plug-in docks. The assembly 
 | JLCPCB placement | [nixie_rev2-jlcpcb-pnp.csv](https://github.com/Coestaris/hw-nixie/releases/download/rev2/nixie_rev2-jlcpcb-pnp.csv) |
 | 3D assembly model | [nixie_rev2.stpz](https://github.com/Coestaris/hw-nixie/releases/download/rev2/nixie_rev2.stpz) |
 | Simulation netlist, log, and results | [nixie_rev2-simulation.tar.gz](https://github.com/Coestaris/hw-nixie/releases/download/rev2/nixie_rev2-simulation.tar.gz) |
-
-### IN-8-2 dock
-
-The two-layer dock carries one wire-ended IN-8-2 tube. Four 1×3, 2.54 mm sockets mate with the motherboard pin headers and carry the anode, digit cathodes, and decimal point. The assembly model includes the tube and all four sockets. [Dock release](https://github.com/Coestaris/hw-nixie/releases/tag/dock_rev1)
-
-![IN-8-2 dock, perspective view](https://github.com/Coestaris/hw-nixie/releases/download/dock_rev1/dock_rev1-3d-corner.png)
-
-<details>
-<summary>Top and bottom views</summary>
-
-![IN-8-2 dock, top view](https://github.com/Coestaris/hw-nixie/releases/download/dock_rev1/dock_rev1-3d-top.png)
-
-![IN-8-2 dock, bottom view](https://github.com/Coestaris/hw-nixie/releases/download/dock_rev1/dock_rev1-3d-bottom.png)
-
-</details>
-
-| File | Download |
-| --- | --- |
-| Schematic PDF | [dock_rev1-schematic.pdf](https://github.com/Coestaris/hw-nixie/releases/download/dock_rev1/dock_rev1-schematic.pdf) |
-| PCB PDF | [dock_rev1-pcb.pdf](https://github.com/Coestaris/hw-nixie/releases/download/dock_rev1/dock_rev1-pcb.pdf) |
-| Gerbers and drill files | [dock_rev1-gerbers.zip](https://github.com/Coestaris/hw-nixie/releases/download/dock_rev1/dock_rev1-gerbers.zip) |
-| 3D assembly model | [dock_rev1.stpz](https://github.com/Coestaris/hw-nixie/releases/download/dock_rev1/dock_rev1.stpz) |
