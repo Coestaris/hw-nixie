@@ -1,0 +1,13 @@
+{
+  "dock_rev1": {
+    "hide_on_faces": [
+      "${KIPRJMOD}/../../assets/Nixie/IN-8-2.stpz"
+    ],
+    "corner_zoom": 0.18
+  },
+  "nixie_rev2": {
+    "hide_on_faces": [
+      "${KIPRJMOD}/../../assets/Nixie/dock_rev1-assembly.stpz"
+    ]
+  }
+}

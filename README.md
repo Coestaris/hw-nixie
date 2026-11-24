@@ -1,15 +1,16 @@
 # Nixie clock
 
+Both clock revisions and the tube docks have been manufactured and tested.
+
 > **AI use.** The authors use AI for additional validation, component research, testbench setup and simulation, intermediate design reviews, release setup, and assistance with KiCad and 3D model edits. The authors developed the original designs and schematics manually, and other people reviewed them. The authors make the technical and visual decisions and take responsibility for them.
 
 This USB-powered clock drives four IN-8-2 nixie tubes. Rev1 tests the boost converter. Rev2 combines the high-voltage supply, controller, and tube drivers on one motherboard. Each standalone dock carries one tube and plugs into Rev2.
-Both revisions and docks were manufactured and tested.
 
 ## Goals and architecture
 
 Rev1 isolates the high-voltage stage so its topology and control can be evaluated independently. An XL6007 and TDK ATB322524 transformer form the boost stage, with an MCP6001 in the control circuitry. The simulation sources document startup behavior and the limits of the behavioral models.
 
-Rev2 adds an STM32U073 controller, four IN-8-2 docks, 74HC595 shift registers, ULN2003A arrays, and discrete high-voltage drivers. USB-C supplies the board; the MCU controls the display and the adjustable high-voltage supply.
+Rev2 adds an STM32U073 controller, four IN-8-2 docks, 74HC595 shift registers, ULN2003A arrays, and discrete high-voltage drivers. USB-C supplies the board. The MCU controls the display and the adjustable high-voltage supply.
 
 ```mermaid
 flowchart LR
@@ -27,8 +28,8 @@ flowchart LR
 | Board | Purpose | Design | Simulation |
 | --- | --- | --- | --- |
 | dock_rev1 | Tube carrier | [KiCad project](hardware/dock_rev1/dock_rev1.kicad_pro) | — |
-| rev1 | Boost converter test board | [KiCad project](hardware/rev1/nixie_rev1.kicad_pro), [notes](hardware/rev1/README.md) | [Models, runner, and results](sim/rev1/) |
-| rev2 | Four-tube clock motherboard | [KiCad project](hardware/rev2/nixie_rev2.kicad_pro), [notes](hardware/rev2/README.md) | [Models, runner, and results](sim/rev2/) |
+| rev1 | Boost converter test board | [KiCad project](hardware/rev1/nixie_rev1.kicad_pro) | [Models, runner, and test cases](sim/rev1/) |
+| rev2 | Four-tube clock motherboard | [KiCad project](hardware/rev2/nixie_rev2.kicad_pro) | [Models, runner, and test cases](sim/rev2/) |
 
 ### dock_rev1 - IN-8-2 dock
 
