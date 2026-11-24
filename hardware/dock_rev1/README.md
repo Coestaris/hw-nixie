@@ -2,9 +2,9 @@
 
 This two-layer adapter carries one wire-ended IN-8-2 tube and plugs into a Rev2 clock motherboard. The tube mounts on the front, with four 1×3, 2.54 mm female sockets on the back. The motherboard supplies the high-voltage drive and current limiting. Open [dock_rev1.kicad_pro](dock_rev1.kicad_pro) in KiCad 10.
 
-The outline and pad centers come from `projects/legacy/nixie/hardware/nixie.kicad_pcb` in `Coestaris/hardware-legacy` at `8a1bb16d6e56aa4d5cadc9abd9d31d0f6d3bca59`. The board marks the vacant tube position with `KEY`. The tube footprint uses the manufacturer's positions 2 through 13. The routes for the decimal point and digits 8 and 9 follow the tube passport while preserving the Rev2 motherboard pin assignments. [IN-8-2 manufacturer passport, page 2](../../assets/Nixie/IN-8-2.pdf)
+The outline and pad centers come from `projects/legacy/nixie/hardware/nixie.kicad_pcb` in `Coestaris/hardware-legacy` at `8a1bb16d6e56aa4d5cadc9abd9d31d0f6d3bca59`. Silkscreen rings identify the anode at the lamp and socket. The tube footprint uses the manufacturer's positions 2 through 13. The routes for the decimal point and digits 8 and 9 follow the tube passport while preserving the Rev2 motherboard pin assignments. [IN-8-2 manufacturer passport, page 2](../../assets/Nixie/IN-8-2.pdf)
 
-The positions below are viewed from the tube side with `KEY` at the top. Square pads mark socket pin 1.
+The positions below are viewed from the tube side with the gap in the lamp pin circle at the top. Square pads mark socket pin 1.
 
 | Socket | Position | Pin 1 | Pin 2 | Pin 3 |
 | --- | --- | --- | --- | --- |
