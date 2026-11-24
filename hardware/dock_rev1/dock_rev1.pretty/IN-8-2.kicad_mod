@@ -1,0 +1,172 @@
+(footprint
+	"IN-8-2"
+	(version 20241229)
+	(generator "pcbnew")
+	(layer "F.Cu")
+	(descr "IN-8-2 wire-ended lamp, original twelve-hole dock pattern")
+	(attr through_hole)
+	(property
+		"Reference"
+		"REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property
+		"Value"
+		"IN-8-2"
+		(at 0 -7 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_circle
+		(center 0 0)
+		(end 9.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 9.75 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+	)
+	(pad
+		"2"
+		thru_hole
+		circle
+		(at -2.323 -4.482)
+		(size 1.6 1.6)
+		(layers "*.Cu" "*.Mask")
+		(drill 1.1)
+	)
+	(pad
+		"3"
+		thru_hole
+		circle
+		(at -4.1 -2.8)
+		(size 1.6 1.6)
+		(layers "*.Cu" "*.Mask")
+		(drill 1.1)
+	)
+	(pad
+		"4"
+		thru_hole
+		circle
+		(at -4.963 -0.606)
+		(size 1.6 1.6)
+		(layers "*.Cu" "*.Mask")
+		(drill 1.1)
+	)
+	(pad
+		"5"
+		thru_hole
+		circle
+		(at -4.677 1.768)
+		(size 1.6 1.6)
+		(layers "*.Cu" "*.Mask")
+		(drill 1.1)
+	)
+	(pad
+		"6"
+		thru_hole
+		circle
+		(at -3.32 3.738)
+		(size 1.6 1.6)
+		(layers "*.Cu" "*.Mask")
+		(drill 1.1)
+	)
+	(pad
+		"7"
+		thru_hole
+		circle
+		(at -1.2 4.853)
+		(size 1.6 1.6)
+		(layers "*.Cu" "*.Mask")
+		(drill 1.1)
+	)
+	(pad
+		"8"
+		thru_hole
+		circle
+		(at 1.204 4.853)
+		(size 1.6 1.6)
+		(layers "*.Cu" "*.Mask")
+		(drill 1.1)
+	)
+	(pad
+		"9"
+		thru_hole
+		circle
+		(at 3.32 3.738)
+		(size 1.6 1.6)
+		(layers "*.Cu" "*.Mask")
+		(drill 1.1)
+	)
+	(pad
+		"10"
+		thru_hole
+		circle
+		(at 4.677 1.768)
+		(size 1.6 1.6)
+		(layers "*.Cu" "*.Mask")
+		(drill 1.1)
+	)
+	(pad
+		"11"
+		thru_hole
+		circle
+		(at 4.963 -0.606)
+		(size 1.6 1.6)
+		(layers "*.Cu" "*.Mask")
+		(drill 1.1)
+	)
+	(pad
+		"12"
+		thru_hole
+		circle
+		(at 4.113 -2.842)
+		(size 1.6 1.6)
+		(layers "*.Cu" "*.Mask")
+		(drill 1.1)
+	)
+	(pad
+		"13"
+		thru_hole
+		circle
+		(at 2.323 -4.428)
+		(size 1.6 1.6)
+		(layers "*.Cu" "*.Mask")
+		(drill 1.1)
+	)
+
+	(model
+		"${KIPRJMOD}/../../assets/Nixie/IN-8-2.stpz"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	))

@@ -1,6 +1,6 @@
 # Nixie clock hardware
 
-Two manufactured hardware revisions explore a USB-powered nixie display. **Rev1 is just a boost-converter board built to test the topology. Rev2 contains the full schematic**, integrating the high-voltage supply, MCU, and four tube docks.
+Rev1 and Rev2 are manufactured hardware revisions for a USB-powered nixie display. **Rev1 tests the boost converter. Rev2 integrates the high-voltage supply, MCU, and four tube docks.** The standalone `dock_rev1` project carries one IN-8-2 tube and mates with the Rev2 motherboard.
 
 ## Goals and architecture
 
@@ -19,18 +19,21 @@ flowchart LR
   MCU --> Boost
 ```
 
-## Revisions
+## Hardware projects
 
-| Revision | Scope | Design | Simulation |
+| Release target | Scope | Design | Simulation |
 | --- | --- | --- | --- |
-| Rev1 | Boost topology test board | [KiCad project](hardware/rev1/nixie_rev1.kicad_pro), [notes](hardware/rev1/README.md) | [Models, runner, and results](sim/rev1/) |
-| Rev2 | Full clock schematic and board | [KiCad project](hardware/rev2/nixie_rev2.kicad_pro), [notes](hardware/rev2/README.md) | [Models, runner, and results](sim/rev2/) |
+| `rev1` | Boost topology test board | [KiCad project](hardware/rev1/nixie_rev1.kicad_pro), [notes](hardware/rev1/README.md) | [Models, runner, and results](sim/rev1/) |
+| `rev2` | Full clock schematic and board | [KiCad project](hardware/rev2/nixie_rev2.kicad_pro), [notes](hardware/rev2/README.md) | [Models, runner, and results](sim/rev2/) |
+| `dock` | `dock_rev1`, standalone IN-8-2 tube dock | [KiCad project](hardware/dock_rev1/dock_rev1.kicad_pro), [assembly notes and pinout](hardware/dock_rev1/README.md) | — |
 
 Revision notes retain the modeled operating points and component-stress limitations. The simulations characterize topology and control; they do not constitute measured efficiency or stress qualification.
 
 ## Working with the design
 
-Run `git lfs pull` after cloning. Each revision includes local KiCad libraries; required component models, datasheets, manufacturing rules, and review evidence live in [assets](assets/). Native design use does not require infra access. The pinned private `infra` submodule supplies the maintainer toolchain.
+Run `git lfs pull` after cloning. Each project includes local KiCad libraries. Component models, datasheets, manufacturing rules, and review evidence live in [assets](assets/). The pinned private `infra` submodule supplies the maintainer toolchain.
+
+The **Hardware release** workflow accepts a string `target`. `rev1` and `rev2` select the corresponding motherboard project and existing release tag. `dock` resolves to `hardware/dock_rev1/` and uses `dock_rev1` as its release tag. The dock uses a fabrication-only profile for hand assembly.
 
 ## Board renders and releases
 

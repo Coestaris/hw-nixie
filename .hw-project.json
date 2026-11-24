@@ -2,6 +2,9 @@
   "schema_version": 1,
   "name": "nixie",
   "infra": "infra",
+  "release_targets": {
+    "dock": "dock_rev1"
+  },
   "evidence": [
     {
       "path": "assets/Assembly_Review/nixie_rev2-rotation-review-2026-11-03.json",

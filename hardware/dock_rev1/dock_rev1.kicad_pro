@@ -1,0 +1,29 @@
+{
+  "board": {},
+  "boards": [],
+  "cvpcb": {},
+  "erc": {},
+  "libraries": {},
+  "meta": {
+    "filename": "dock_rev1.kicad_pro",
+    "version": 1
+  },
+  "net_settings": {},
+  "pcbnew": {},
+  "schematic": {
+    "top_level_sheets": [
+      {
+        "filename": "dock_rev1.kicad_sch",
+        "name": "IN-8-2 Nixie Dock",
+        "uuid": "86223b0f-f26c-5649-89a2-9a6fbe11010a"
+      }
+    ]
+  },
+  "text_variables": {},
+  "sheets": [
+    [
+      "86223b0f-f26c-5649-89a2-9a6fbe11010a",
+      "IN-8-2 Nixie Dock"
+    ]
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "model": "generated envelope",
+  "part": "IN-8-2",
+  "native_source": "IN-8-2.sc",
+  "asset": "IN-8-2.stpz",
+  "source_evidence": [
+    {
+      "path": "IN-8-2.pdf",
+      "source_url": "https://www.tube-tester.com/sites/nixie/dat_arch/IN-8-2.pdf",
+      "sha256": "70af4cc5df0632fd8b56be140367714a3a0ecb092859281ea36651f61aa594e3",
+      "locator": "PDF page 2, electrode lead diagram and main technical data",
+      "facts": {
+        "bulb_maximum_diameter_mm": 19,
+        "bulb_maximum_height_mm": 55,
+        "unused_terminal": 1
+      }
+    },
+    {
+      "repository": "Coestaris/hardware-legacy",
+      "commit": "8a1bb16d6e56aa4d5cadc9abd9d31d0f6d3bca59",
+      "path": "projects/legacy/nixie/hardware/nixie.kicad_pcb",
+      "locator": "Footprint N1",
+      "facts": {
+        "lead_centers": "Twelve drilled pad centers. The legacy pad numbers 1–12 correspond to manufacturer positions 2–13 in angular order."
+      }
+    },
+    {
+      "archive": "nixie-in-8-2-tube-1.snapshot.1.zip",
+      "sha256": "61980887948d9324eeb0a380ef3589d9ab9116736114b1e89682d600285d8f2e",
+      "contained_file": "2015-101-IN-8-2 Nixie.SLDPRT",
+      "import_result": "SolidCraft could not import this format."
+    }
+  ],
+  "coordinate_convention": {
+    "origin": "Center of footprint N1 at PCB top face",
+    "model_axes": "KiCad pad-local x, negated KiCad pad-local y, positive z above the board",
+    "kicad_transform": {
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "assumed_visual_dimensions_mm": {
+    "lead_diameter": 0.5,
+    "glass_to_pcb_standoff": 1,
+    "trimmed_lead_below_top_plane": 3,
+    "crown_fillet_radius": 3
+  },
+  "validation": {
+    "native_source_sha256": "50870c56a8fe1de590879db908672483d258b9b35006ad8c64e9062dde2523a6",
+    "exported_asset_sha256": "e6f1aeb82ac0a88fb508dd88dd76ce0d703cd71afe8acdbf0b539046e45a0741",
+    "closed_solids": 13,
+    "material_solids": {
+      "glass envelope": 1,
+      "metal leads": 12
+    },
+    "model_bbox_mm": {
+      "min": [
+        -9.5,
+        -9.5,
+        -3
+      ],
+      "max": [
+        9.5,
+        9.5,
+        56
+      ]
+    },
+    "volume_mm3": 15496.350567,
+    "lead_center_tolerance_mm": 0.001,
+    "lead_checks": [
+      {
+        "pin": 2,
+        "pad_xy_mm": [
+          -2.323,
+          -4.482
+        ],
+        "solidcraft_xyz_mm": [
+          -2.323,
+          4.482,
+          -3
+        ],
+        "axial_extent_mm": [
+          -3,
+          1
+        ],
+        "model_diameter_mm": 0.5,
+        "hole_diameter_mm": 1.1,
+        "center_error_mm": 0
+      },
+      {
+        "pin": 3,
+        "pad_xy_mm": [
+          -4.1,
+          -2.8
+        ],
+        "solidcraft_xyz_mm": [
+          -4.1,
+          2.8,
+          -3
+        ],
+        "axial_extent_mm": [
+          -3,
+          1
+        ],
+        "model_diameter_mm": 0.5,
+        "hole_diameter_mm": 1.1,
+        "center_error_mm": 0
+      },
+      {
+        "pin": 4,
+        "pad_xy_mm": [
+          -4.963,
+          -0.606
+        ],
+        "solidcraft_xyz_mm": [
+          -4.963,
+          0.606,
+          -3
+        ],
+        "axial_extent_mm": [
+          -3,
+          1
+        ],
+        "model_diameter_mm": 0.5,
+        "hole_diameter_mm": 1.1,
+        "center_error_mm": 0
+      },
+      {
+        "pin": 5,
+        "pad_xy_mm": [
+          -4.677,
+          1.768
+        ],
+        "solidcraft_xyz_mm": [
+          -4.677,
+          -1.768,
+          -3
+        ],
+        "axial_extent_mm": [
+          -3,
+          1
+        ],
+        "model_diameter_mm": 0.5,
+        "hole_diameter_mm": 1.1,
+        "center_error_mm": 0
+      },
+      {
+        "pin": 6,
+        "pad_xy_mm": [
+          -3.32,
+          3.738
+        ],
+        "solidcraft_xyz_mm": [
+          -3.32,
+          -3.738,
+          -3
+        ],
+        "axial_extent_mm": [
+          -3,
+          1
+        ],
+        "model_diameter_mm": 0.5,
+        "hole_diameter_mm": 1.1,
+        "center_error_mm": 0
+      },
+      {
+        "pin": 7,
+        "pad_xy_mm": [
+          -1.2,
+          4.853
+        ],
+        "solidcraft_xyz_mm": [
+          -1.2,
+          -4.853,
+          -3
+        ],
+        "axial_extent_mm": [
+          -3,
+          1
+        ],
+        "model_diameter_mm": 0.5,
+        "hole_diameter_mm": 1.1,
+        "center_error_mm": 0
+      },
+      {
+        "pin": 8,
+        "pad_xy_mm": [
+          1.204,
+          4.853
+        ],
+        "solidcraft_xyz_mm": [
+          1.204,
+          -4.853,
+          -3
+        ],
+        "axial_extent_mm": [
+          -3,
+          1
+        ],
+        "model_diameter_mm": 0.5,
+        "hole_diameter_mm": 1.1,
+        "center_error_mm": 0
+      },
+      {
+        "pin": 9,
+        "pad_xy_mm": [
+          3.32,
+          3.738
+        ],
+        "solidcraft_xyz_mm": [
+          3.32,
+          -3.738,
+          -3
+        ],
+        "axial_extent_mm": [
+          -3,
+          1
+        ],
+        "model_diameter_mm": 0.5,
+        "hole_diameter_mm": 1.1,
+        "center_error_mm": 0
+      },
+      {
+        "pin": 10,
+        "pad_xy_mm": [
+          4.677,
+          1.768
+        ],
+        "solidcraft_xyz_mm": [
+          4.677,
+          -1.768,
+          -3
+        ],
+        "axial_extent_mm": [
+          -3,
+          1
+        ],
+        "model_diameter_mm": 0.5,
+        "hole_diameter_mm": 1.1,
+        "center_error_mm": 0
+      },
+      {
+        "pin": 11,
+        "pad_xy_mm": [
+          4.963,
+          -0.606
+        ],
+        "solidcraft_xyz_mm": [
+          4.963,
+          0.606,
+          -3
+        ],
+        "axial_extent_mm": [
+          -3,
+          1
+        ],
+        "model_diameter_mm": 0.5,
+        "hole_diameter_mm": 1.1,
+        "center_error_mm": 0
+      },
+      {
+        "pin": 12,
+        "pad_xy_mm": [
+          4.113,
+          -2.842
+        ],
+        "solidcraft_xyz_mm": [
+          4.113,
+          2.842,
+          -3
+        ],
+        "axial_extent_mm": [
+          -3,
+          1
+        ],
+        "model_diameter_mm": 0.5,
+        "hole_diameter_mm": 1.1,
+        "center_error_mm": 0
+      },
+      {
+        "pin": 13,
+        "pad_xy_mm": [
+          2.323,
+          -4.428
+        ],
+        "solidcraft_xyz_mm": [
+          2.323,
+          4.428,
+          -3
+        ],
+        "axial_extent_mm": [
+          -3,
+          1
+        ],
+        "model_diameter_mm": 0.5,
+        "hole_diameter_mm": 1.1,
+        "center_error_mm": 0
+      }
+    ],
+    "placed_render": "KiCad rendered the envelope and all twelve leads centered in their plated holes."
+  }
+}
