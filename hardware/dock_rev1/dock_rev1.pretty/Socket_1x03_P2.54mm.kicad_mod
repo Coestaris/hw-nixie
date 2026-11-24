@@ -93,4 +93,16 @@
 		(layers "*.Cu" "*.Mask")
 		(drill 0.9145)
 	)
-)
+
+	(model
+		"${KIPRJMOD}/../../assets/Connector_IDC/PinSocket_1x03_P2.54mm_Vertical.stpz"
+		(offset
+			(xyz -2.54 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	))

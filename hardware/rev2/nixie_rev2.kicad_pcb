@@ -441,7 +441,67 @@
 			(uuid "5a6b8438-12d9-4257-8b0e-b589c809ffa4")
 		)
 		(embedded_fonts no)
-	)
+
+		(model
+			"${KIPRJMOD}/../../assets/Nixie/dock_rev1-assembly.stpz"
+			(offset
+				(xyz 0 0 11.125)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model
+			"${KIPRJMOD}/../../assets/Connector_IDC/PinHeader_1x03_P2.54mm_Vertical.stpz"
+			(offset
+				(xyz 5.824 9.416 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 315.0)
+			)
+		)
+		(model
+			"${KIPRJMOD}/../../assets/Connector_IDC/PinHeader_1x03_P2.54mm_Vertical.stpz"
+			(offset
+				(xyz -9.416 5.824 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 225.0)
+			)
+		)
+		(model
+			"${KIPRJMOD}/../../assets/Connector_IDC/PinHeader_1x03_P2.54mm_Vertical.stpz"
+			(offset
+				(xyz -5.824 -9.416 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 135.0)
+			)
+		)
+		(model
+			"${KIPRJMOD}/../../assets/Connector_IDC/PinHeader_1x03_P2.54mm_Vertical.stpz"
+			(offset
+				(xyz 9.416 -5.824 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 45.0)
+			)
+		))
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "3174fcbd-6d99-4cb4-b1ec-4c759fdb5e51")
@@ -1317,7 +1377,67 @@
 			(uuid "6cdac750-7c6f-4bda-a1ae-478c0f9b22ce")
 		)
 		(embedded_fonts no)
-	)
+
+		(model
+			"${KIPRJMOD}/../../assets/Nixie/dock_rev1-assembly.stpz"
+			(offset
+				(xyz 0 0 11.125)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model
+			"${KIPRJMOD}/../../assets/Connector_IDC/PinHeader_1x03_P2.54mm_Vertical.stpz"
+			(offset
+				(xyz 5.824 9.416 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 315.0)
+			)
+		)
+		(model
+			"${KIPRJMOD}/../../assets/Connector_IDC/PinHeader_1x03_P2.54mm_Vertical.stpz"
+			(offset
+				(xyz -9.416 5.824 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 225.0)
+			)
+		)
+		(model
+			"${KIPRJMOD}/../../assets/Connector_IDC/PinHeader_1x03_P2.54mm_Vertical.stpz"
+			(offset
+				(xyz -5.824 -9.416 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 135.0)
+			)
+		)
+		(model
+			"${KIPRJMOD}/../../assets/Connector_IDC/PinHeader_1x03_P2.54mm_Vertical.stpz"
+			(offset
+				(xyz 9.416 -5.824 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 45.0)
+			)
+		))
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "446f9b5b-5aef-47c7-aac4-284b6316a392")
@@ -7398,7 +7518,67 @@
 			(uuid "0202ad57-9e95-4f33-830c-156a1aa7304b")
 		)
 		(embedded_fonts no)
-	)
+
+		(model
+			"${KIPRJMOD}/../../assets/Nixie/dock_rev1-assembly.stpz"
+			(offset
+				(xyz 0 0 11.125)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model
+			"${KIPRJMOD}/../../assets/Connector_IDC/PinHeader_1x03_P2.54mm_Vertical.stpz"
+			(offset
+				(xyz 5.824 9.416 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 315.0)
+			)
+		)
+		(model
+			"${KIPRJMOD}/../../assets/Connector_IDC/PinHeader_1x03_P2.54mm_Vertical.stpz"
+			(offset
+				(xyz -9.416 5.824 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 225.0)
+			)
+		)
+		(model
+			"${KIPRJMOD}/../../assets/Connector_IDC/PinHeader_1x03_P2.54mm_Vertical.stpz"
+			(offset
+				(xyz -5.824 -9.416 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 135.0)
+			)
+		)
+		(model
+			"${KIPRJMOD}/../../assets/Connector_IDC/PinHeader_1x03_P2.54mm_Vertical.stpz"
+			(offset
+				(xyz 9.416 -5.824 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 45.0)
+			)
+		))
 	(footprint "MountingHole:ToolingHole_1.152mm"
 		(layer "F.Cu")
 		(uuid "c28d4674-2ee2-4478-97f0-b8836dc92be0")
@@ -7807,7 +7987,67 @@
 			(uuid "b3550663-7649-403d-bbf6-d70829beb7e6")
 		)
 		(embedded_fonts no)
-	)
+
+		(model
+			"${KIPRJMOD}/../../assets/Nixie/dock_rev1-assembly.stpz"
+			(offset
+				(xyz 0 0 11.125)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model
+			"${KIPRJMOD}/../../assets/Connector_IDC/PinHeader_1x03_P2.54mm_Vertical.stpz"
+			(offset
+				(xyz 5.824 9.416 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 315.0)
+			)
+		)
+		(model
+			"${KIPRJMOD}/../../assets/Connector_IDC/PinHeader_1x03_P2.54mm_Vertical.stpz"
+			(offset
+				(xyz -9.416 5.824 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 225.0)
+			)
+		)
+		(model
+			"${KIPRJMOD}/../../assets/Connector_IDC/PinHeader_1x03_P2.54mm_Vertical.stpz"
+			(offset
+				(xyz -5.824 -9.416 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 135.0)
+			)
+		)
+		(model
+			"${KIPRJMOD}/../../assets/Connector_IDC/PinHeader_1x03_P2.54mm_Vertical.stpz"
+			(offset
+				(xyz 9.416 -5.824 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 45.0)
+			)
+		))
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "d4d4f354-a296-4d3f-a410-72bca8108d4d")
@@ -19251,7 +19491,19 @@
 			(uuid "0a8edd17-e020-42c3-ada4-11da9b282d51")
 		)
 		(embedded_fonts no)
-	)
+
+		(model
+			"${KIPRJMOD}/../../assets/Mechanical/Hex_Standoff_M2_L12.stpz"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		))
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "5cf0f79f-c1bd-4719-ba3a-b73b0b5f7156")
@@ -21163,7 +21415,7 @@
 				(xyz 0 0 0)
 			)
 		)
-	
+
 		(property
 			"JLCPCB Datasheet"
 			"https://www.lcsc.com/datasheet/lcsc_datasheet_2412061733_Alpha---Omega-Semicon-AO3401A_C15127.pdf"
@@ -32042,7 +32294,19 @@
 			(uuid "8f33f63e-534a-41ec-97dc-e47a79dc022d")
 		)
 		(embedded_fonts no)
-	)
+
+		(model
+			"${KIPRJMOD}/../../assets/Mechanical/Hex_Standoff_M2_L12.stpz"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		))
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "a9d9dd7c-31fc-4963-a8a0-2e969114726a")
@@ -43437,7 +43701,19 @@
 			(uuid "afb18d20-f069-499c-a65f-0e111a194702")
 		)
 		(embedded_fonts no)
-	)
+
+		(model
+			"${KIPRJMOD}/../../assets/Mechanical/Hex_Standoff_M2_L12.stpz"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		))
 	(footprint "Inductor_SMD:L_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "f334843f-03ca-44d2-ad92-5a0a258563ba")
@@ -44591,7 +44867,19 @@
 			(uuid "98080f0b-0f55-4a13-9ab1-791ad6f99528")
 		)
 		(embedded_fonts no)
-	)
+
+		(model
+			"${KIPRJMOD}/../../assets/Mechanical/Hex_Standoff_M2_L12.stpz"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		))
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "B.Cu")
 		(uuid "fd419b7e-b811-4717-a91b-645fe3896841")

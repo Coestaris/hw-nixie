@@ -3,7 +3,7 @@
   "kind": "placement_rotation_review",
   "project": "nixie_rev2",
   "board": "hardware/rev2/nixie_rev2.kicad_pcb",
-  "board_sha256": "57e748478cc179ec744037a0a6968112c62505e9722caa9bec938dfc8cbf9d17",
+  "board_sha256": "a83d9405d437a1b36dd0ab6a2ce47d5d720879d12c2cf245fe65fa00438ff4f3",
   "sources": [
     {
       "role": "cpl",

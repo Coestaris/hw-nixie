@@ -285,4 +285,64 @@
 		(uuid "5a6b8438-12d9-4257-8b0e-b589c809ffa4")
 	)
 	(embedded_fonts no)
-)
+
+	(model
+		"${KIPRJMOD}/../../assets/Nixie/dock_rev1-assembly.stpz"
+		(offset
+			(xyz 0 0 11.125)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model
+		"${KIPRJMOD}/../../assets/Connector_IDC/PinHeader_1x03_P2.54mm_Vertical.stpz"
+		(offset
+			(xyz 5.824 9.416 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 315.0)
+		)
+	)
+	(model
+		"${KIPRJMOD}/../../assets/Connector_IDC/PinHeader_1x03_P2.54mm_Vertical.stpz"
+		(offset
+			(xyz -9.416 5.824 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 225.0)
+		)
+	)
+	(model
+		"${KIPRJMOD}/../../assets/Connector_IDC/PinHeader_1x03_P2.54mm_Vertical.stpz"
+		(offset
+			(xyz -5.824 -9.416 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 135.0)
+		)
+	)
+	(model
+		"${KIPRJMOD}/../../assets/Connector_IDC/PinHeader_1x03_P2.54mm_Vertical.stpz"
+		(offset
+			(xyz 9.416 -5.824 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 45.0)
+		)
+	))

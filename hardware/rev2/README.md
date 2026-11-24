@@ -17,3 +17,11 @@ The only KiCad project is [`nixie_rev2.kicad_pro`](nixie_rev2.kicad_pro). Its sc
 - The current 100 ms mid-scale startup simulation reaches about 156 V, near the 154.4 V feedback-equation target. Its modeled clamp reaches about 60.54 V. The simulation gate permits up to 65 V under an explicit 5 V user allowance; the physical XL6007 switch rating remains 60 V.
 
 This revision has been manufactured. The following model limitations remain relevant. The TDK behavioral models remain suitable only for topology work, not efficiency or stress sign-off. Transformer polarity, saturation, winding capacitance, compensation, startup, component stress, and fault behavior still need bench verification. See [`../../sim/rev2/results/startup_midscale.md`](../../sim/rev2/results/startup_midscale.md).
+
+## Mechanical assembly
+
+N1–N4 each show the [dock STEP assembly](../../assets/Nixie/dock_rev1-assembly.stpz) seated on four straight 1×3, 2.54 mm male headers. The dock model has a Z offset of 11.125 mm from the Rev2 model mount plane. SolidCraft inspection of the assembled STEP confirmed the four header and socket row centers and the mating planes.
+
+In KiCad’s 3D Viewer, enable **Show 3D Models not in POS File** (`P`) and **Show Unspecified 3D Models** (`V`) to display the mechanical references. [KiCad 3D Viewer controls](https://docs.kicad.org/10.0/en/pcbnew/pcbnew.html)
+
+H1–H4 use [M2 × 12 female–female hex spacers](../../assets/Mechanical/Hex_Standoff_M2_L12.stpz) centered under the Ø2.2 mm mounting holes. The 12 mm length leaves 2.1 mm below the tallest modeled underside component. The [SolidCraft source](../../assets/Mechanical/Hex_Standoff_M2_L12.sc) recreates the 4 mm across-flats envelope and uses a simplified axial bore. The supplied `Spacer M2 F F 12mm.stp` from `spacers-m2-1.snapshot.3.zip` contained open surfaces. Its SHA-256 is `842bb0d11cc96b8b27d7705f7006af9b003dc60c31174bb7509f7d39eccfacad`.

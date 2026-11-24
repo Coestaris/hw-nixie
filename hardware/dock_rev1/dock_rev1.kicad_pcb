@@ -423,7 +423,19 @@
 			(uuid "9a8a9162-7ebb-5c71-aa96-a38d1f1d61e6")
 		)
 		(embedded_fonts no)
-	)
+
+		(model
+			"${KIPRJMOD}/../../assets/Connector_IDC/PinSocket_1x03_P2.54mm_Vertical.stpz"
+			(offset
+				(xyz -2.54 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 -90)
+			)
+		))
 	(footprint "dock_rev1:Socket_1x03_P2.54mm"
 		(layer "B.Cu")
 		(uuid "55f890ed-a192-5c41-ab21-6c7f283b595b")
@@ -550,7 +562,20 @@
 			(uuid "90a82a03-c6d5-55b3-b924-7e4d404a2f96")
 		)
 		(embedded_fonts no)
-	)
+
+
+		(model
+			"${KIPRJMOD}/../../assets/Connector_IDC/PinSocket_1x03_P2.54mm_Vertical.stpz"
+			(offset
+				(xyz -2.54 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 -90)
+			)
+		))
 	(footprint "dock_rev1:Socket_1x03_P2.54mm"
 		(layer "B.Cu")
 		(uuid "a84aae8d-86d4-500b-9878-d2ce3b2f31b7")
@@ -677,7 +702,19 @@
 			(uuid "11f86405-3574-544b-9748-e94c5f65cec9")
 		)
 		(embedded_fonts no)
-	)
+
+		(model
+			"${KIPRJMOD}/../../assets/Connector_IDC/PinSocket_1x03_P2.54mm_Vertical.stpz"
+			(offset
+				(xyz -2.54 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 -90)
+			)
+		))
 	(footprint "dock_rev1:Socket_1x03_P2.54mm"
 		(layer "B.Cu")
 		(uuid "c038d9cf-c06a-55de-be42-0156f79048b2")
@@ -804,7 +841,19 @@
 			(uuid "806f8590-8a60-58fa-89ec-81ad19d43298")
 		)
 		(embedded_fonts no)
-	)
+
+		(model
+			"${KIPRJMOD}/../../assets/Connector_IDC/PinSocket_1x03_P2.54mm_Vertical.stpz"
+			(offset
+				(xyz -2.54 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 -90)
+			)
+		))
 	(gr_circle
 		(center 78.493138 61.153658)
 		(end 79.243138 62.103658)

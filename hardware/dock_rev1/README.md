@@ -15,6 +15,10 @@ The positions below are viewed from the tube side with the gap in the lamp pin c
 
 The lamp's [SolidCraft source](../../assets/Nixie/IN-8-2.sc) uses the documented maximum bulb envelope and the twelve legacy drill centers. Lead diameter, trimming, and bulb standoff are modeling assumptions. The supplied SolidWorks file could not be imported. The [model check](../../assets/Nixie/IN-8-2-qa.json) records the assumptions and verifies every lead against its plated hole. Physical fit and powered operation remain unverified.
 
+The dock mounts four [1×3, 2.54 mm female sockets](../../assets/Connector_IDC/PinSocket_1x03_P2.54mm_Vertical.stpz) on J1–J4. They mate with four [1×3, 2.54 mm male headers](../../assets/Connector_IDC/PinHeader_1x03_P2.54mm_Vertical.stpz) on the motherboard. Both models come from the KiCad 10.0.8 3D libraries. [KiCad library license](https://www.kicad.org/libraries/license/)
+
+The [dock assembly model](../../assets/Nixie/dock_rev1-assembly.stpz) contains the PCB, tube, and all four sockets. Its STEP origin is the tube footprint center at PCB coordinates `(76.173974, 65.570025)` mm. Rev2 uses this origin to place each dock over its 12 header pads.
+
 ## Release status
 
 The GitHub Action target is `dock` and the release tag is `dock_rev1`. The [JLCPCB fabrication-only profile](../../assets/manufacturing/dock_rev1.yaml) selects the board, drill, drawing, and 3D artifacts for this hand-assembled design. KiCad ERC and DRC with schematic parity reported zero findings.
