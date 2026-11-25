@@ -78,6 +78,25 @@ Rev1 isolates the high-voltage converter and its control loop for bring-up. [Rev
 | 3D assembly model | [nixie_rev1.stpz](https://github.com/Coestaris/hw-nixie/releases/download/rev1/nixie_rev1.stpz) |
 | Simulation netlist, log, and results | [nixie_rev1-simulation.tar.gz](https://github.com/Coestaris/hw-nixie/releases/download/rev1/nixie_rev1-simulation.tar.gz) |
 
+#### Hardware bring-up
+
+The converter started normally, and the enable pin worked as expected. The bulk capacitor footprint limited the choice of high-voltage electrolytics. The only suitable part available for bring-up was a physically large 33 µF electrolytic, which replaced the 2.2 µF part specified in the schematic. The larger capacitance slowed the response to voltage adjustments.
+
+#### Bench test results
+
+- **Output voltage and ripple.** With a load equivalent to 20 kΩ (10 mA at 200 V), the output reached about 240–245 V with approximately 40–50 mV of ripple.
+- **Voltage adjustment.** As the control setting increased, the output rose roughly linearly at first, then leveled off in a way that resembled an exponential approach to a limit. Under these test conditions, about 230 V was the practical upper limit for normal regulation.
+- **Switching spikes.** At 245 V output, the measured spikes stayed at or below 40 V. This was considered acceptable for the transformer, so the prototype ran without a snubber.
+
+<details>
+<summary>Bring-up photos</summary>
+
+![Assembled Rev1 converter with the 33 µF bulk capacitor](assets/bring-up/rev1-component-side.jpg)
+
+![Solder side of the assembled Rev1 converter](assets/bring-up/rev1-solder-side.jpg)
+
+</details>
+
 ### rev2 - clock motherboard
 
 Rev2 supplies power and digit-drive signals to four plug-in docks. The assembly model includes the docks, their pin headers, and M2 standoffs. [Rev2 release](https://github.com/Coestaris/hw-nixie/releases/tag/rev2)

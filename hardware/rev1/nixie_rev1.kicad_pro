@@ -482,6 +482,7 @@
       "pin_to_pin": "ignore",
       "power_pin_not_driven": "ignore",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -529,8 +530,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -539,6 +540,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -753,7 +755,7 @@
         "uuid": "51e60cb2-22fa-4920-a2a0-abe3eb626cc7"
       }
     ],
-    "used_designators": "U1-2,F1,Q1,L1,D1-3,C1-8,T1,H1-4,#PWR1-21,LN1,R1-14,TP1-5,J1-7",
+    "used_designators": "#PWR1-21,C1-8,D1-3,F1,H1-4,J1-7,L1,LN1,Q1,R1-14,T1,TP1-5,U1-2",
     "variants": []
   },
   "sheets": [
