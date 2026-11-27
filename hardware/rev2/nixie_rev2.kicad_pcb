@@ -24666,7 +24666,20 @@
 			(uuid "46f66bfb-929b-46fe-9bd0-4b5d29adeec4")
 		)
 		(embedded_fonts no)
-	)
+	
+		
+		(model
+			"${KIPRJMOD}/../../assets/Connector_USB/TYPE-C%206P%28073%29.stpz"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		))
 	(footprint "Resistor_SMD:R_1206_3216Metric"
 		(layer "B.Cu")
 		(uuid "75a269a4-7806-4cfb-98da-b0018cc580e4")

@@ -318,4 +318,17 @@
 		(uuid "46f66bfb-929b-46fe-9bd0-4b5d29adeec4")
 	)
 	(embedded_fonts no)
-)
+
+	
+	(model
+		"${KIPRJMOD}/../../assets/Connector_USB/TYPE-C%206P%28073%29.stpz"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	))
