@@ -1,0 +1,15 @@
+[package]
+name = "hw-nixie-fw"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+cortex-m = { version = "0.7", features = ["critical-section-single-core"] }
+cortex-m-rt = "0.7"
+critical-section = "1.2"
+embassy-stm32 = { version = "0.6.0", features = ["stm32u073cb", "memory-x", "time-driver-any"] }
+embassy-executor = { version = "0.10.0", features = ["platform-cortex-m", "executor-thread"] }
+embassy-time = { version = "0.5.1", features = ["tick-hz-32_768"] }
+defmt = "1.2.0"
+panic-probe = { version = "1.0.0", features = ["print-defmt"] }
+

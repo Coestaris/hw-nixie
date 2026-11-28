@@ -1,0 +1,14 @@
+[target.thumbv6m-none-eabi]
+runner = "probe-rs run --chip STM32U073CB"
+
+[build]
+target = "thumbv6m-none-eabi"
+
+[target.'cfg(all(target_arch = "arm", target_os = "none"))'] # or your specific target
+rustflags = [
+    "-C", "link-arg=-Tlink.x",
+    "-C", "link-arg=-Tdefmt.x",
+]
+
+[env]
+DEFMT_LOG = "info"
